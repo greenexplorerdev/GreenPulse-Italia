@@ -1,5 +1,3 @@
-import SolarWidget from "./components/SolarWidget";
-import EnergyIndicator from "./components/EnergyIndicator";
 import Dashboard from "./pages/Dashboard";
 import "./index.css";
 
@@ -14,11 +12,6 @@ function App() {
       </h1>
       <div className="max-w-4xl mx-auto">
         <Dashboard region="Lombardia" />
-      </div>
-
-      <div className="mt-8">
-        <SolarWidget />
-        <EnergyIndicator value={50} className="mt-4" />
       </div>
     </div>
   );
