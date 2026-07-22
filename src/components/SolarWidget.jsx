@@ -67,7 +67,7 @@ function SolarWidget() {
     const maxIrradiation = best.irr;
 
     return (
-      <>
+    
         <div className="mx-auto h-max w-full flex flex-col gap-4">
           <h2 className="text-center font-bold text-green-500">
             Dati Ricevuti con successo ✅
@@ -91,7 +91,7 @@ function SolarWidget() {
             Valore di massimo irraggiamento: {maxIrradiation}
           </p>
         </div>
-      </>
+    
     );
   }
 }
