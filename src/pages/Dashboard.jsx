@@ -4,8 +4,9 @@ import { energySources } from "../data/energySources"; // Named export import co
 import EnergyList from "../components/EnergyList";
 import CO2Indicator from "../components/CO2Indicator";
 import { useState } from "react";
+import RegionSelector from "../components/RegionSelector";
 
-export default function Dashboard({ region }) {
+export default function Dashboard({ region, onRegionChange }) {
   const [filter, setFilter] = useState("all");
 
   const filteredSources =
@@ -20,6 +21,10 @@ export default function Dashboard({ region }) {
       <h2 className="text-center font-bold text-xl text-cyan-400">
         Dashboard Energetica - {region}
       </h2>
+
+      <div className=" flex justify-center">
+        <RegionSelector region={region} onRegionChange={onRegionChange}></RegionSelector>
+      </div>
 
       <div className="flex justify-center space-x-4 mt-4 mb-6">
         <button
