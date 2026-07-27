@@ -1,4 +1,6 @@
-export default function EnergySourceItem({ name, icon, value, unit, type }) {
+import { memo } from "react";
+
+export default memo( function EnergySourceItem({ name, icon, value, unit, type }) {
   return (
     <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg shadow-sm">
       <div className="flex items-center space-x-3">
@@ -18,4 +20,4 @@ export default function EnergySourceItem({ name, icon, value, unit, type }) {
       ></div>
     </div>
   );
-}
+})

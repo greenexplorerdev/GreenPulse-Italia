@@ -5,15 +5,17 @@ import EnergyList from "../components/EnergyList";
 import CO2Indicator from "../components/CO2Indicator";
 import { useState, useEffect } from "react";
 import RegionSelector from "../components/RegionSelector";
-import SolarWidget from "../components/SolarWidget"
+import SolarWidget from "../components/SolarWidget";
+import CityAutoComplete from "../components/CityAutoComplete";
 
 export default function Dashboard({ region, onRegionChange }) {
   const [filter, setFilter] = useState("all");
+  const [selectedCity, setSelectedCity] = useState(null);
 
-  useEffect(()=>{
-    document.title = `GreenPulse - ${region}`
-  },[region])
-  
+  useEffect(() => {
+    document.title = `GreenPulse - ${region}`;
+  }, [region]);
+
   const filteredSources =
     filter === "all"
       ? energySources
@@ -28,7 +30,10 @@ export default function Dashboard({ region, onRegionChange }) {
       </h2>
 
       <div className=" flex justify-center">
-        <RegionSelector region={region} onRegionChange={onRegionChange}></RegionSelector>
+        <RegionSelector
+          region={region}
+          onRegionChange={onRegionChange}
+        ></RegionSelector>
       </div>
 
       <div className="flex justify-center space-x-4 mt-4 mb-6">
@@ -64,6 +69,14 @@ export default function Dashboard({ region, onRegionChange }) {
         </button>
       </div>
 
+      <div>
+        <CityAutoComplete onCitySelect={setSelectedCity}></CityAutoComplete>
+        {selectedCity !== null && (
+          <p className="p-2 rounded-3xl font-bold text-green-600">
+            Dati per: {selectedCity}
+          </p>
+        )}
+      </div>
       <div className="grid grid-flow-col">
         <EnergyCard title="Solare" icon="☀️ " unit="W/m²">
           <EnergyIndicator value={320} />
