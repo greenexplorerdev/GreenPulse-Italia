@@ -3,12 +3,17 @@ import EnergyIndicator from "../components/EnergyIndicator";
 import { energySources } from "../data/energySources"; // Named export import corretto
 import EnergyList from "../components/EnergyList";
 import CO2Indicator from "../components/CO2Indicator";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import RegionSelector from "../components/RegionSelector";
+import SolarWidget from "../components/SolarWidget"
 
 export default function Dashboard({ region, onRegionChange }) {
   const [filter, setFilter] = useState("all");
 
+  useEffect(()=>{
+    document.title = `GreenPulse - ${region}`
+  },[region])
+  
   const filteredSources =
     filter === "all"
       ? energySources
@@ -59,7 +64,7 @@ export default function Dashboard({ region, onRegionChange }) {
         </button>
       </div>
 
-      <div className="space-y-4 grid grid-flow-col">
+      <div className="grid grid-flow-col">
         <EnergyCard title="Solare" icon="☀️ " unit="W/m²">
           <EnergyIndicator value={320} />
         </EnergyCard>
@@ -74,6 +79,10 @@ export default function Dashboard({ region, onRegionChange }) {
       <div className="mt-8">
         <EnergyList sources={filteredSources} />
         <CO2Indicator value={210} />
+      </div>
+
+      <div>
+        <SolarWidget></SolarWidget>
       </div>
     </div>
   );

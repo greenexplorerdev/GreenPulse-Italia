@@ -1,9 +1,9 @@
 import Dashboard from "./pages/Dashboard";
 import "./index.css";
-import { useState } from "react";
+import useLocalStorage from "./hooks/useLocalStorage";
 
 function App() {
-  const [region,setRegion] = useState("Lombardia")
+  const [region, setRegion] = useLocalStorage("greenpulse-region", "Lombardia");
   return (
     <div className="min-h-screen bg-linear-to-b from-sky-50 to-sky-100 p-4">
       <h1
@@ -13,7 +13,7 @@ function App() {
         GreenPulse Italia
       </h1>
       <div className="max-w-4xl mx-auto">
-        <Dashboard region= {region} onRegionChange= {setRegion} />
+        <Dashboard region={region} onRegionChange={setRegion} />
       </div>
     </div>
   );
