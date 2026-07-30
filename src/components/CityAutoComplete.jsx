@@ -1,24 +1,26 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { italianCities } from "../data/italianCities";
+import { ACTION, useDashboard } from "../context/DashboardContext";
 
-export default function CityAutoComplete({ onCitySelect }) {
+export default function CityAutoComplete() {
   const [query, setQuery] = useState("");
+  const { state, dispatch } = useDashboard();
 
   const filteredCities = useMemo(() => {
     if (!query) return [];
     const lowerQuery = query.toLowerCase();
-    return italianCities.filter((city) =>
-      city.toLowerCase().includes(lowerQuery),
-    );
-  }, [query]);
+    return italianCities
+      .filter((city) => city.toLowerCase().includes(lowerQuery))
+      .filter((city) => city !== state.selectedCity);
+  }, [query, state.selectedCity]);
 
-  const handleSelect = useCallback(
-    (city) => {
-      setQuery(city); // opzionale: mostra la città selezionata nell'input
-      onCitySelect(city);
-    },
-    [onCitySelect],
-  );
+  const handleSelect = useCallback((city) => {
+    setQuery(city); // opzionale: mostra la città selezionata nell'input
+    dispatch({
+      type: ACTION.SET_CITY,
+      payload: city,
+    });
+  }, [dispatch]);
 
   const inputRef = useRef(null);
   useEffect(() => {
@@ -44,10 +46,13 @@ export default function CityAutoComplete({ onCitySelect }) {
 
   return (
     <div className="relative w-full" ref={containerRef}>
-      {/* Input controllato */}
       <input
         type="text"
-        placeholder="Cerca città..."
+        placeholder={
+          state.selectedCity
+            ? `Modifica città per ${state.selectedCity}`
+            : "Cerca città..."
+        }
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         className="w-full p-8 text-base box-border"
@@ -55,7 +60,6 @@ export default function CityAutoComplete({ onCitySelect }) {
         ref={inputRef}
       />
 
-      {/* Dropdown delle suggerimenti (visibile solo se c'è query e risultati) */}
       {query.length > 0 && filteredCities.length > 0 && (
         <ul className="absolute top-full left-0 right-0 m-0 p-0 list-none bg-white border border-solid max-h-48 overflow-y-auto z-auto">
           {filteredCities.map((city) => (

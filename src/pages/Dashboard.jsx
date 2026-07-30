@@ -3,44 +3,41 @@ import EnergyIndicator from "../components/EnergyIndicator";
 import { energySources } from "../data/energySources"; // Named export import corretto
 import EnergyList from "../components/EnergyList";
 import CO2Indicator from "../components/CO2Indicator";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import RegionSelector from "../components/RegionSelector";
 import SolarWidget from "../components/SolarWidget";
 import CityAutoComplete from "../components/CityAutoComplete";
+import { useDashboard, ACTION } from "../context/DashboardContext";
 
-export default function Dashboard({ region, onRegionChange }) {
-  const [filter, setFilter] = useState("all");
-  const [selectedCity, setSelectedCity] = useState(null);
+export default function Dashboard() {
+  const { state, dispatch } = useDashboard();
 
   useEffect(() => {
-    document.title = `GreenPulse - ${region}`;
-  }, [region]);
+    document.title = `GreenPulse - ${state.region}`;
+  }, [state.region]);
 
   const filteredSources =
-    filter === "all"
+    state.filter === "all"
       ? energySources
-      : filter === "renewable"
+      : state.filter === "renewable"
         ? energySources.filter((source) => source.type === "renewable")
         : energySources.filter((source) => source.type === "fossil");
 
   return (
     <div className="space-y-6">
       <h2 className="text-center font-bold text-xl text-cyan-400">
-        Dashboard Energetica - {region}
+        Dashboard Energetica - {state.region}
       </h2>
 
       <div className=" flex justify-center">
-        <RegionSelector
-          region={region}
-          onRegionChange={onRegionChange}
-        ></RegionSelector>
+        <RegionSelector />
       </div>
 
       <div className="flex justify-center space-x-4 mt-4 mb-6">
         <button
-          onClick={() => setFilter("all")}
+          onClick={() => dispatch({ type: "SET_FILTER", payload: "all" })}
           className={`px-3 py-1 rounded text-sm transition-colors duration-200 ${
-            filter === "all"
+            state.filter === "all"
               ? "bg-cyan-400 text-white"
               : "bg-gray-200 text-gray-700 hover:bg-gray-300"
           }`}
@@ -48,9 +45,9 @@ export default function Dashboard({ region, onRegionChange }) {
           Tutte
         </button>
         <button
-          onClick={() => setFilter("renewable")}
+          onClick={() => dispatch({ type: "SET_FILTER", payload: "renewable" })}
           className={`px-3 py-1 rounded text-sm transition-colors duration-200 ${
-            filter === "renewable"
+            state.filter === "renewable"
               ? "bg-green-400 text-white"
               : "bg-gray-200 text-gray-700 hover:bg-gray-300"
           }`}
@@ -58,9 +55,9 @@ export default function Dashboard({ region, onRegionChange }) {
           Rinnovabili
         </button>
         <button
-          onClick={() => setFilter("fossil")}
+          onClick={() => dispatch({ type: "SET_FILTER", payload: "fossil" })}
           className={`px-3 py-1 rounded text-sm transition-colors duration-200 ${
-            filter === "fossil"
+            state.filter === "fossil"
               ? "bg-red-400 text-white"
               : "bg-gray-200 text-gray-700 hover:bg-gray-300"
           }`}
@@ -70,14 +67,15 @@ export default function Dashboard({ region, onRegionChange }) {
       </div>
 
       <div>
-        <CityAutoComplete onCitySelect={setSelectedCity}></CityAutoComplete>
-        {selectedCity !== null && (
+        <CityAutoComplete />
+        {/*DashboardContext.jsx — initialState ha selectedCity: null*/}
+        {state.selectedCity !== null && (
           <p className="p-2 rounded-3xl font-bold text-green-600">
-            Dati per: {selectedCity}
+            Dati per: {state.selectedCity}
           </p>
         )}
       </div>
-      <div className="grid grid-flow-col">
+      <div className="grid grid-cols-3 gap-6">
         <EnergyCard title="Solare" icon="☀️ " unit="W/m²">
           <EnergyIndicator value={320} />
         </EnergyCard>
