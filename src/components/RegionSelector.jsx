@@ -1,7 +1,8 @@
-import { useDashboard, ACTION} from "../context/DashboardContext";
+import { useNavigate } from "react-router-dom";
+import { useDashboard, ACTION } from "../context/DashboardContext";
 export default function RegionSelector() {
   const { state, dispatch } = useDashboard();
-  
+  const navigate = useNavigate();
 
   return (
     <div className="w-full max-w-xs">
@@ -13,12 +14,13 @@ export default function RegionSelector() {
       </label>
       <select
         className="w-full px-4 py-3 text-base font-medium text-gray-900 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors duration-200 hover:border-gray-400 hover:bg-gray-50  "
-        name="rregion-select"
+        name="region-select"
         id="region-select"
         value={state.region}
-        onChange={(event) =>
-          dispatch({ type: ACTION.SET_REGION, payload: event.target.value })
-        }
+        onChange={(event) => {
+          dispatch({ type: ACTION.SET_REGION, payload: event.target.value });
+          navigate(`/dashboard/${event.target.value}`);
+        }}
       >
         <option value="Lombardia">Lombardia</option>
         <option value="Piemonte">Piemonte</option>

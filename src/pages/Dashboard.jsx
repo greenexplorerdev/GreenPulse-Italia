@@ -35,7 +35,7 @@ export default function Dashboard() {
 
       <div className="flex justify-center space-x-4 mt-4 mb-6">
         <button
-          onClick={() => dispatch({ type: "SET_FILTER", payload: "all" })}
+          onClick={() => dispatch({ type: ACTION.SET_FILTER, payload: "all" })}
           className={`px-3 py-1 rounded text-sm transition-colors duration-200 ${
             state.filter === "all"
               ? "bg-cyan-400 text-white"
@@ -45,7 +45,9 @@ export default function Dashboard() {
           Tutte
         </button>
         <button
-          onClick={() => dispatch({ type: "SET_FILTER", payload: "renewable" })}
+          onClick={() =>
+            dispatch({ type: ACTION.SET_FILTER, payload: "renewable" })
+          }
           className={`px-3 py-1 rounded text-sm transition-colors duration-200 ${
             state.filter === "renewable"
               ? "bg-green-400 text-white"
@@ -55,7 +57,9 @@ export default function Dashboard() {
           Rinnovabili
         </button>
         <button
-          onClick={() => dispatch({ type: "SET_FILTER", payload: "fossil" })}
+          onClick={() =>
+            dispatch({ type: ACTION.SET_FILTER, payload: "fossil" })
+          }
           className={`px-3 py-1 rounded text-sm transition-colors duration-200 ${
             state.filter === "fossil"
               ? "bg-red-400 text-white"
@@ -93,7 +97,7 @@ export default function Dashboard() {
       </div>
 
       <div>
-        <SolarWidget></SolarWidget>
+        <SolarWidget />
       </div>
     </div>
   );
