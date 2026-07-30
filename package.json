@@ -1,7 +1,7 @@
 {
   "name": "greenpulse-italia",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -19,6 +19,7 @@
     "react-dom": "^19.2.8",
     "react-hook-form": "^7.83.0",
     "react-router-dom": "^7.11.0",
+    "recharts": "^3.10.1",
     "router": "^2.2.0",
     "tailwindcss": "^4.3.3",
     "zustand": "^5.0.14"

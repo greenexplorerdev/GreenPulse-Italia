@@ -8,6 +8,9 @@ import RegionSelector from "../components/RegionSelector";
 import SolarWidget from "../components/SolarWidget";
 import CityAutoComplete from "../components/CityAutoComplete";
 import { useDashboard, ACTION } from "../context/DashboardContext";
+import SolarBarChart from "../components/charts/SolarBarChart";
+import CO2LineChart from "../components/charts/CO2Linehart"; 
+import EnergyAreaChart from "../components/charts/EnergyAreaChart";
 
 export default function Dashboard() {
   const { state, dispatch } = useDashboard();
@@ -24,7 +27,7 @@ export default function Dashboard() {
         : energySources.filter((source) => source.type === "fossil");
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 bg-white dark:bg-gray-900 p-6 rounded-xl">
       <h2 className="text-center font-bold text-xl text-cyan-400">
         Dashboard Energetica - {state.region}
       </h2>
@@ -95,6 +98,34 @@ export default function Dashboard() {
         <EnergyList sources={filteredSources} />
         <CO2Indicator value={210} />
       </div>
+
+      <section className="mt-8">
+        <h3 className="text-lg font-semibold text-gray-700 dark:text-gray-200 mb-6">
+          Andamenti energetici
+        </h3>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 shadow">
+            <h4 className="text-sm font-medium text-gray-600 dark:text-gray-300 mb-2">
+              Irraggiamento solare (W/m²)
+            </h4>
+            <SolarBarChart />
+          </div>
+
+          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 shadow">
+            <h4 className="text-sm font-medium text-gray-600 dark:text-gray-300 mb-2">
+              Intensità CO₂ (g/kWh)
+            </h4>
+            <CO2LineChart />
+          </div>
+
+          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 shadow">
+            <h4 className="text-sm font-medium text-gray-600 dark:text-gray-300 mb-2">
+              Produzione solare settimanale (kWh)
+            </h4>
+            <EnergyAreaChart />
+          </div>
+        </div>
+      </section>
 
       <div>
         <SolarWidget />
