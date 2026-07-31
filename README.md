@@ -47,4 +47,4 @@ npm run dev
 ## Autore
 Cosimo Francesco Di Ruscio
 [LinkedIn](https://www.linkedin.com/in/cosimo-francesco-di-ruscio) ·
-[GitHub](https://github.com/greenexplorerdev)
+[Email](diruscio.cosimo@gmail.com)
