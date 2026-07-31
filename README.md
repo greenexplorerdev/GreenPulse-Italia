@@ -47,4 +47,4 @@ npm run dev
 ## Autore
 Cosimo Francesco Di Ruscio
 [LinkedIn](https://www.linkedin.com/in/cosimo-francesco-di-ruscio) ·
-[Email](diruscio.cosimo@gmail.com)
+Email diruscio.cosimo@gmail.com
