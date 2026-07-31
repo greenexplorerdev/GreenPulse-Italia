@@ -28,8 +28,8 @@ function App() {
       <div className="max-w-4xl mx-auto">
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
-          <Route element={<Layout />}>
           <Route path="/about" element={<AboutPage />}></Route>
+          <Route element={<Layout />}>
             <Route path="/dashboard" element={<Dashboard />}></Route>
             <Route
               path="/dashboard/:regionId"
@@ -41,7 +41,7 @@ function App() {
       </div>
       <button
         onClick={toggleTheme}
-        className="fixed bottom-4 right-4 p-3 bg-gray-800 rounded-full hover:bg-gray-700 transition-colors"
+        className="fixed bottom-4 right-4 p-2 bg-cyan-500 rounded-full hover:bg-cyan-800 transition-colors"
         aria-label="Toggle tema scuro/chiaro"
       >
         {theme === "dark" ? "☀️ " : "🌙"}

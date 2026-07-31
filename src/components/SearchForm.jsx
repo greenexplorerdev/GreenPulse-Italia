@@ -16,6 +16,7 @@ export default function SearchForm() {
   function onSubmit(data) {
     // `data` contiene tutti i campi registrati: { city, sourceType, date }
     dispatch({ type: ACTION.SET_FILTER, payload: data.sourceType });
+    dispatch({ type: ACTION.SET_CITY, payload: data.city });
     navigate("/dashboard");
   }
 

@@ -6,7 +6,7 @@ export default function CO2Indicator({ value }) {
           <p
             className="
                 bg-green-50 text-green-800 px-4 py-2 rounded-full
-                dark:bg-green-900/20 dark:text-green-100
+                dark:bg-green-900 dark:text-green-100
                 transition-colors duration-200
               "
           >

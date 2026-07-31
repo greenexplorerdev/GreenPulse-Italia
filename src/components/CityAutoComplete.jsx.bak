@@ -6,22 +6,19 @@ export default function CityAutoComplete() {
   const [query, setQuery] = useState("");
   const { state, dispatch } = useDashboard();
 
-  // Helper to get city names for filtering/display
-  const cityNames = italianCities.map(c => c.name);
-
   const filteredCities = useMemo(() => {
     if (!query) return [];
     const lowerQuery = query.toLowerCase();
-    return cityNames
-      .filter(name => name.toLowerCase().includes(lowerQuery))
-      .filter(name => name !== state.selectedCity);
+    return italianCities
+      .filter(city => city.name.toLowerCase().includes(lowerQuery))
+      .filter(city => city.name !== state.selectedCity);
   }, [query, state.selectedCity]);
 
-  const handleSelect = useCallback((cityName) => {
-    setQuery(cityName); // show selected city in input
+  const handleSelect = useCallback((cityObj) => {
+    setQuery(cityObj.name); // show selected city in input
     dispatch({
       type: ACTION.SET_CITY,
-      payload: cityName,
+      payload: cityObj.name,
     });
   }, [dispatch]);
 
@@ -65,13 +62,13 @@ export default function CityAutoComplete() {
 
       {query.length > 0 && filteredCities.length > 0 && (
         <ul className="absolute top-full left-0 right-0 m-0 p-0 list-none bg-white border border-solid max-h-48 overflow-y-auto z-auto">
-          {filteredCities.map((cityName) => (
+          {filteredCities.map(city => (
             <li
-              key={cityName}
+              key={city.name}
               className="p-8 cursor-pointer hover:bg-green-500"
-              onClick={() => handleSelect(cityName)}
+              onClick={() => handleSelect(city)}
             >
-              {cityName}
+              {city.name}
             </li>
           ))}
         </ul>

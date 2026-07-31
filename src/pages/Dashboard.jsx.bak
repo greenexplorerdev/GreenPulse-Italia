@@ -3,30 +3,17 @@ import EnergyIndicator from "../components/EnergyIndicator";
 import { energySources } from "../data/energySources"; // Named export import corretto
 import EnergyList from "../components/EnergyList";
 import CO2Indicator from "../components/CO2Indicator";
-import { useEffect, useMemo } from "react";
+import { useEffect } from "react";
 import RegionSelector from "../components/RegionSelector";
 import SolarWidget from "../components/SolarWidget";
 import CityAutoComplete from "../components/CityAutoComplete";
 import { useDashboard, ACTION } from "../context/DashboardContext";
 import SolarBarChart from "../components/charts/SolarBarChart";
-import CO2LineChart from "../components/charts/CO2LineChart";
+import CO2LineChart from "../components/charts/CO2Linehart"; 
 import EnergyAreaChart from "../components/charts/EnergyAreaChart";
-import { italianCities } from "../data/italianCities";
-
-function getCityCoords(cityName) {
-  const city = italianCities.find((c) => c.name === cityName);
-  return city
-    ? { latitude: city.lat, longitude: city.lng }
-    : { latitude: 45.4642, longitude: 9.19 }; // default Milano
-}
 
 export default function Dashboard() {
   const { state, dispatch } = useDashboard();
-
-  const { latitude, longitude } = useMemo(
-    () => getCityCoords(state.selectedCity),
-    [state.selectedCity],
-  );
 
   useEffect(() => {
     document.title = `GreenPulse - ${state.region}`;
@@ -45,7 +32,7 @@ export default function Dashboard() {
         Dashboard Energetica - {state.region}
       </h2>
 
-      <div className="flex justify-center">
+      <div className=" flex justify-center">
         <RegionSelector />
       </div>
 
@@ -88,7 +75,7 @@ export default function Dashboard() {
 
       <div>
         <CityAutoComplete />
-
+        {/*DashboardContext.jsx — initialState ha selectedCity: null*/}
         {state.selectedCity !== null && (
           <p className="p-2 rounded-3xl font-bold text-green-600">
             Dati per: {state.selectedCity}
@@ -140,21 +127,9 @@ export default function Dashboard() {
         </div>
       </section>
 
-      <div className="mt-6">
-        <SolarWidget latitude={latitude} longitude={longitude} />
+      <div>
+        <SolarWidget />
       </div>
-
-      {state.selectedCity && (
-        <div className="mt-8 p-4 bg-green-50 rounded-lg">
-          <h3 className="text-lg font-semibold text-green-800 mb-2">
-            Impianti per {state.selectedCity}
-          </h3>
-          <p className="text-gray-600">
-            (Qui potrebbero essere mostrati dati specifici sugli impianti
-            rinnovabili presenti nella città selezionata.)
-          </p>
-        </div>
-      )}
     </div>
   );
 }

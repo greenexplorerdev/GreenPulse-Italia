@@ -11,11 +11,15 @@ export default function RegionDetail() {
 
   return (
     <div>
-      <h2>Dettaglio Energetico: {regionId}</h2>
-      <p>
-        qui sono rappresentati i dettagli energetici degli impianti della
-        regione
-      </p>
+      <div className="mt-8 p-4 bg-green-50 rounded-lg">
+        <h3 className="text-lg font-semibold text-green-800 mb-2">
+          Impianti per {regionId}
+        </h3>
+        <p className="text-gray-600">
+          Qui potrebbero essere mostrati dati specifici sugli impianti
+          rinnovabili presenti nella regione selezionata.
+        </p>
+      </div>
     </div>
   );
 }

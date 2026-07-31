@@ -1,6 +1,22 @@
 export const italianCities = [
-  "Milano", "Roma", "Torino", "Napoli", "Bologna",
-  "Firenze", "Venezia", "Genova", "Palermo", "Bari",
-  "Catania", "Verona", "Padova", "Trieste", "Brescia",
-  "Novara", "Bergamo", "Modena", "Parma", "Reggio Emilia"
-]
+  { name: "Milano", lat: 45.4642, lng: 9.1900 },
+  { name: "Roma", lat: 41.9028, lng: 12.4964 },
+  { name: "Torino", lat: 45.0703, lng: 7.6869 },
+  { name: "Napoli", lat: 40.8518, lng: 14.2681 },
+  { name: "Bologna", lat: 44.4949, lng: 11.3426 },
+  { name: "Firenze", lat: 43.7696, lng: 11.2558 },
+  { name: "Venezia", lat: 45.4408, lng: 12.3155 },
+  { name: "Genova", lat: 44.4056, lng: 8.9463 },
+  { name: "Palermo", lat: 38.1157, lng: 13.3613 },
+  { name: "Bari", lat: 41.1171, lng: 16.8719 },
+  { name: "Catania", lat: 37.5079, lng: 15.0830 },
+  { name: "Verona", lat: 45.4384, lng: 10.9916 },
+  { name: "Padova", lat: 45.4064, lng: 11.8768 },
+  { name: "Trieste", lat: 45.6495, lng: 13.7768 },
+  { name: "Brescia", lat: 45.5415, lng: 10.2118 },
+  { name: "Novara", lat: 45.4476, lng: 8.6236 },
+  { name: "Bergamo", lat: 45.6983, lng: 9.6773 },
+  { name: "Modena", lat: 44.6476, lng: 10.9250 },
+  { name: "Parma", lat: 44.8015, lng: 10.3276 },
+  { name: "Reggio Emilia", lat: 44.6983, lng: 10.6313 }
+];

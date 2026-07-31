@@ -17,12 +17,15 @@ export default function HomePage() {
       <p className="text-center text-lg text-gray-600 dark:text-gray-300">
         Confronta fonti rinnovabili e fossili in tempo reale.
       </p>
+      <div className="flex justify-center">
+
       <button
         onClick={() => navigate("/dashboard")}
         className=" cursor-pointer inline-block mt-6 px-6 py-3 bg-emerald-600 text-white rounded hover:bg-emerald-700 transition-colors"
       >
         Vai alla Dashboard
       </button>
+      </div>
       <hr className="my-6" />{" "}
       {/* my-6 aggiunge spazio verticale sopra e sotto la linea */}
       <SearchForm />

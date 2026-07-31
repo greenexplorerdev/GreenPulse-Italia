@@ -1,21 +1,21 @@
 function EnergyIndicator({ value }) {
   return (
-    <div className="flex mx-auto items-center">
-      <h3 className="p-4 text-center font-bold text-green-600">Irraggiamento: {value}  W/m²</h3>
-    <div className="  items-center mx-auto justify-center  rounded-xl h-fit w-fit p-4">
+    <div className="flex mx-auto items-center justify-center ">
+    <div className=" flex items-center mx-auto gap-3 px-4 py-2 rounded-lg shadow-lg transition-colors duration-200">
       {value < 100 ? (
-        <p className="bg-red-600 text-yellow-600  text-center rounded-full p-2">
+        <p className="bg-red-50 dark:bg-red-900 text-red-800 dark:text-red-100  text-center rounded-full p-2">
           Indicator-Low
         </p>
       ) : value > 400 ? (
-        <p className="bg-green-600 text-amber-400   text-center rounded-full p-2">
+        <p className="bg-green-50 text-green-800 dark:bg-green-900 dark:text-green-100   text-center rounded-full p-2">
           Indicator-High
         </p>
       ) : (
-        <p className="bg-lime-600 text-cyan-100  text-center rounded-full p-2 ">
+        <p className="bg-yellow-500 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-100  text-center rounded-full p-2 ">
           Indicator-Medium
         </p>
       )}
+      <p className="text-sm font-medium">Irraggiamento: {value}  W/m²</p>
     </div>
     </div>
   );
