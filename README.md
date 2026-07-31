@@ -1,16 +1,50 @@
-# React + Vite
+# GreenPulse Italia 🌱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Screenshot](./src/assets/green-pulse-italia-dark.png)
+![Screenshot](./src/assets/green-pulse-italia-light.png)
+![Screenshot](./src/assets/green-pulse-italia-404-light.png)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Demo live
+[(https://green-pulse-italia.vercel.app/)]
 
-## React Compiler
+## Cosa fa
+GreenPulse Italia è una dashboard che visualizza il mix energetico
+italiano in tempo reale — irraggiamento solare per città, intensità CO₂,
+fonti rinnovabili e fossili per regione. Mostra quando l'energia è più
+verde e da quale fonte proviene.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Funzionalità
+- Dati irraggiamento solare in tempo reale da Open-Meteo API (per città)
+- Filtro regione con persistenza localStorage
+- Ricerca città con autocomplete nella Dashboard (20 città italiane con coordinate)
+- Filtro per tipo di fonte energetica (rinnovabile / fossile)
+- Grafici interattivi: irraggiamento solare, intensità CO₂, produzione settimanale
+- Dark mode completa
+- Routing multi-pagina con React Router v6
+- Form di ricerca con validazione (React Hook Form)
 
-## Expanding the ESLint configuration
+## Stack tecnico
+React 18 · Vite · Tailwind CSS · React Router v6 ·
+Recharts · React Hook Form · Open-Meteo API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Avvio locale
+```bash
+git clone https://github.com/greenexplorerdev/greenpulse-italia
+cd greenpulse-italia
+npm install
+npm run dev
+```
+
+## Scelte architetturali
+- **useContext + useReducer** per stato globale — elimina props drilling
+- **useFetch custom hook** con AbortController — cleanup su ogni cambio URL
+- **useLocalStorage custom hook** — persistenza regione tra sessioni
+- **React.memo su EnergySourceItem** — evita re-render della lista
+- **EnergyCard con children** — pattern composito riutilizzabile
+- **useCallback + useMemo** in CityAutoComplete — ottimizzazione filtro live
+
+## Autore
+Cosimo Francesco Di Ruscio
+[LinkedIn](https://www.linkedin.com/in/cosimo-francesco-di-ruscio) ·
+[GitHub](https://github.com/greenexplorerdev)
