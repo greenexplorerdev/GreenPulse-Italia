@@ -7,23 +7,26 @@ export default function CityAutoComplete() {
   const { state, dispatch } = useDashboard();
 
   // Helper to get city names for filtering/display
-  const cityNames = italianCities.map(c => c.name);
+  const cityNames = italianCities.map((c) => c.name);
 
   const filteredCities = useMemo(() => {
     if (!query) return [];
     const lowerQuery = query.toLowerCase();
     return cityNames
-      .filter(name => name.toLowerCase().includes(lowerQuery))
-      .filter(name => name !== state.selectedCity);
+      .filter((name) => name.toLowerCase().includes(lowerQuery))
+      .filter((name) => name !== state.selectedCity);
   }, [query, state.selectedCity]);
 
-  const handleSelect = useCallback((cityName) => {
-    setQuery(cityName); // show selected city in input
-    dispatch({
-      type: ACTION.SET_CITY,
-      payload: cityName,
-    });
-  }, [dispatch]);
+  const handleSelect = useCallback(
+    (cityName) => {
+      setQuery(cityName); // show selected city in input
+      dispatch({
+        type: ACTION.SET_CITY,
+        payload: cityName,
+      });
+    },
+    [dispatch],
+  );
 
   const inputRef = useRef(null);
   useEffect(() => {
@@ -58,7 +61,7 @@ export default function CityAutoComplete() {
         }
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="w-full p-8 text-base box-border"
+        className="w-full px-4 py-3 text-sm md:text-base border border-gray-200 rounded-lg"
         autoComplete="off"
         ref={inputRef}
       />

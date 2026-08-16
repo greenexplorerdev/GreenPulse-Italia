@@ -2,12 +2,12 @@
 
   export default memo(function EnergySourceItem({ name, icon, value, unit, type }) {
     return (
-      <div className="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-700 rounded-lg shadow-sm">
+      <div className="flex items-center justify-between p-3 md:p-4 bg-gray-50 dark:bg-gray-700 rounded-lg shadow-sm">
         <div className="flex items-center space-x-3">
           <span className="text-2xl">{icon}</span>
           <div>
-            <p className="font-medium dark:text-gray-100">{name}</p>
-            <p className="text-sm text-gray-500 dark:text-gray-300">
+            <p className="ffont-medium text-sm md:text-base">{name}</p>
+            <p className="text-xs md:text-sm text-gray-500">
               {value} {unit}
             </p>
           </div>

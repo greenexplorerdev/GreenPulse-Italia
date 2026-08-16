@@ -20,7 +20,7 @@
 
   export default function CO2LineChart() {
     return (
-      <ResponsiveContainer width="100%" height={300}>
+      <ResponsiveContainer width="100%" height={220}>
         <LineChart data={data}>
           <XAxis dataKey="ora" />
           <YAxis />

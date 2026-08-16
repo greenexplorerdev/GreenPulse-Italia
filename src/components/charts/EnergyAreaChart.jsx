@@ -19,7 +19,7 @@
 
   export default function EnergyAreaChart() {
     return (
-      <ResponsiveContainer width="100%" height={300}>
+      <ResponsiveContainer width="100%" height={220}>
         <AreaChart data={data}>
           <XAxis dataKey="giorno" />
           <YAxis />

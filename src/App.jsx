@@ -9,6 +9,7 @@ import AboutPage from "./pages/AboutPage";
 import RegionDetail from "./pages/RegionDetail";
 import NotFound from "./pages/NotFound";
 
+
 function App() {
   const { theme, toggleTheme } = useTheme();
 
@@ -20,12 +21,15 @@ function App() {
   }, [theme]);
 
   return (
+    
     <div
       className={
-        "min-h-screen bg-linear-to-b from-sky-50 to-sky-100 p-4 dark:from-sky-700 dark:to-sky-900"
+        "min-h-screen bg-linear-to-b from-sky-50 to-sky-100 px-3 py-4 md:px-6 dark:from-sky-700 dark:to-sky-900"
       }
     >
+      
       <div className="max-w-4xl mx-auto">
+       
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/about" element={<AboutPage />}></Route>

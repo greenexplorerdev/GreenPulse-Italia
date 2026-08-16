@@ -26,9 +26,15 @@ export default function SearchForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+    <form
+      onSubmit={handleSubmit(onSubmit)}
+      className="w-full max-w-md mx-auto space-y-4"
+    >
       <div className="flex flex-col gap-1 mb-4">
-        <label htmlFor="city" className="text-sm font-medium text-gray-700">
+        <label
+          htmlFor="city"
+          className="text-xs md:text-sm font-medium text-gray-700"
+        >
           Città
         </label>
 
@@ -101,19 +107,21 @@ export default function SearchForm() {
           <p className="text-red-500 text-sm mt-1">{errors.date.message}</p>
         )}
       </div>
-      <button
-        type="button"
-        className="rounded-2xl p-3 text-center font-medium mx-2"
-        onClick={handleReset}
-      >
-        Reset
-      </button>
-      <button
-        type="submit"
-        className="rounded-2xl p-3 text-center font-medium mx-2 cursor-pointer"
-      >
-        Cerca..
-      </button>
+      <div className="flex gap-2 mt-4">
+        <button
+          type="button"
+          className=" flex-1 py-2 text-sm rounded-2xl p-3 text-center font-medium mx-2"
+          onClick={handleReset}
+        >
+          Reset
+        </button>
+        <button
+          type="submit"
+          className=" flex-1 py-2 text-sm rounded-2xl p-3 text-center font-medium mx-2 cursor-pointer"
+        >
+          Cerca..
+        </button>
+      </div>
     </form>
   );
 }

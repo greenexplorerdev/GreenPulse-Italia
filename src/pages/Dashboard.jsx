@@ -48,11 +48,10 @@ export default function Dashboard() {
       <div className="flex justify-center">
         <RegionSelector />
       </div>
-
-      <div className="flex justify-center space-x-4 mt-4 mb-6">
+      <div className="flex flex-wrap justify-center gap-2 mt-4 mb-4">
         <button
           onClick={() => dispatch({ type: ACTION.SET_FILTER, payload: "all" })}
-          className={`px-3 py-1 rounded text-sm transition-colors duration-200 ${
+          className={`px-3 py-1.5 text-xs md:text-sm rounded transition-colors duration-200 ${
             state.filter === "all"
               ? "bg-cyan-400 text-white"
               : "bg-gray-200 text-gray-700 hover:bg-gray-300"
@@ -64,7 +63,7 @@ export default function Dashboard() {
           onClick={() =>
             dispatch({ type: ACTION.SET_FILTER, payload: "renewable" })
           }
-          className={`px-3 py-1 rounded text-sm transition-colors duration-200 ${
+          className={`px-3 py-1.5 text-xs md:text-sm rounded transition-colors duration-200 ${
             state.filter === "renewable"
               ? "bg-green-400 text-white"
               : "bg-gray-200 text-gray-700 hover:bg-gray-300"
@@ -76,7 +75,7 @@ export default function Dashboard() {
           onClick={() =>
             dispatch({ type: ACTION.SET_FILTER, payload: "fossil" })
           }
-          className={`px-3 py-1 rounded text-sm transition-colors duration-200 ${
+          className={`px-3 py-1.5 text-xs md:text-sm rounded transition-colors duration-200 ${
             state.filter === "fossil"
               ? "bg-red-400 text-white"
               : "bg-gray-200 text-gray-700 hover:bg-gray-300"
@@ -95,7 +94,7 @@ export default function Dashboard() {
           </p>
         )}
       </div>
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <EnergyCard title="Solare" icon="☀️ " unit="W/m²">
           <EnergyIndicator value={320} />
         </EnergyCard>
@@ -116,7 +115,7 @@ export default function Dashboard() {
         <h3 className="text-lg font-semibold text-gray-700 dark:text-gray-200 mb-6">
           Andamenti energetici
         </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="bg-white dark:bg-gray-800 rounded-lg p-4 shadow">
             <h4 className="text-sm font-medium text-gray-600 dark:text-gray-300 mb-2">
               Irraggiamento solare (W/m²)
@@ -131,7 +130,7 @@ export default function Dashboard() {
             <CO2LineChart />
           </div>
 
-          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 shadow">
+          <div className="bg-white dark:bg-gray-800 md:col-span-2 rounded-lg p-4 shadow">
             <h4 className="text-sm font-medium text-gray-600 dark:text-gray-300 mb-2">
               Produzione solare settimanale (kWh)
             </h4>

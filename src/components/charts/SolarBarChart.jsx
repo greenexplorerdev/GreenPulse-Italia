@@ -20,7 +20,7 @@ const data = [
 
 export default function SolarBarChart() {
   return (
-    <ResponsiveContainer width="100%" height={300}>
+    <ResponsiveContainer width="100%" height={220}>
       <BarChart data={data}>
         <XAxis dataKey="ora" />
         <YAxis />

@@ -1,6 +1,6 @@
 export default function EnergyCard({ title, icon, unit, children }) {
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md dark:shadow-gray-700 p-4 hover:shadow-lg transition-shadow duration-300 w-full h-full dark:border-gray-600 ">
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-3 md:p-5 w-full h-full  dark:shadow-gray-700 hover:shadow-lg transition-shadow duration-300 dark:border-gray-600 ">
       <div className="flex  items-center justify-between mb-4 text-center">
         <div className="flex items-center space-x-3">
           <span className="text-2xl">{icon}</span>
