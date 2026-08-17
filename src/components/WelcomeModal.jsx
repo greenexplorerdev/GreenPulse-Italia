@@ -8,16 +8,6 @@ const steps = [
     body: "GreenPulse ti mostra in tempo reale quanto è verde l'energia che stai consumando. Seleziona la tua regione, cerca la tua città e scopri dati su irraggiamento solare, CO₂ e mix energetico.",
   },
   {
-    icon: "📍",
-    title: "Seleziona la tua regione",
-    body: "Usa il selettore in cima alla Dashboard per scegliere la regione italiana. I dati e i grafici si aggiornano in base alla selezione. La tua preferenza viene salvata automaticamente anche dopo la chiusura del browser.",
-  },
-  {
-    icon: "🔍",
-    title: "Cerca la tua città",
-    body: "Digita il nome di una città nella barra di ricerca: l'autocomplete suggerisce le città disponibili. Selezionandone una, il widget solare aggiorna l'irraggiamento con le coordinate reali di quella città.",
-  },
-  {
     icon: "⚡",
     title: "Filtra le fonti energetiche",
     body: "Usa i pulsanti Tutte / Rinnovabili / Fossili per filtrare la lista delle fonti energetiche. Verde = rinnovabile, rosso = fossile.",
@@ -59,14 +49,19 @@ export default function WelcomeModal() {
 
   if (!open) {
     return (
-      <button
-        onClick={() => setOpen(true)}
-        className="fixed bottom-16 right-4 p-4 bg-emerald-600 text-white rounded-full text-sm hover:bg-emerald-700 transition-colors shadow-lg"
-        aria-label="Apri guida"
-        title="Guida all'uso"
-      >
-        ?
-      </button>
+      <div className="fixed bottom-4 right-4 z-40">
+        <button
+          onClick={() => setOpen(true)}
+          className="relative p-3 bg-emerald-600 text-white rounded-full hover:bg-emerald-700 transition-colors shadow-lg focus:ring-2 focus-ring-emerald-300 focus:outline-none"
+          aria-label="Apri guida introduttiva"
+          title="Guida introduttiva - Clicca per iniziare il tutorial"
+        >
+          <span className="absolute -top-2 -left-2 flex h-3 w-3 items-center justify-center bg-red-500 text-xs font-bold text-white rounded-full animate-pulse">
+            !
+          </span>
+          <span className="block text-lg">?</span>
+        </button>
+      </div>
     );
   }
 
