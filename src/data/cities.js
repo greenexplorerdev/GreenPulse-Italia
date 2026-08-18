@@ -52,3 +52,4 @@ export const CITIES = [
 
 // Città di default al primo caricamento
 export const DEFAULT_CITY = CITIES[0]; // Milano
+

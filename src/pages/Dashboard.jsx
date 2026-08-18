@@ -171,7 +171,7 @@ export default function Dashboard() {
       {/* CO2 INDICATOR — usa il dato calcolato dall'API */}
       {current && !loading && <CO2Indicator value={current.co2Now} />}
 
-      {/* SOLAR WIDGET — non fa più fetch da solo, riceve i dati da Dashboard */}
+      {/* SOLAR WIDGET riceve i dati da Dashboard */}
       <div className="bg-white dark:bg-gray-800 rounded-2xl p-4 shadow-sm">
         <SolarWidget
           currentData={current}
@@ -189,11 +189,7 @@ export default function Dashboard() {
           📊 Andamenti di oggi — {state.selectedCity?.name}
         </h3>
 
-        {/* 
-          Griglia grafici responsive:
-          - Mobile:  1 per riga
-          - Desktop: 2 per riga (EnergyAreaChart a piena larghezza come terzo)
-        */}
+       
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="bg-white dark:bg-gray-800 rounded-2xl p-4 shadow-sm">
             <h4 className="text-xs font-medium text-gray-500 dark:text-gray-400 mb-3">
@@ -222,7 +218,6 @@ export default function Dashboard() {
   );
 }
 
-// ── Componenti di supporto inline ───────────────────────────────────────────
 
 // Skeleton: placeholder animato durante il caricamento
 function Skeleton() {

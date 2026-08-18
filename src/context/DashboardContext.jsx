@@ -5,7 +5,7 @@ import {
   useMemo,
   useReducer,
 } from "react";
-import { DEFAULT_CITY } from "../data/cities";
+import { DEFAULT_CITY, CITIES } from "../data/cities";
 import { ACTION } from "./ActionTypes";
 
 const initialState = {
@@ -14,19 +14,24 @@ const initialState = {
   selectedCity: DEFAULT_CITY, // { name, lat, lng, region, emoji, id }
 };
 
-
-
 function dashboardReducer(state, action) {
   switch (action.type) {
-    case ACTION.SET_REGION:
-      // Aggiorna solo la regione (dal RegionSelector dropdown)
-      return { ...state, region: action.payload, selectedCity: null };
+    case ACTION.SET_REGION: 
+    {
+      const cityForRegion =
+        CITIES.find((city) => city.region === action.payload) ?? DEFAULT_CITY;
+      return {
+        ...state,
+        region: action.payload,
+        selectedCity: cityForRegion,
+      };
+    }
 
     case ACTION.SET_FILTER:
       return { ...state, filter: action.payload };
 
     case ACTION.SET_CITY:
-      // Selezionare una città aggiorna ANCHE la regione automaticamente
+      // Selezionare una città aggiorna anche la regione automaticamente
       // Così non serve fare due dispatch separati
       return {
         ...state,
