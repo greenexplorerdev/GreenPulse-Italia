@@ -1,8 +1,8 @@
 # GreenPulse Italia 🌱
 
-![Screenshot](./src/assets/green-pulse-italia-dark.png)
-![Screenshot](./src/assets/green-pulse-italia-light.png)
-![Screenshot](./src/assets/green-pulse-italia-404-light.png)
+![Screenshot](./src/assets/green-pulse-italia-h-l.png)
+![Screenshot](./src/assets/green-pulse-italia-w-d.png)
+![Screenshot](./src/assets/green-pulse-italia-d-l.png)
 
 
 ## Demo live
@@ -17,16 +17,16 @@ verde e da quale fonte proviene.
 ## Funzionalità
 - Dati irraggiamento solare in tempo reale da Open-Meteo API (per città)
 - Filtro regione con persistenza localStorage
-- Ricerca città con autocomplete nella Dashboard (20 città italiane con coordinate)
+- Pulsanti città nella Dashboard (5 città italiane con coordinate)
 - Filtro per tipo di fonte energetica (rinnovabile / fossile)
 - Grafici interattivi: irraggiamento solare, intensità CO₂, produzione settimanale
 - Dark mode completa
 - Routing multi-pagina con React Router v6
-- Form di ricerca con validazione (React Hook Form)
+
 
 ## Stack tecnico
 React 18 · Vite · Tailwind CSS · React Router v6 ·
-Recharts · React Hook Form · Open-Meteo API
+Recharts · Open-Meteo API
 
 ## Avvio locale
 ```bash
