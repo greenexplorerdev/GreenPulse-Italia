@@ -1,40 +1,26 @@
-// src/context/DashboardContext.jsx
-//
-// Cambiamento rispetto alla versione precedente:
-//   - selectedCity ora è un OGGETTO { name, lat, lng, region, emoji }
-//     invece di una semplice stringa.
-//   - Quando si fa dispatch SET_CITY, il context aggiorna ANCHE region
-//     automaticamente (non serve un secondo dispatch).
-//   - Rimossa la vecchia gestione delle coordinate separate.
-
-import { createContext, useContext, useEffect, useReducer } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useMemo,
+  useReducer,
+} from "react";
 import { DEFAULT_CITY } from "../data/cities";
-
-// ── Stato iniziale ──────────────────────────────────────────────────────────
+import { ACTION } from "./ActionTypes";
 
 const initialState = {
-  region:       DEFAULT_CITY.region,  // "Lombardia"
-  filter:       "all",                // "all" | "renewable" | "fossil"
-  selectedCity: DEFAULT_CITY,         // { name, lat, lng, region, emoji, id }
+  region: DEFAULT_CITY.region, // "Lombardia"
+  filter: "all", // "all" | "renewable" | "fossil"
+  selectedCity: DEFAULT_CITY, // { name, lat, lng, region, emoji, id }
 };
 
-// ── Action types ────────────────────────────────────────────────────────────
 
-export const ACTION = {
-  SET_REGION: "SET_REGION",
-  SET_FILTER: "SET_FILTER",
-  SET_CITY:   "SET_CITY",    // payload = oggetto città da cities.js
-  RESET:      "RESET",
-};
-
-// ── Reducer ─────────────────────────────────────────────────────────────────
 
 function dashboardReducer(state, action) {
   switch (action.type) {
-
     case ACTION.SET_REGION:
       // Aggiorna solo la regione (dal RegionSelector dropdown)
-      return { ...state, region: action.payload };
+      return { ...state, region: action.payload, selectedCity: null };
 
     case ACTION.SET_FILTER:
       return { ...state, filter: action.payload };
@@ -45,7 +31,7 @@ function dashboardReducer(state, action) {
       return {
         ...state,
         selectedCity: action.payload,
-        region:       action.payload.region,
+        region: action.payload.region,
       };
 
     case ACTION.RESET:
@@ -56,13 +42,11 @@ function dashboardReducer(state, action) {
   }
 }
 
-// ── Context + Provider ───────────────────────────────────────────────────────
-
 const DashboardContext = createContext(null);
 
 export function DashboardProvider({ children }) {
   const [state, dispatch] = useReducer(dashboardReducer, initialState);
-
+  const value = useMemo(() => ({ state, dispatch }), [state, dispatch]);
   // Leggi la regione salvata da localStorage al primo caricamento
   useEffect(() => {
     const saved = localStorage.getItem("greenpulse-region");
@@ -77,18 +61,19 @@ export function DashboardProvider({ children }) {
   }, [state.region]);
 
   return (
-    <DashboardContext.Provider value={{ state, dispatch }}>
+    <DashboardContext.Provider value={value}>
       {children}
     </DashboardContext.Provider>
   );
 }
 
-// ── Custom hook con guard ─────────────────────────────────────────────────────
-
+// Guard
 export function useDashboard() {
   const context = useContext(DashboardContext);
   if (!context) {
-    throw new Error("useDashboard deve essere usato dentro un DashboardProvider");
+    throw new Error(
+      "useDashboard deve essere usato dentro un DashboardProvider",
+    );
   }
   return context;
 }

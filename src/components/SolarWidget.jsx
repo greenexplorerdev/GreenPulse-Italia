@@ -1,19 +1,8 @@
-// src/components/SolarWidget.jsx
-//
-// CAMBIAMENTO IMPORTANTE rispetto alla versione precedente:
-// SolarWidget NON fa più fetch da solo.
-// Riceve i dati già pronti come prop "currentData" da Dashboard.
-// Questo evita fetch doppi e garantisce coerenza tra tutti i componenti.
-//
-// Props:
-//   currentData : oggetto { solarNow, windNow, tempNow, cloudNow, isDay, co2Now, ... }
-//                 oppure null se i dati non sono ancora arrivati
-//   cityName    : stringa con il nome della città (per il titolo)
-//   loading     : boolean — se true mostra il placeholder
+
 
 export default function SolarWidget({ currentData, cityName, loading }) {
 
-  // ── Stato loading ────────────────────────────────────────────────────────
+  {/*  Stato loading*/} 
   if (loading || !currentData) {
     return (
       <div className="animate-pulse space-y-2 py-2">
@@ -26,7 +15,7 @@ export default function SolarWidget({ currentData, cityName, loading }) {
 
   const { solarNow, windNow, tempNow, cloudNow, isDay, co2Now, solarPct } = currentData;
 
-  // Messaggi contestuali in base all'ora e alle condizioni
+  {/* Messaggi contestuali in base all'ora e alle condizioni */}
   const solarMessage = !isDay
     ? "🌙 È notte — i pannelli solari sono inattivi"
     : solarNow < 50
@@ -41,7 +30,7 @@ export default function SolarWidget({ currentData, cityName, loading }) {
         🌞 Dati solari in tempo reale — {cityName}
       </h3>
 
-      {/* Griglia dati: 2 colonne su mobile, 4 su desktop */}
+      {/* Griglia dati */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
 
         <DataItem
@@ -74,7 +63,6 @@ export default function SolarWidget({ currentData, cityName, loading }) {
 
       </div>
 
-      {/* Messaggio contestuale */}
       <p className="mt-3 text-xs text-gray-500 dark:text-gray-400 text-center italic">
         {solarMessage}
       </p>
@@ -82,7 +70,8 @@ export default function SolarWidget({ currentData, cityName, loading }) {
   );
 }
 
-// DataItem: componente inline per ogni dato
+{/*funcione hardcodata, DataItem: componente inline per ogni dato*/}
+
 function DataItem({ label, value, sub, color }) {
   return (
     <div className="bg-gray-50 dark:bg-gray-700 rounded-xl p-3 text-center">

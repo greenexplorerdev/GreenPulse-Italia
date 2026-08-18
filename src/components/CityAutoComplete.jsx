@@ -6,7 +6,7 @@ export default function CityAutoComplete() {
   const [query, setQuery] = useState("");
   const { state, dispatch } = useDashboard();
 
-  // Helper to get city names for filtering/display
+
   const cityNames = italianCities.map((c) => c.name);
 
   const filteredCities = useMemo(() => {
@@ -15,11 +15,11 @@ export default function CityAutoComplete() {
     return cityNames
       .filter((name) => name.toLowerCase().includes(lowerQuery))
       .filter((name) => name !== state.selectedCity);
-  }, [query, state.selectedCity]);
+  }, [query, state.selectedCity,cityNames]);
 
   const handleSelect = useCallback(
     (cityName) => {
-      setQuery(cityName); // show selected city in input
+      setQuery(cityName); 
       dispatch({
         type: ACTION.SET_CITY,
         payload: cityName,

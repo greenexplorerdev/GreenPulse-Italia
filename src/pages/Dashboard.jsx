@@ -1,12 +1,11 @@
-// src/pages/Dashboard.jsx
-//
 // Questa è la pagina principale. Ha tre responsabilità:
 //  1. Chiama useEnergyData() con le coordinate della città selezionata
 //  2. Distribuisce i dati reali a tutti i componenti figli
 //  3. Gestisce gli stati loading / error a livello pagina
 
 import { useEffect } from "react";
-import { ACTION, useDashboard } from "../context/DashboardContext";
+import { useDashboard } from "../context/DashboardContext";
+import {ACTION} from "../context/ActionTypes"
 import useEnergyData from "../hooks/useEnergyData";
 
 import { energySources } from "../data/energySources";
@@ -23,46 +22,41 @@ import EnergyAreaChart from "../components/charts/EnergyAreaChart";
 export default function Dashboard() {
   const { state, dispatch } = useDashboard();
 
-  // ── Fetch dati reali per la città selezionata ───────────────────────────
-  //
-  // Ogni volta che state.selectedCity cambia → useEnergyData rilancia il fetch.
-  // Se selectedCity è null (non dovrebbe mai succedere con DEFAULT_CITY) usiamo null.
+  {/*Fetch dati reali per la città selezionata*/} 
 
   const lat = state.selectedCity?.lat ?? null;
   const lng = state.selectedCity?.lng ?? null;
 
   const { data, loading, error } = useEnergyData(lat, lng);
 
-  // Aggiorna il titolo della pagina quando cambia la città
+  {/* Aggiorna il titolo della pagina quando cambia la città */}
   useEffect(() => {
     const city = state.selectedCity?.name ?? state.region;
     document.title = `GreenPulse — ${city}`;
   }, [state.selectedCity, state.region]);
 
-  // ── Filtro fonti energetiche ────────────────────────────────────────────
+  {/* Filtro fonti energetiche  */}
   const filteredSources =
     state.filter === "all"
       ? energySources
       : energySources.filter((s) => s.type === state.filter);
-
-  // ── Dati derivati dall'API (con fallback null se ancora caricando) ──────
+      
+     {/*Dati derivati dall'API  */}
   const current = data?.current ?? null;
   const hourly = data?.hourly ?? null;
 
-  // ── Render ──────────────────────────────────────────────────────────────
   return (
     <div className="space-y-5 pb-8">
-      {/* HEADER: titolo + selettori */}
+      
       <div className="bg-white dark:bg-gray-800 rounded-2xl p-4 shadow-sm">
         <h2 className="text-center text-lg font-bold text-cyan-500 dark:text-cyan-400 mb-4">
           Dashboard Energetica — {state.selectedCity?.name ?? state.region}
         </h2>
 
-        {/* CitySelector: 5 pulsanti città */}
         <CitySelector />
       </div>
 
-      {/* BANNER LOADING */}
+      {/* BANNER */}
       {loading && (
         <div className="flex items-center justify-center gap-3 py-4 bg-blue-50 dark:bg-blue-900/20 rounded-xl text-blue-600 dark:text-blue-400 text-sm">
           <span className="inline-block h-4 w-4 rounded-full border-2 border-blue-500 border-t-transparent animate-spin" />
@@ -70,7 +64,6 @@ export default function Dashboard() {
         </div>
       )}
 
-      {/* BANNER ERRORE */}
       {error && !loading && (
         <div className="py-4 px-5 bg-red-50 dark:bg-red-900/20 rounded-xl text-red-600 dark:text-red-400 text-sm">
           <strong>Errore API:</strong> {error}
@@ -106,7 +99,6 @@ export default function Dashboard() {
 
       {/* ENERGY CARDS — dati reali dall'API */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {/* Card Solare */}
         <EnergyCard title="Solare" icon="☀️" unit="W/m²">
           {loading ? (
             <Skeleton />

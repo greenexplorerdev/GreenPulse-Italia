@@ -1,14 +1,12 @@
-// src/components/CitySelector.jsx
-//
+
 // Componente con 5 pulsanti — uno per città.
 // Al click: dispatch SET_CITY con l'oggetto città completo (nome + coordinate + regione).
 // Il pulsante della città attiva è evidenziato in verde.
-//
-// Mobile: 2-3 città per riga (flex-wrap)
-// Desktop: tutte e 5 in fila (no wrap su schermi grandi)
+
 
 import { CITIES } from "../data/cities";
-import { ACTION, useDashboard } from "../context/DashboardContext";
+import { useDashboard } from "../context/DashboardContext";
+import { ACTION } from "../context/ActionTypes";
 
 export default function CitySelector() {
   const { state, dispatch } = useDashboard();
@@ -23,7 +21,6 @@ export default function CitySelector() {
         Seleziona città
       </p>
 
-      {/* flex-wrap: su mobile va a capo, su desktop rimane in fila */}
       <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
         {CITIES.map((city) => {
           const isActive = state.selectedCity?.id === city.id;

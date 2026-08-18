@@ -52,14 +52,14 @@ export default function WelcomeModal() {
       <div className="fixed bottom-4 right-4 z-40">
         <button
           onClick={() => setOpen(true)}
-          className="relative p-3 bg-emerald-600 text-white rounded-full hover:bg-emerald-700 transition-colors shadow-lg focus:ring-2 focus-ring-emerald-300 focus:outline-none"
+          className="relative pl-2 pr-2 bg-emerald-600 text-white rounded-full hover:bg-emerald-700 transition-colors shadow-lg focus:ring-2 focus-ring-emerald-300 focus:outline-none  hover:scale-110"
           aria-label="Apri guida introduttiva"
           title="Guida introduttiva - Clicca per iniziare il tutorial"
         >
-          <span className="absolute -top-2 -left-2 flex h-3 w-3 items-center justify-center bg-red-500 text-xs font-bold text-white rounded-full animate-pulse">
+          <span className=" p-2 absolute -top-2 -left-2 flex h-3 w-3 items-center justify-center bg-red-500 text-xs font-bold text-white rounded-full animate-pulse">
             !
           </span>
-          <span className="block text-lg">?</span>
+          <span className=" mx-auto p-2 block text-lg">?</span>
         </button>
       </div>
     );

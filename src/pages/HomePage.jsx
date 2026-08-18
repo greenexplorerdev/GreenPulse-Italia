@@ -25,19 +25,19 @@ export default function HomePage() {
           </h2>
           <ul className="text-left space-y-3 text-gray-700 dark:text-gray-200">
             <li className="flex items-start">
-              <span className="flex-shrink-0 text-emerald-500 mt-0.5">🌱</span>
+              <span className="shrink-0 text-emerald-500 mt-0.5">🌱</span>
               <span className="ml-3">Dati in tempo reale da fonti ufficiali</span>
             </li>
             <li className="flex items-start">
-              <span className="flex-shrink-0 text-emerald-500 mt-0.5">📍</span>
-              <span className="ml-3">Copertura nazionale: 20 città italiane</span>
+              <span className="shrink-0 text-emerald-500 mt-0.5">📍</span>
+              <span className="ml-3">Copertura nazionale: le 5 maggiori città italiane per capacità rinnovabile</span>
             </li>
             <li className="flex items-start">
-              <span className="flex-shrink-0 text-emerald-500 mt-0.5">⚡</span>
+              <span className="shrink-0 text-emerald-500 mt-0.5">⚡</span>
               <span className="ml-3">Analisi dettagliata per regione e fonte</span>
             </li>
             <li className="flex items-start">
-              <span className="flex-shrink-0 text-emerald-500 mt-0.5">📊</span>
+              <span className="shrink-0 text-emerald-500 mt-0.5">📊</span>
               <span className="ml-3">Visualizzazioni intuitive e accessibili</span>
             </li>
           </ul>
@@ -49,15 +49,15 @@ export default function HomePage() {
           </h2>
           <ol className="text-left space-y-3 text-gray-700 dark:text-gray-200">
             <li className="flex items-start">
-              <span className="flex-shrink-0 text-emerald-500 mt-0.5">1️⃣</span>
+              <span className="shrink-0 text-emerald-500 mt-0.5">1️⃣</span>
               <span className="ml-3">Vai alla Dashboard per vedere il mix energetico nazionale</span>
             </li>
             <li className="flex items-start">
-              <span className="flex-shrink-0 text-emerald-500 mt-0.5">2️⃣</span>
+              <span className="shrink-0 text-emerald-500 mt-0.5">2️⃣</span>
               <span className="ml-3">Seleziona la tua regione per dati localizzati</span>
             </li>
             <li className="flex items-start">
-              <span className="flex-shrink-0 text-emerald-500 mt-0.5">3️⃣</span>
+              <span className="shrink-0 text-emerald-500 mt-0.5">3️⃣</span>
               <span className="ml-3">Cerca la tua città per dettagli sull'irraggiamento solare</span>
             </li>
           </ol>

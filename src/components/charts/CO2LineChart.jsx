@@ -10,7 +10,7 @@
 //   loading    : boolean
 
 import {
-  LineChart, Line, XAxis, YAxis, Tooltip,
+  XAxis, YAxis, Tooltip,
   ResponsiveContainer, ReferenceLine, Area, AreaChart,
 } from "recharts";
 
@@ -92,7 +92,7 @@ export default function CO2LineChart({ hourlyData, loading }) {
 
 function ChartSkeleton() {
   return (
-    <div className="h-[200px] animate-pulse flex items-center justify-center">
+    <div className="h-50 animate-pulse flex items-center justify-center">
       <div className="w-full h-1 bg-gray-200 dark:bg-gray-700 rounded" />
     </div>
   );
