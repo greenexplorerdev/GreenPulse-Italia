@@ -208,7 +208,7 @@ export default function AboutPage() {
         {/* Contatti */}
         <div className="text-center mb-12 gap-4 flex items-center justify-center">
           <a
-            href="https://github.com/greenexplorerdev"
+            href="https://github.com/cosimof-diruscio-dev"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-green-600 text-white font-medium rounded-md hover:bg-green-700 transition-colors gap-2"
