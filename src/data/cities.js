@@ -4,7 +4,7 @@
 // Ogni città ha:
 //   - name: nome visualizzato nell'UI
 //   - lat/lng: coordinate usate per chiamare Open-Meteo
-//   - region: regione italiana (aggiorna il DashboardContext quando si seleziona la città)
+//   - region: regione italiana (aggiorna lo store Zustand quando si seleziona la città)
 //   - emoji: icona mostrata nel pulsante CitySelector
 
 export const CITIES = [
@@ -52,4 +52,3 @@ export const CITIES = [
 
 // Città di default al primo caricamento
 export const DEFAULT_CITY = CITIES[0]; // Milano
-

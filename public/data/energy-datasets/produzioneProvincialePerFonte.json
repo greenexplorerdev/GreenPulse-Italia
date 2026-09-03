@@ -1,0 +1,5983 @@
+{
+  "source": "CSV: Produzione provinciale per fonte.csv",
+  "generated": "2026-09-03T11:12:41.971Z",
+  "totalRecords": 435,
+  "indexed": {
+    "Torino|Termoelettrico": [
+      {
+        "key": "Torino|Termoelettrico",
+        "value": 8557.5747,
+        "yoYValue": -11.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Pavia|Termoelettrico": [
+      {
+        "key": "Pavia|Termoelettrico",
+        "value": 8450.9732,
+        "yoYValue": 0.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Mantova|Termoelettrico": [
+      {
+        "key": "Mantova|Termoelettrico",
+        "value": 8239.6063,
+        "yoYValue": -13.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Bolzano/Bozen|Idrico": [
+      {
+        "key": "Bolzano/Bozen|Idrico",
+        "value": 7740.7078,
+        "yoYValue": 25.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Sondrio|Idrico": [
+      {
+        "key": "Sondrio|Idrico",
+        "value": 6934.1624,
+        "yoYValue": 49.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Ravenna|Termoelettrico": [
+      {
+        "key": "Ravenna|Termoelettrico",
+        "value": 6523.8052,
+        "yoYValue": -21.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Brindisi|Termoelettrico": [
+      {
+        "key": "Brindisi|Termoelettrico",
+        "value": 6450.2825,
+        "yoYValue": -35.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Caserta|Termoelettrico": [
+      {
+        "key": "Caserta|Termoelettrico",
+        "value": 6379.3352,
+        "yoYValue": 122.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Lodi|Termoelettrico": [
+      {
+        "key": "Lodi|Termoelettrico",
+        "value": 6201.2544,
+        "yoYValue": 19.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Trento|Idrico": [
+      {
+        "key": "Trento|Idrico",
+        "value": 5446.465,
+        "yoYValue": 64.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Milano|Termoelettrico": [
+      {
+        "key": "Milano|Termoelettrico",
+        "value": 5045.288408,
+        "yoYValue": -13,
+        "yoYPercentage": true
+      }
+    ],
+    "Foggia|Eolico": [
+      {
+        "key": "Foggia|Eolico",
+        "value": 4852.1769,
+        "yoYValue": -10,
+        "yoYPercentage": true
+      }
+    ],
+    "Siracusa|Termoelettrico": [
+      {
+        "key": "Siracusa|Termoelettrico",
+        "value": 4675.7745,
+        "yoYValue": -23,
+        "yoYPercentage": true
+      }
+    ],
+    "Cagliari|Termoelettrico": [
+      {
+        "key": "Cagliari|Termoelettrico",
+        "value": 4657.9604,
+        "yoYValue": 11,
+        "yoYPercentage": true
+      }
+    ],
+    "Venezia|Termoelettrico": [
+      {
+        "key": "Venezia|Termoelettrico",
+        "value": 4317.0647,
+        "yoYValue": -12.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Livorno|Termoelettrico": [
+      {
+        "key": "Livorno|Termoelettrico",
+        "value": 3971.33184,
+        "yoYValue": 14.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Ferrara|Termoelettrico": [
+      {
+        "key": "Ferrara|Termoelettrico",
+        "value": 3944.60774,
+        "yoYValue": 19.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Aosta|Idrico": [
+      {
+        "key": "Aosta|Idrico",
+        "value": 3900.31462,
+        "yoYValue": 24.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Brescia|Idrico": [
+      {
+        "key": "Brescia|Idrico",
+        "value": 3408.12774,
+        "yoYValue": 49.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Vercelli|Termoelettrico": [
+      {
+        "key": "Vercelli|Termoelettrico",
+        "value": 3057.63354,
+        "yoYValue": -15.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Torino|Idrico": [
+      {
+        "key": "Torino|Idrico",
+        "value": 3046.06259,
+        "yoYValue": 56.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Bari|Termoelettrico": [
+      {
+        "key": "Bari|Termoelettrico",
+        "value": 3040.23654,
+        "yoYValue": 89.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Verbano-Cusio-Ossola|Idrico": [
+      {
+        "key": "Verbano-Cusio-Ossola|Idrico",
+        "value": 2951.84154,
+        "yoYValue": 62.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Foggia|Termoelettrico": [
+      {
+        "key": "Foggia|Termoelettrico",
+        "value": 2922.37824,
+        "yoYValue": -13.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Pisa|Geotermoelettrico": [
+      {
+        "key": "Pisa|Geotermoelettrico",
+        "value": 2913.88288,
+        "yoYValue": 0.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Taranto|Termoelettrico": [
+      {
+        "key": "Taranto|Termoelettrico",
+        "value": 2880.9344,
+        "yoYValue": -12.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Catanzaro|Termoelettrico": [
+      {
+        "key": "Catanzaro|Termoelettrico",
+        "value": 2869.55136,
+        "yoYValue": -30.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Piacenza|Termoelettrico": [
+      {
+        "key": "Piacenza|Termoelettrico",
+        "value": 2840.17382,
+        "yoYValue": -27.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Crotone|Termoelettrico": [
+      {
+        "key": "Crotone|Termoelettrico",
+        "value": 2633.93818,
+        "yoYValue": 48.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Udine|Termoelettrico": [
+      {
+        "key": "Udine|Termoelettrico",
+        "value": 2574.30502,
+        "yoYValue": -35.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Sassari|Termoelettrico": [
+      {
+        "key": "Sassari|Termoelettrico",
+        "value": 2511.01389,
+        "yoYValue": -10.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Belluno|Idrico": [
+      {
+        "key": "Belluno|Idrico",
+        "value": 2501.40262,
+        "yoYValue": 36,
+        "yoYPercentage": true
+      }
+    ],
+    "Latina|Termoelettrico": [
+      {
+        "key": "Latina|Termoelettrico",
+        "value": 2322.33856,
+        "yoYValue": 57,
+        "yoYPercentage": true
+      }
+    ],
+    "Cosenza|Termoelettrico": [
+      {
+        "key": "Cosenza|Termoelettrico",
+        "value": 2300.75571,
+        "yoYValue": -22.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Cuneo|Idrico": [
+      {
+        "key": "Cuneo|Idrico",
+        "value": 2295.57862,
+        "yoYValue": 46.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Potenza|Eolico": [
+      {
+        "key": "Potenza|Eolico",
+        "value": 2274.69312,
+        "yoYValue": -11.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Palermo|Termoelettrico": [
+      {
+        "key": "Palermo|Termoelettrico",
+        "value": 2184.79181,
+        "yoYValue": -33.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Chieti|Termoelettrico": [
+      {
+        "key": "Chieti|Termoelettrico",
+        "value": 1991.7545,
+        "yoYValue": 32.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Cuneo|Termoelettrico": [
+      {
+        "key": "Cuneo|Termoelettrico",
+        "value": 1987.342972325,
+        "yoYValue": -2.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Napoli|Termoelettrico": [
+      {
+        "key": "Napoli|Termoelettrico",
+        "value": 1915.72877,
+        "yoYValue": 7.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Benevento|Eolico": [
+      {
+        "key": "Benevento|Eolico",
+        "value": 1707.04742,
+        "yoYValue": -9.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Messina|Termoelettrico": [
+      {
+        "key": "Messina|Termoelettrico",
+        "value": 1695.83334,
+        "yoYValue": -27.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Reggio Di Calabria|Termoelettrico": [
+      {
+        "key": "Reggio Di Calabria|Termoelettrico",
+        "value": 1672.68557,
+        "yoYValue": 42.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Lucca|Termoelettrico": [
+      {
+        "key": "Lucca|Termoelettrico",
+        "value": 1635.97811,
+        "yoYValue": 1.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Avellino|Eolico": [
+      {
+        "key": "Avellino|Eolico",
+        "value": 1595.26221,
+        "yoYValue": -11.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Roma|Termoelettrico": [
+      {
+        "key": "Roma|Termoelettrico",
+        "value": 1560.60877,
+        "yoYValue": -66.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Arezzo|Termoelettrico": [
+      {
+        "key": "Arezzo|Termoelettrico",
+        "value": 1489.29165,
+        "yoYValue": -27.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Grosseto|Geotermoelettrico": [
+      {
+        "key": "Grosseto|Geotermoelettrico",
+        "value": 1459.2041,
+        "yoYValue": 0.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Brescia|Termoelettrico": [
+      {
+        "key": "Brescia|Termoelettrico",
+        "value": 1433.10754,
+        "yoYValue": 2.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Campobasso|Termoelettrico": [
+      {
+        "key": "Campobasso|Termoelettrico",
+        "value": 1390.33779,
+        "yoYValue": 99.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Novara|Termoelettrico": [
+      {
+        "key": "Novara|Termoelettrico",
+        "value": 1388.16384,
+        "yoYValue": 6.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Viterbo|Fotovoltaico": [
+      {
+        "key": "Viterbo|Fotovoltaico",
+        "value": 1378.46362,
+        "yoYValue": 63,
+        "yoYPercentage": true
+      }
+    ],
+    "Bergamo|Idrico": [
+      {
+        "key": "Bergamo|Idrico",
+        "value": 1363.87546,
+        "yoYValue": 45.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Savona|Termoelettrico": [
+      {
+        "key": "Savona|Termoelettrico",
+        "value": 1336.76224,
+        "yoYValue": 17.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Bergamo|Termoelettrico": [
+      {
+        "key": "Bergamo|Termoelettrico",
+        "value": 1336.25587,
+        "yoYValue": 0.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Siena|Geotermoelettrico": [
+      {
+        "key": "Siena|Geotermoelettrico",
+        "value": 1301.87917,
+        "yoYValue": -2.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Catanzaro|Eolico": [
+      {
+        "key": "Catanzaro|Eolico",
+        "value": 1276.38221,
+        "yoYValue": -2.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Trapani|Eolico": [
+      {
+        "key": "Trapani|Eolico",
+        "value": 1235.45318,
+        "yoYValue": 18.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Terni|Idrico": [
+      {
+        "key": "Terni|Idrico",
+        "value": 1225.9712,
+        "yoYValue": -7.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Sud Sardegna|Termoelettrico": [
+      {
+        "key": "Sud Sardegna|Termoelettrico",
+        "value": 1219.95533,
+        "yoYValue": -10.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Modena|Termoelettrico": [
+      {
+        "key": "Modena|Termoelettrico",
+        "value": 1208.084577,
+        "yoYValue": -3.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Udine|Idrico": [
+      {
+        "key": "Udine|Idrico",
+        "value": 1178.94144,
+        "yoYValue": 36.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Cremona|Termoelettrico": [
+      {
+        "key": "Cremona|Termoelettrico",
+        "value": 1156.63616,
+        "yoYValue": -1,
+        "yoYPercentage": true
+      }
+    ],
+    "Frosinone|Termoelettrico": [
+      {
+        "key": "Frosinone|Termoelettrico",
+        "value": 1155.84422,
+        "yoYValue": 16.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Lecce|Fotovoltaico": [
+      {
+        "key": "Lecce|Fotovoltaico",
+        "value": 1142.81562,
+        "yoYValue": 11.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Sassari|Eolico": [
+      {
+        "key": "Sassari|Eolico",
+        "value": 1036.47322,
+        "yoYValue": -7.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Alessandria|Termoelettrico": [
+      {
+        "key": "Alessandria|Termoelettrico",
+        "value": 990.34003,
+        "yoYValue": 4.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Trento|Termoelettrico": [
+      {
+        "key": "Trento|Termoelettrico",
+        "value": 966.692975,
+        "yoYValue": 9,
+        "yoYPercentage": true
+      }
+    ],
+    "Palermo|Eolico": [
+      {
+        "key": "Palermo|Eolico",
+        "value": 966.55686,
+        "yoYValue": 21.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Treviso|Idrico": [
+      {
+        "key": "Treviso|Idrico",
+        "value": 963.80134,
+        "yoYValue": 35.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Perugia|Termoelettrico": [
+      {
+        "key": "Perugia|Termoelettrico",
+        "value": 956.54458,
+        "yoYValue": 33.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Pordenone|Idrico": [
+      {
+        "key": "Pordenone|Idrico",
+        "value": 946.52736,
+        "yoYValue": 59.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Foggia|Fotovoltaico": [
+      {
+        "key": "Foggia|Fotovoltaico",
+        "value": 932.33024,
+        "yoYValue": 8,
+        "yoYPercentage": true
+      }
+    ],
+    "Bologna|Termoelettrico": [
+      {
+        "key": "Bologna|Termoelettrico",
+        "value": 928.768793,
+        "yoYValue": -5.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Padova|Termoelettrico": [
+      {
+        "key": "Padova|Termoelettrico",
+        "value": 907.641551275,
+        "yoYValue": 2.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Bari|Fotovoltaico": [
+      {
+        "key": "Bari|Fotovoltaico",
+        "value": 892.91526,
+        "yoYValue": 13.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Brescia|Fotovoltaico": [
+      {
+        "key": "Brescia|Fotovoltaico",
+        "value": 887.25485,
+        "yoYValue": 20.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Verona|Termoelettrico": [
+      {
+        "key": "Verona|Termoelettrico",
+        "value": 882.24269,
+        "yoYValue": 4,
+        "yoYPercentage": true
+      }
+    ],
+    "Verona|Idrico": [
+      {
+        "key": "Verona|Idrico",
+        "value": 878.66931,
+        "yoYValue": 17.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Roma|Fotovoltaico": [
+      {
+        "key": "Roma|Fotovoltaico",
+        "value": 845.89459,
+        "yoYValue": 25.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Cuneo|Fotovoltaico": [
+      {
+        "key": "Cuneo|Fotovoltaico",
+        "value": 823.85037,
+        "yoYValue": 8.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Varese|Termoelettrico": [
+      {
+        "key": "Varese|Termoelettrico",
+        "value": 805.93549,
+        "yoYValue": 14.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Brindisi|Fotovoltaico": [
+      {
+        "key": "Brindisi|Fotovoltaico",
+        "value": 800.91789,
+        "yoYValue": 8.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Torino|Fotovoltaico": [
+      {
+        "key": "Torino|Fotovoltaico",
+        "value": 728.79373,
+        "yoYValue": 12,
+        "yoYPercentage": true
+      }
+    ],
+    "Crotone|Eolico": [
+      {
+        "key": "Crotone|Eolico",
+        "value": 699.77555,
+        "yoYValue": -6,
+        "yoYPercentage": true
+      }
+    ],
+    "Varese|Idrico": [
+      {
+        "key": "Varese|Idrico",
+        "value": 667.38829,
+        "yoYValue": 38.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Cagliari|Fotovoltaico": [
+      {
+        "key": "Cagliari|Fotovoltaico",
+        "value": 658.25882,
+        "yoYValue": 27.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Latina|Fotovoltaico": [
+      {
+        "key": "Latina|Fotovoltaico",
+        "value": 636.16365,
+        "yoYValue": 57.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Matera|Eolico": [
+      {
+        "key": "Matera|Eolico",
+        "value": 624.37299,
+        "yoYValue": -5.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Padova|Fotovoltaico": [
+      {
+        "key": "Padova|Fotovoltaico",
+        "value": 617.48544,
+        "yoYValue": 17.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Treviso|Fotovoltaico": [
+      {
+        "key": "Treviso|Fotovoltaico",
+        "value": 602.35238,
+        "yoYValue": 15,
+        "yoYPercentage": true
+      }
+    ],
+    "Taranto|Fotovoltaico": [
+      {
+        "key": "Taranto|Fotovoltaico",
+        "value": 595.98016,
+        "yoYValue": 12.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Milano|Fotovoltaico": [
+      {
+        "key": "Milano|Fotovoltaico",
+        "value": 586.73779,
+        "yoYValue": 14.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Verona|Fotovoltaico": [
+      {
+        "key": "Verona|Fotovoltaico",
+        "value": 576.09875,
+        "yoYValue": 11.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Bergamo|Fotovoltaico": [
+      {
+        "key": "Bergamo|Fotovoltaico",
+        "value": 566.41018,
+        "yoYValue": 15.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Udine|Fotovoltaico": [
+      {
+        "key": "Udine|Fotovoltaico",
+        "value": 559.38733,
+        "yoYValue": 33.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Piacenza|Idrico": [
+      {
+        "key": "Piacenza|Idrico",
+        "value": 555.63853,
+        "yoYValue": 72.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Ravenna|Fotovoltaico": [
+      {
+        "key": "Ravenna|Fotovoltaico",
+        "value": 553.26355,
+        "yoYValue": 3,
+        "yoYPercentage": true
+      }
+    ],
+    "Vicenza|Termoelettrico": [
+      {
+        "key": "Vicenza|Termoelettrico",
+        "value": 552.47494,
+        "yoYValue": 9.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Treviso|Termoelettrico": [
+      {
+        "key": "Treviso|Termoelettrico",
+        "value": 546.183536,
+        "yoYValue": 7.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Bologna|Fotovoltaico": [
+      {
+        "key": "Bologna|Fotovoltaico",
+        "value": 533.968704,
+        "yoYValue": 9.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Parma|Termoelettrico": [
+      {
+        "key": "Parma|Termoelettrico",
+        "value": 532.934944,
+        "yoYValue": -1.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Perugia|Fotovoltaico": [
+      {
+        "key": "Perugia|Fotovoltaico",
+        "value": 530.460288,
+        "yoYValue": 12.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Reggio Nell'Emilia|Termoelettrico": [
+      {
+        "key": "Reggio Nell'Emilia|Termoelettrico",
+        "value": 525.825184,
+        "yoYValue": -19.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Lucca|Idrico": [
+      {
+        "key": "Lucca|Idrico",
+        "value": 521.739616,
+        "yoYValue": 61.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Vicenza|Fotovoltaico": [
+      {
+        "key": "Vicenza|Fotovoltaico",
+        "value": 517.00128,
+        "yoYValue": 10.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Bolzano/Bozen|Termoelettrico": [
+      {
+        "key": "Bolzano/Bozen|Termoelettrico",
+        "value": 516.312096,
+        "yoYValue": 0.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Siracusa|Fotovoltaico": [
+      {
+        "key": "Siracusa|Fotovoltaico",
+        "value": 514.565312,
+        "yoYValue": 66.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Rovigo|Termoelettrico": [
+      {
+        "key": "Rovigo|Termoelettrico",
+        "value": 511.085472,
+        "yoYValue": -7.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Trapani|Fotovoltaico": [
+      {
+        "key": "Trapani|Fotovoltaico",
+        "value": 491.413888,
+        "yoYValue": 32.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Catania|Fotovoltaico": [
+      {
+        "key": "Catania|Fotovoltaico",
+        "value": 489.070528,
+        "yoYValue": 22.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Caserta|Idrico": [
+      {
+        "key": "Caserta|Idrico",
+        "value": 486.883936,
+        "yoYValue": -19.6,
+        "yoYPercentage": true
+      }
+    ],
+    "L'Aquila|Termoelettrico": [
+      {
+        "key": "L'Aquila|Termoelettrico",
+        "value": 483.969632,
+        "yoYValue": 2.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Campobasso|Eolico": [
+      {
+        "key": "Campobasso|Eolico",
+        "value": 469.92144,
+        "yoYValue": -17.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Rovigo|Fotovoltaico": [
+      {
+        "key": "Rovigo|Fotovoltaico",
+        "value": 468.50592,
+        "yoYValue": 0.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Vicenza|Idrico": [
+      {
+        "key": "Vicenza|Idrico",
+        "value": 457.064448,
+        "yoYValue": 58,
+        "yoYPercentage": true
+      }
+    ],
+    "Modena|Fotovoltaico": [
+      {
+        "key": "Modena|Fotovoltaico",
+        "value": 444.37712,
+        "yoYValue": 13.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Agrigento|Eolico": [
+      {
+        "key": "Agrigento|Eolico",
+        "value": 442.38672,
+        "yoYValue": 0.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Macerata|Fotovoltaico": [
+      {
+        "key": "Macerata|Fotovoltaico",
+        "value": 439.168448,
+        "yoYValue": 5.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Sassari|Fotovoltaico": [
+      {
+        "key": "Sassari|Fotovoltaico",
+        "value": 438.582752,
+        "yoYValue": 34.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Alessandria|Fotovoltaico": [
+      {
+        "key": "Alessandria|Fotovoltaico",
+        "value": 436.605728,
+        "yoYValue": 16.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Cosenza|Idrico": [
+      {
+        "key": "Cosenza|Idrico",
+        "value": 434.87248,
+        "yoYValue": -20.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Sud Sardegna|Eolico": [
+      {
+        "key": "Sud Sardegna|Eolico",
+        "value": 433.36256,
+        "yoYValue": 8.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Salerno|Fotovoltaico": [
+      {
+        "key": "Salerno|Fotovoltaico",
+        "value": 433.136544,
+        "yoYValue": 23.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Ancona|Fotovoltaico": [
+      {
+        "key": "Ancona|Fotovoltaico",
+        "value": 432.101344,
+        "yoYValue": 8,
+        "yoYPercentage": true
+      }
+    ],
+    "Cosenza|Fotovoltaico": [
+      {
+        "key": "Cosenza|Fotovoltaico",
+        "value": 420.548288,
+        "yoYValue": 16.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Taranto|Eolico": [
+      {
+        "key": "Taranto|Eolico",
+        "value": 401.445376,
+        "yoYValue": -4.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Monza e della Brianza|Termoelettrico": [
+      {
+        "key": "Monza e della Brianza|Termoelettrico",
+        "value": 397.700064,
+        "yoYValue": 22.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Catania|Eolico": [
+      {
+        "key": "Catania|Eolico",
+        "value": 395.554304,
+        "yoYValue": 26.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Bolzano/Bozen|Fotovoltaico": [
+      {
+        "key": "Bolzano/Bozen|Fotovoltaico",
+        "value": 395.29104,
+        "yoYValue": 15.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Caserta|Fotovoltaico": [
+      {
+        "key": "Caserta|Fotovoltaico",
+        "value": 393.666304,
+        "yoYValue": 19.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Ragusa|Fotovoltaico": [
+      {
+        "key": "Ragusa|Fotovoltaico",
+        "value": 393.508224,
+        "yoYValue": 18.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Chieti|Fotovoltaico": [
+      {
+        "key": "Chieti|Fotovoltaico",
+        "value": 381.074656,
+        "yoYValue": 13.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Mantova|Fotovoltaico": [
+      {
+        "key": "Mantova|Fotovoltaico",
+        "value": 379.87664,
+        "yoYValue": 15.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Potenza|Termoelettrico": [
+      {
+        "key": "Potenza|Termoelettrico",
+        "value": 378.913696,
+        "yoYValue": -20.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Teramo|Fotovoltaico": [
+      {
+        "key": "Teramo|Fotovoltaico",
+        "value": 378.5496,
+        "yoYValue": 14,
+        "yoYPercentage": true
+      }
+    ],
+    "Agrigento|Fotovoltaico": [
+      {
+        "key": "Agrigento|Fotovoltaico",
+        "value": 376.00464,
+        "yoYValue": 13.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Gorizia|Termoelettrico": [
+      {
+        "key": "Gorizia|Termoelettrico",
+        "value": 374.238688,
+        "yoYValue": -45.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Pesaro E Urbino|Fotovoltaico": [
+      {
+        "key": "Pesaro E Urbino|Fotovoltaico",
+        "value": 373.020992,
+        "yoYValue": 7.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Venezia|Fotovoltaico": [
+      {
+        "key": "Venezia|Fotovoltaico",
+        "value": 370.673792,
+        "yoYValue": 16.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Forlì-Cesena|Fotovoltaico": [
+      {
+        "key": "Forlì-Cesena|Fotovoltaico",
+        "value": 367.429632,
+        "yoYValue": 12.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Teramo|Idrico": [
+      {
+        "key": "Teramo|Idrico",
+        "value": 362.73872,
+        "yoYValue": -9.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Milano|Idrico": [
+      {
+        "key": "Milano|Idrico",
+        "value": 356.647232,
+        "yoYValue": 61.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Matera|Fotovoltaico": [
+      {
+        "key": "Matera|Fotovoltaico",
+        "value": 351.880192,
+        "yoYValue": 13.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Salerno|Eolico": [
+      {
+        "key": "Salerno|Eolico",
+        "value": 350.7704,
+        "yoYValue": -19.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Palermo|Fotovoltaico": [
+      {
+        "key": "Palermo|Fotovoltaico",
+        "value": 348.144896,
+        "yoYValue": 23.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Trieste|Termoelettrico": [
+      {
+        "key": "Trieste|Termoelettrico",
+        "value": 338.7024,
+        "yoYValue": -3.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Reggio Nell'Emilia|Fotovoltaico": [
+      {
+        "key": "Reggio Nell'Emilia|Fotovoltaico",
+        "value": 335.710944,
+        "yoYValue": 22.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Napoli|Fotovoltaico": [
+      {
+        "key": "Napoli|Fotovoltaico",
+        "value": 334.927936,
+        "yoYValue": 28.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Forlì-Cesena|Termoelettrico": [
+      {
+        "key": "Forlì-Cesena|Termoelettrico",
+        "value": 327.010912,
+        "yoYValue": 6.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Belluno|Termoelettrico": [
+      {
+        "key": "Belluno|Termoelettrico",
+        "value": 320.954624,
+        "yoYValue": 24.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Cremona|Fotovoltaico": [
+      {
+        "key": "Cremona|Fotovoltaico",
+        "value": 317.724576,
+        "yoYValue": 3.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Ferrara|Fotovoltaico": [
+      {
+        "key": "Ferrara|Fotovoltaico",
+        "value": 316.2376,
+        "yoYValue": 10,
+        "yoYPercentage": true
+      }
+    ],
+    "Nuoro|Idrico": [
+      {
+        "key": "Nuoro|Idrico",
+        "value": 315.585632,
+        "yoYValue": -4.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Potenza|Fotovoltaico": [
+      {
+        "key": "Potenza|Fotovoltaico",
+        "value": 308.960864,
+        "yoYValue": 18,
+        "yoYPercentage": true
+      }
+    ],
+    "Parma|Fotovoltaico": [
+      {
+        "key": "Parma|Fotovoltaico",
+        "value": 301.896,
+        "yoYValue": 10.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Savona|Eolico": [
+      {
+        "key": "Savona|Eolico",
+        "value": 300.70176,
+        "yoYValue": 7.4,
+        "yoYPercentage": true
+      }
+    ],
+    "L'Aquila|Fotovoltaico": [
+      {
+        "key": "L'Aquila|Fotovoltaico",
+        "value": 300.609696,
+        "yoYValue": 21.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Sud Sardegna|Fotovoltaico": [
+      {
+        "key": "Sud Sardegna|Fotovoltaico",
+        "value": 299.881504,
+        "yoYValue": 7.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Trento|Fotovoltaico": [
+      {
+        "key": "Trento|Fotovoltaico",
+        "value": 299.552192,
+        "yoYValue": 11.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Chieti|Eolico": [
+      {
+        "key": "Chieti|Eolico",
+        "value": 291.2344,
+        "yoYValue": -12.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Pordenone|Fotovoltaico": [
+      {
+        "key": "Pordenone|Fotovoltaico",
+        "value": 286.940832,
+        "yoYValue": 24,
+        "yoYPercentage": true
+      }
+    ],
+    "Pordenone|Termoelettrico": [
+      {
+        "key": "Pordenone|Termoelettrico",
+        "value": 278.324288,
+        "yoYValue": 14.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Pescara|Idrico": [
+      {
+        "key": "Pescara|Idrico",
+        "value": 276.183488,
+        "yoYValue": -19.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Frosinone|Fotovoltaico": [
+      {
+        "key": "Frosinone|Fotovoltaico",
+        "value": 274.405024,
+        "yoYValue": 15.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Pavia|Fotovoltaico": [
+      {
+        "key": "Pavia|Fotovoltaico",
+        "value": 274.394656,
+        "yoYValue": 6.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Roma|Idrico": [
+      {
+        "key": "Roma|Idrico",
+        "value": 274.273984,
+        "yoYValue": -22,
+        "yoYPercentage": true
+      }
+    ],
+    "Barletta-Andria-Trani|Fotovoltaico": [
+      {
+        "key": "Barletta-Andria-Trani|Fotovoltaico",
+        "value": 273.931456,
+        "yoYValue": 12.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Varese|Fotovoltaico": [
+      {
+        "key": "Varese|Fotovoltaico",
+        "value": 262.482528,
+        "yoYValue": 11.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Nuoro|Eolico": [
+      {
+        "key": "Nuoro|Eolico",
+        "value": 255.663856,
+        "yoYValue": -4.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Arezzo|Fotovoltaico": [
+      {
+        "key": "Arezzo|Fotovoltaico",
+        "value": 254.644864,
+        "yoYValue": 10.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Ancona|Termoelettrico": [
+      {
+        "key": "Ancona|Termoelettrico",
+        "value": 253.632192,
+        "yoYValue": 2.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Chieti|Idrico": [
+      {
+        "key": "Chieti|Idrico",
+        "value": 252.633776,
+        "yoYValue": -53.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Como|Termoelettrico": [
+      {
+        "key": "Como|Termoelettrico",
+        "value": 251.850128,
+        "yoYValue": 2.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Monza e della Brianza|Idrico": [
+      {
+        "key": "Monza e della Brianza|Idrico",
+        "value": 250.575552,
+        "yoYValue": 21.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Piacenza|Fotovoltaico": [
+      {
+        "key": "Piacenza|Fotovoltaico",
+        "value": 250.371248,
+        "yoYValue": 1.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Vercelli|Fotovoltaico": [
+      {
+        "key": "Vercelli|Fotovoltaico",
+        "value": 249.632752,
+        "yoYValue": 78.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Potenza|Idrico": [
+      {
+        "key": "Potenza|Idrico",
+        "value": 241.776896,
+        "yoYValue": -35.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Messina|Eolico": [
+      {
+        "key": "Messina|Eolico",
+        "value": 234.031104,
+        "yoYValue": 3,
+        "yoYPercentage": true
+      }
+    ],
+    "Catanzaro|Fotovoltaico": [
+      {
+        "key": "Catanzaro|Fotovoltaico",
+        "value": 227.849984,
+        "yoYValue": 12,
+        "yoYPercentage": true
+      }
+    ],
+    "Nuoro|Fotovoltaico": [
+      {
+        "key": "Nuoro|Fotovoltaico",
+        "value": 224.503568,
+        "yoYValue": 10.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Crotone|Idrico": [
+      {
+        "key": "Crotone|Idrico",
+        "value": 223.774608,
+        "yoYValue": -18.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Rieti|Idrico": [
+      {
+        "key": "Rieti|Idrico",
+        "value": 220.7036,
+        "yoYValue": -20.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Grosseto|Termoelettrico": [
+      {
+        "key": "Grosseto|Termoelettrico",
+        "value": 218.133696,
+        "yoYValue": -17.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Oristano|Fotovoltaico": [
+      {
+        "key": "Oristano|Fotovoltaico",
+        "value": 218.044096,
+        "yoYValue": 11,
+        "yoYPercentage": true
+      }
+    ],
+    "Siracusa|Idrico": [
+      {
+        "key": "Siracusa|Idrico",
+        "value": 213.511136,
+        "yoYValue": -14.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Salerno|Idrico": [
+      {
+        "key": "Salerno|Idrico",
+        "value": 208.070176,
+        "yoYValue": -31.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Campobasso|Fotovoltaico": [
+      {
+        "key": "Campobasso|Fotovoltaico",
+        "value": 206.19784,
+        "yoYValue": 13,
+        "yoYPercentage": true
+      }
+    ],
+    "Lecco|Termoelettrico": [
+      {
+        "key": "Lecco|Termoelettrico",
+        "value": 205.08248,
+        "yoYValue": 8,
+        "yoYPercentage": true
+      }
+    ],
+    "L'Aquila|Idrico": [
+      {
+        "key": "L'Aquila|Idrico",
+        "value": 203.76608,
+        "yoYValue": -15.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Frosinone|Idrico": [
+      {
+        "key": "Frosinone|Idrico",
+        "value": 203.623536,
+        "yoYValue": -32.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Terni|Termoelettrico": [
+      {
+        "key": "Terni|Termoelettrico",
+        "value": 198.43312,
+        "yoYValue": -10.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Salerno|Termoelettrico": [
+      {
+        "key": "Salerno|Termoelettrico",
+        "value": 196.86096,
+        "yoYValue": 9,
+        "yoYPercentage": true
+      }
+    ],
+    "Monza e della Brianza|Fotovoltaico": [
+      {
+        "key": "Monza e della Brianza|Fotovoltaico",
+        "value": 195.838784,
+        "yoYValue": 12.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Ascoli Piceno|Fotovoltaico": [
+      {
+        "key": "Ascoli Piceno|Fotovoltaico",
+        "value": 194.932816,
+        "yoYValue": 14.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Firenze|Fotovoltaico": [
+      {
+        "key": "Firenze|Fotovoltaico",
+        "value": 193.765808,
+        "yoYValue": 21.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Como|Idrico": [
+      {
+        "key": "Como|Idrico",
+        "value": 193.094208,
+        "yoYValue": 35.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Firenze|Termoelettrico": [
+      {
+        "key": "Firenze|Termoelettrico",
+        "value": 191.315136,
+        "yoYValue": 1.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Pisa|Fotovoltaico": [
+      {
+        "key": "Pisa|Fotovoltaico",
+        "value": 190.934048,
+        "yoYValue": 22.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Enna|Eolico": [
+      {
+        "key": "Enna|Eolico",
+        "value": 187.771232,
+        "yoYValue": -2.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Novara|Fotovoltaico": [
+      {
+        "key": "Novara|Fotovoltaico",
+        "value": 185.666736,
+        "yoYValue": 8.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Viterbo|Termoelettrico": [
+      {
+        "key": "Viterbo|Termoelettrico",
+        "value": 182.536352,
+        "yoYValue": 48.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Novara|Idrico": [
+      {
+        "key": "Novara|Idrico",
+        "value": 182.304784,
+        "yoYValue": 31.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Terni|Fotovoltaico": [
+      {
+        "key": "Terni|Fotovoltaico",
+        "value": 181.928528,
+        "yoYValue": 10.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Caltanissetta|Fotovoltaico": [
+      {
+        "key": "Caltanissetta|Fotovoltaico",
+        "value": 181.226848,
+        "yoYValue": 19.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Lecce|Eolico": [
+      {
+        "key": "Lecce|Eolico",
+        "value": 180.35336,
+        "yoYValue": -1.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Modena|Idrico": [
+      {
+        "key": "Modena|Idrico",
+        "value": 176.118432,
+        "yoYValue": 28.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Caltanissetta|Eolico": [
+      {
+        "key": "Caltanissetta|Eolico",
+        "value": 174.849152,
+        "yoYValue": 37.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Pisa|Termoelettrico": [
+      {
+        "key": "Pisa|Termoelettrico",
+        "value": 174.80136,
+        "yoYValue": -10.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Barletta-Andria-Trani|Eolico": [
+      {
+        "key": "Barletta-Andria-Trani|Eolico",
+        "value": 173.284448,
+        "yoYValue": -3.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Isernia|Eolico": [
+      {
+        "key": "Isernia|Eolico",
+        "value": 172.287408,
+        "yoYValue": -14.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Como|Fotovoltaico": [
+      {
+        "key": "Como|Fotovoltaico",
+        "value": 169.667568,
+        "yoYValue": 14.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Lodi|Fotovoltaico": [
+      {
+        "key": "Lodi|Fotovoltaico",
+        "value": 168.320848,
+        "yoYValue": 4,
+        "yoYPercentage": true
+      }
+    ],
+    "Bari|Eolico": [
+      {
+        "key": "Bari|Eolico",
+        "value": 165.38016,
+        "yoYValue": -4.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Sondrio|Termoelettrico": [
+      {
+        "key": "Sondrio|Termoelettrico",
+        "value": 165.118368,
+        "yoYValue": 7.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Genova|Termoelettrico": [
+      {
+        "key": "Genova|Termoelettrico",
+        "value": 164.905936,
+        "yoYValue": 17.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Siracusa|Eolico": [
+      {
+        "key": "Siracusa|Eolico",
+        "value": 164.144432,
+        "yoYValue": -10.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Cosenza|Eolico": [
+      {
+        "key": "Cosenza|Eolico",
+        "value": 163.860512,
+        "yoYValue": -10.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Fermo|Fotovoltaico": [
+      {
+        "key": "Fermo|Fotovoltaico",
+        "value": 163.39496,
+        "yoYValue": 8.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Vercelli|Idrico": [
+      {
+        "key": "Vercelli|Idrico",
+        "value": 163.146208,
+        "yoYValue": 27.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Pescara|Fotovoltaico": [
+      {
+        "key": "Pescara|Fotovoltaico",
+        "value": 163.111232,
+        "yoYValue": 17.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Parma|Idrico": [
+      {
+        "key": "Parma|Idrico",
+        "value": 161.478192,
+        "yoYValue": 22.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Avellino|Fotovoltaico": [
+      {
+        "key": "Avellino|Fotovoltaico",
+        "value": 158.828736,
+        "yoYValue": 24.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Siena|Termoelettrico": [
+      {
+        "key": "Siena|Termoelettrico",
+        "value": 155.898256,
+        "yoYValue": 8.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Biella|Fotovoltaico": [
+      {
+        "key": "Biella|Fotovoltaico",
+        "value": 153.61432,
+        "yoYValue": 9.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Genova|Idrico": [
+      {
+        "key": "Genova|Idrico",
+        "value": 153.546272,
+        "yoYValue": 70.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Rimini|Fotovoltaico": [
+      {
+        "key": "Rimini|Fotovoltaico",
+        "value": 151.173664,
+        "yoYValue": 9.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Grosseto|Fotovoltaico": [
+      {
+        "key": "Grosseto|Fotovoltaico",
+        "value": 146.415744,
+        "yoYValue": 24.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Pescara|Termoelettrico": [
+      {
+        "key": "Pescara|Termoelettrico",
+        "value": 145.423968,
+        "yoYValue": -3.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Biella|Termoelettrico": [
+      {
+        "key": "Biella|Termoelettrico",
+        "value": 140.779632,
+        "yoYValue": 5.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Matera|Termoelettrico": [
+      {
+        "key": "Matera|Termoelettrico",
+        "value": 140.011056,
+        "yoYValue": 10.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Rimini|Termoelettrico": [
+      {
+        "key": "Rimini|Termoelettrico",
+        "value": 135.631456,
+        "yoYValue": -12.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Asti|Fotovoltaico": [
+      {
+        "key": "Asti|Fotovoltaico",
+        "value": 134.063808,
+        "yoYValue": 5.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Livorno|Fotovoltaico": [
+      {
+        "key": "Livorno|Fotovoltaico",
+        "value": 132.71064,
+        "yoYValue": 14.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Pisa|Eolico": [
+      {
+        "key": "Pisa|Eolico",
+        "value": 131.942728,
+        "yoYValue": -19.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Lucca|Fotovoltaico": [
+      {
+        "key": "Lucca|Fotovoltaico",
+        "value": 129.13208,
+        "yoYValue": 12.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Reggio Di Calabria|Fotovoltaico": [
+      {
+        "key": "Reggio Di Calabria|Fotovoltaico",
+        "value": 128.263776,
+        "yoYValue": 22.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Lecco|Idrico": [
+      {
+        "key": "Lecco|Idrico",
+        "value": 127.516824,
+        "yoYValue": 137.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Enna|Fotovoltaico": [
+      {
+        "key": "Enna|Fotovoltaico",
+        "value": 126.774992,
+        "yoYValue": 22.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Alessandria|Idrico": [
+      {
+        "key": "Alessandria|Idrico",
+        "value": 126.666152,
+        "yoYValue": 105.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Messina|Fotovoltaico": [
+      {
+        "key": "Messina|Fotovoltaico",
+        "value": 123.937288,
+        "yoYValue": 23.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Avellino|Termoelettrico": [
+      {
+        "key": "Avellino|Termoelettrico",
+        "value": 123.858352,
+        "yoYValue": -2.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Isernia|Idrico": [
+      {
+        "key": "Isernia|Idrico",
+        "value": 122.188296,
+        "yoYValue": -30.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Viterbo|Eolico": [
+      {
+        "key": "Viterbo|Eolico",
+        "value": 118.431496,
+        "yoYValue": -11.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Enna|Termoelettrico": [
+      {
+        "key": "Enna|Termoelettrico",
+        "value": 117.252808,
+        "yoYValue": 12.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Catanzaro|Idrico": [
+      {
+        "key": "Catanzaro|Idrico",
+        "value": 115.770664,
+        "yoYValue": -15.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Massa-Carrara|Idrico": [
+      {
+        "key": "Massa-Carrara|Idrico",
+        "value": 114.935672,
+        "yoYValue": 53,
+        "yoYPercentage": true
+      }
+    ],
+    "L'Aquila|Eolico": [
+      {
+        "key": "L'Aquila|Eolico",
+        "value": 113.510784,
+        "yoYValue": -24.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Oristano|Eolico": [
+      {
+        "key": "Oristano|Eolico",
+        "value": 113.448176,
+        "yoYValue": 1.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Siena|Fotovoltaico": [
+      {
+        "key": "Siena|Fotovoltaico",
+        "value": 113.409032,
+        "yoYValue": 14.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Brindisi|Eolico": [
+      {
+        "key": "Brindisi|Eolico",
+        "value": 112.470704,
+        "yoYValue": -5.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Benevento|Fotovoltaico": [
+      {
+        "key": "Benevento|Fotovoltaico",
+        "value": 110.774256,
+        "yoYValue": 26,
+        "yoYPercentage": true
+      }
+    ],
+    "Agrigento|Termoelettrico": [
+      {
+        "key": "Agrigento|Termoelettrico",
+        "value": 110.176936,
+        "yoYValue": 40,
+        "yoYPercentage": true
+      }
+    ],
+    "Nuoro|Termoelettrico": [
+      {
+        "key": "Nuoro|Termoelettrico",
+        "value": 106.065776,
+        "yoYValue": -53.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Biella|Idrico": [
+      {
+        "key": "Biella|Idrico",
+        "value": 102.091128,
+        "yoYValue": 96.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Teramo|Termoelettrico": [
+      {
+        "key": "Teramo|Termoelettrico",
+        "value": 101.587744,
+        "yoYValue": 19.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Lecco|Fotovoltaico": [
+      {
+        "key": "Lecco|Fotovoltaico",
+        "value": 98.82792,
+        "yoYValue": 21.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Macerata|Termoelettrico": [
+      {
+        "key": "Macerata|Termoelettrico",
+        "value": 98.6371,
+        "yoYValue": 10.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Macerata|Idrico": [
+      {
+        "key": "Macerata|Idrico",
+        "value": 97.628528,
+        "yoYValue": -50,
+        "yoYPercentage": true
+      }
+    ],
+    "Reggio Nell'Emilia|Idrico": [
+      {
+        "key": "Reggio Nell'Emilia|Idrico",
+        "value": 95.953864,
+        "yoYValue": 7.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Prato|Fotovoltaico": [
+      {
+        "key": "Prato|Fotovoltaico",
+        "value": 95.770368,
+        "yoYValue": 5.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Pistoia|Idrico": [
+      {
+        "key": "Pistoia|Idrico",
+        "value": 92.8104,
+        "yoYValue": 4.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Trapani|Termoelettrico": [
+      {
+        "key": "Trapani|Termoelettrico",
+        "value": 91.502936,
+        "yoYValue": 17.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Arezzo|Idrico": [
+      {
+        "key": "Arezzo|Idrico",
+        "value": 91.402688,
+        "yoYValue": 22.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Imperia|Idrico": [
+      {
+        "key": "Imperia|Idrico",
+        "value": 87.832984,
+        "yoYValue": 152,
+        "yoYPercentage": true
+      }
+    ],
+    "Isernia|Termoelettrico": [
+      {
+        "key": "Isernia|Termoelettrico",
+        "value": 84.610872,
+        "yoYValue": -15.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Sondrio|Fotovoltaico": [
+      {
+        "key": "Sondrio|Fotovoltaico",
+        "value": 83.989656,
+        "yoYValue": 14.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Verbano-Cusio-Ossola|Termoelettrico": [
+      {
+        "key": "Verbano-Cusio-Ossola|Termoelettrico",
+        "value": 83.77664,
+        "yoYValue": 10.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Pavia|Idrico": [
+      {
+        "key": "Pavia|Idrico",
+        "value": 78.777848,
+        "yoYValue": 45.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Pistoia|Fotovoltaico": [
+      {
+        "key": "Pistoia|Fotovoltaico",
+        "value": 76.706808,
+        "yoYValue": 15.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Viterbo|Idrico": [
+      {
+        "key": "Viterbo|Idrico",
+        "value": 75.106016,
+        "yoYValue": -12.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Gorizia|Fotovoltaico": [
+      {
+        "key": "Gorizia|Fotovoltaico",
+        "value": 74.058392,
+        "yoYValue": 43.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Crotone|Fotovoltaico": [
+      {
+        "key": "Crotone|Fotovoltaico",
+        "value": 72.698792,
+        "yoYValue": 21.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Ascoli Piceno|Idrico": [
+      {
+        "key": "Ascoli Piceno|Idrico",
+        "value": 71.698368,
+        "yoYValue": -67.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Ragusa|Eolico": [
+      {
+        "key": "Ragusa|Eolico",
+        "value": 71.012024,
+        "yoYValue": -5.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Pistoia|Termoelettrico": [
+      {
+        "key": "Pistoia|Termoelettrico",
+        "value": 69.89432,
+        "yoYValue": -8.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Vibo Valentia|Fotovoltaico": [
+      {
+        "key": "Vibo Valentia|Fotovoltaico",
+        "value": 68.919904,
+        "yoYValue": 22.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Belluno|Fotovoltaico": [
+      {
+        "key": "Belluno|Fotovoltaico",
+        "value": 68.362992,
+        "yoYValue": 7.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Forlì-Cesena|Idrico": [
+      {
+        "key": "Forlì-Cesena|Idrico",
+        "value": 68.2866,
+        "yoYValue": 13,
+        "yoYPercentage": true
+      }
+    ],
+    "Catania|Termoelettrico": [
+      {
+        "key": "Catania|Termoelettrico",
+        "value": 67.518184,
+        "yoYValue": 35.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Pesaro E Urbino|Termoelettrico": [
+      {
+        "key": "Pesaro E Urbino|Termoelettrico",
+        "value": 66.659964,
+        "yoYValue": 17.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Lodi|Idrico": [
+      {
+        "key": "Lodi|Idrico",
+        "value": 63.716276,
+        "yoYValue": 21.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Isernia|Fotovoltaico": [
+      {
+        "key": "Isernia|Fotovoltaico",
+        "value": 61.509472,
+        "yoYValue": 22.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Perugia|Idrico": [
+      {
+        "key": "Perugia|Idrico",
+        "value": 61.212032,
+        "yoYValue": -24,
+        "yoYPercentage": true
+      }
+    ],
+    "Aosta|Termoelettrico": [
+      {
+        "key": "Aosta|Termoelettrico",
+        "value": 61.148648,
+        "yoYValue": 5.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Bologna|Idrico": [
+      {
+        "key": "Bologna|Idrico",
+        "value": 60.014416,
+        "yoYValue": -14.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Asti|Termoelettrico": [
+      {
+        "key": "Asti|Termoelettrico",
+        "value": 58.45456,
+        "yoYValue": 4.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Massa-Carrara|Termoelettrico": [
+      {
+        "key": "Massa-Carrara|Termoelettrico",
+        "value": 56.949748,
+        "yoYValue": 4.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Pesaro E Urbino|Idrico": [
+      {
+        "key": "Pesaro E Urbino|Idrico",
+        "value": 55.436808,
+        "yoYValue": -19.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Ascoli Piceno|Termoelettrico": [
+      {
+        "key": "Ascoli Piceno|Termoelettrico",
+        "value": 53.888468,
+        "yoYValue": 13.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Savona|Fotovoltaico": [
+      {
+        "key": "Savona|Fotovoltaico",
+        "value": 53.103588,
+        "yoYValue": 12.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Gorizia|Idrico": [
+      {
+        "key": "Gorizia|Idrico",
+        "value": 52.230064,
+        "yoYValue": 8.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Cagliari|Eolico": [
+      {
+        "key": "Cagliari|Eolico",
+        "value": 51.891516,
+        "yoYValue": 30.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Parma|Eolico": [
+      {
+        "key": "Parma|Eolico",
+        "value": 51.23802,
+        "yoYValue": -13.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Cremona|Idrico": [
+      {
+        "key": "Cremona|Idrico",
+        "value": 49.22146,
+        "yoYValue": 12.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Rieti|Fotovoltaico": [
+      {
+        "key": "Rieti|Fotovoltaico",
+        "value": 49.221168,
+        "yoYValue": 21.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Genova|Fotovoltaico": [
+      {
+        "key": "Genova|Fotovoltaico",
+        "value": 48.662032,
+        "yoYValue": 15.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Reggio Di Calabria|Eolico": [
+      {
+        "key": "Reggio Di Calabria|Eolico",
+        "value": 47.282512,
+        "yoYValue": -8.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Imperia|Fotovoltaico": [
+      {
+        "key": "Imperia|Fotovoltaico",
+        "value": 45.607836,
+        "yoYValue": 8.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Massa-Carrara|Fotovoltaico": [
+      {
+        "key": "Massa-Carrara|Fotovoltaico",
+        "value": 43.254404,
+        "yoYValue": 23.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Trieste|Fotovoltaico": [
+      {
+        "key": "Trieste|Fotovoltaico",
+        "value": 41.018472,
+        "yoYValue": 21.5,
+        "yoYPercentage": true
+      }
+    ],
+    "La Spezia|Fotovoltaico": [
+      {
+        "key": "La Spezia|Fotovoltaico",
+        "value": 39.801292,
+        "yoYValue": 12.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Livorno|Eolico": [
+      {
+        "key": "Livorno|Eolico",
+        "value": 39.04696,
+        "yoYValue": -5.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Aosta|Fotovoltaico": [
+      {
+        "key": "Aosta|Fotovoltaico",
+        "value": 37.214396,
+        "yoYValue": 8,
+        "yoYPercentage": true
+      }
+    ],
+    "Oristano|Idrico": [
+      {
+        "key": "Oristano|Idrico",
+        "value": 36.624336,
+        "yoYValue": 5.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Mantova|Idrico": [
+      {
+        "key": "Mantova|Idrico",
+        "value": 33.728608,
+        "yoYValue": 24.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Verbano-Cusio-Ossola|Fotovoltaico": [
+      {
+        "key": "Verbano-Cusio-Ossola|Fotovoltaico",
+        "value": 33.587976,
+        "yoYValue": 19.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Savona|Idrico": [
+      {
+        "key": "Savona|Idrico",
+        "value": 32.212146,
+        "yoYValue": 291.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Reggio Di Calabria|Idrico": [
+      {
+        "key": "Reggio Di Calabria|Idrico",
+        "value": 32.12973,
+        "yoYValue": -28,
+        "yoYPercentage": true
+      }
+    ],
+    "Padova|Idrico": [
+      {
+        "key": "Padova|Idrico",
+        "value": 31.92982,
+        "yoYValue": 93.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Ragusa|Termoelettrico": [
+      {
+        "key": "Ragusa|Termoelettrico",
+        "value": 31.730568,
+        "yoYValue": 3.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Grosseto|Eolico": [
+      {
+        "key": "Grosseto|Eolico",
+        "value": 31.221424,
+        "yoYValue": -5,
+        "yoYPercentage": true
+      }
+    ],
+    "Udine|Accumulo Stand Alone": [
+      {
+        "key": "Udine|Accumulo Stand Alone",
+        "value": 30.07227
+      }
+    ],
+    "Firenze|Idrico": [
+      {
+        "key": "Firenze|Idrico",
+        "value": 28.126658,
+        "yoYValue": 106.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Rieti|Termoelettrico": [
+      {
+        "key": "Rieti|Termoelettrico",
+        "value": 28.00818,
+        "yoYValue": 37.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Piacenza|Accumulo Stand Alone": [
+      {
+        "key": "Piacenza|Accumulo Stand Alone",
+        "value": 26.591736,
+        "yoYValue": -100,
+        "yoYPercentage": true
+      }
+    ],
+    "Cuneo|Eolico": [
+      {
+        "key": "Cuneo|Eolico",
+        "value": 25.98417,
+        "yoYValue": 3.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Verona|Eolico": [
+      {
+        "key": "Verona|Eolico",
+        "value": 24.588092,
+        "yoYValue": 15.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Firenze|Eolico": [
+      {
+        "key": "Firenze|Eolico",
+        "value": 24.341336,
+        "yoYValue": -18.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Bologna|Eolico": [
+      {
+        "key": "Bologna|Eolico",
+        "value": 24.266708,
+        "yoYValue": -27,
+        "yoYPercentage": true
+      }
+    ],
+    "Pesaro E Urbino|Eolico": [
+      {
+        "key": "Pesaro E Urbino|Eolico",
+        "value": 22.783302,
+        "yoYValue": -19,
+        "yoYPercentage": true
+      }
+    ],
+    "Sassari|Idrico": [
+      {
+        "key": "Sassari|Idrico",
+        "value": 22.3823,
+        "yoYValue": -72.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Fermo|Termoelettrico": [
+      {
+        "key": "Fermo|Termoelettrico",
+        "value": 22.33983,
+        "yoYValue": 27.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Oristano|Termoelettrico": [
+      {
+        "key": "Oristano|Termoelettrico",
+        "value": 21.107084,
+        "yoYValue": 56.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Asti|Idrico": [
+      {
+        "key": "Asti|Idrico",
+        "value": 20.766842,
+        "yoYValue": 70.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Lecce|Termoelettrico": [
+      {
+        "key": "Lecce|Termoelettrico",
+        "value": 20.225482,
+        "yoYValue": -11.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Campobasso|Idrico": [
+      {
+        "key": "Campobasso|Idrico",
+        "value": 19.742896,
+        "yoYValue": -58,
+        "yoYPercentage": true
+      }
+    ],
+    "Catania|Idrico": [
+      {
+        "key": "Catania|Idrico",
+        "value": 19.109004,
+        "yoYValue": -73.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Ancona|Idrico": [
+      {
+        "key": "Ancona|Idrico",
+        "value": 18.787622,
+        "yoYValue": -31.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Vercelli|Accumulo Stand Alone": [
+      {
+        "key": "Vercelli|Accumulo Stand Alone",
+        "value": 17.69858
+      }
+    ],
+    "Massa-Carrara|Eolico": [
+      {
+        "key": "Massa-Carrara|Eolico",
+        "value": 16.843248,
+        "yoYValue": -9.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Avellino|Idrico": [
+      {
+        "key": "Avellino|Idrico",
+        "value": 15.345993,
+        "yoYValue": -56.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Caserta|Eolico": [
+      {
+        "key": "Caserta|Eolico",
+        "value": 13.565095,
+        "yoYValue": -25.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Frosinone|Eolico": [
+      {
+        "key": "Frosinone|Eolico",
+        "value": 12.089536,
+        "yoYValue": -20.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Fermo|Idrico": [
+      {
+        "key": "Fermo|Idrico",
+        "value": 11.828788,
+        "yoYValue": -29.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Barletta-Andria-Trani|Termoelettrico": [
+      {
+        "key": "Barletta-Andria-Trani|Termoelettrico",
+        "value": 11.639477,
+        "yoYValue": 13.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Pescara|Eolico": [
+      {
+        "key": "Pescara|Eolico",
+        "value": 11.294852,
+        "yoYValue": -8.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Prato|Idrico": [
+      {
+        "key": "Prato|Idrico",
+        "value": 10.797432,
+        "yoYValue": -7.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Caltanissetta|Termoelettrico": [
+      {
+        "key": "Caltanissetta|Termoelettrico",
+        "value": 9.051906,
+        "yoYValue": 2.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Genova|Eolico": [
+      {
+        "key": "Genova|Eolico",
+        "value": 8.093119,
+        "yoYValue": 11.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Rimini|Idrico": [
+      {
+        "key": "Rimini|Idrico",
+        "value": 8.0281655,
+        "yoYValue": -16.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Venezia|Idrico": [
+      {
+        "key": "Venezia|Idrico",
+        "value": 7.8660815,
+        "yoYValue": 83.7,
+        "yoYPercentage": true
+      }
+    ],
+    "La Spezia|Accumulo Stand Alone": [
+      {
+        "key": "La Spezia|Accumulo Stand Alone",
+        "value": 7.439911
+      }
+    ],
+    "Alessandria|Accumulo Stand Alone": [
+      {
+        "key": "Alessandria|Accumulo Stand Alone",
+        "value": 7.271056,
+        "yoYValue": -100,
+        "yoYPercentage": true
+      }
+    ],
+    "Terni|Accumulo Stand Alone": [
+      {
+        "key": "Terni|Accumulo Stand Alone",
+        "value": 7.251822,
+        "yoYValue": 177.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Rovigo|Accumulo Stand Alone": [
+      {
+        "key": "Rovigo|Accumulo Stand Alone",
+        "value": 7.222248,
+        "yoYValue": 4011.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Vibo Valentia|Idrico": [
+      {
+        "key": "Vibo Valentia|Idrico",
+        "value": 7.071437,
+        "yoYValue": -25.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Palermo|Idrico": [
+      {
+        "key": "Palermo|Idrico",
+        "value": 6.5385895,
+        "yoYValue": -48.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Arezzo|Eolico": [
+      {
+        "key": "Arezzo|Eolico",
+        "value": 5.896702,
+        "yoYValue": -13.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Lodi|Accumulo Stand Alone": [
+      {
+        "key": "Lodi|Accumulo Stand Alone",
+        "value": 5.523583
+      }
+    ],
+    "Perugia|Eolico": [
+      {
+        "key": "Perugia|Eolico",
+        "value": 5.262192,
+        "yoYValue": -1.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Modena|Accumulo Stand Alone": [
+      {
+        "key": "Modena|Accumulo Stand Alone",
+        "value": 5.225664
+      }
+    ],
+    "Sud Sardegna|Idrico": [
+      {
+        "key": "Sud Sardegna|Idrico",
+        "value": 5.22117,
+        "yoYValue": -82.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Macerata|Eolico": [
+      {
+        "key": "Macerata|Eolico",
+        "value": 4.987407,
+        "yoYValue": -48.1,
+        "yoYPercentage": true
+      }
+    ],
+    "La Spezia|Idrico": [
+      {
+        "key": "La Spezia|Idrico",
+        "value": 4.833685,
+        "yoYValue": -43.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Imperia|Eolico": [
+      {
+        "key": "Imperia|Eolico",
+        "value": 4.806641,
+        "yoYValue": 10.2,
+        "yoYPercentage": true
+      }
+    ],
+    "La Spezia|Eolico": [
+      {
+        "key": "La Spezia|Eolico",
+        "value": 4.790951,
+        "yoYValue": -11,
+        "yoYPercentage": true
+      }
+    ],
+    "Vibo Valentia|Termoelettrico": [
+      {
+        "key": "Vibo Valentia|Termoelettrico",
+        "value": 4.5557815,
+        "yoYValue": -27.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Cagliari|Accumulo Stand Alone": [
+      {
+        "key": "Cagliari|Accumulo Stand Alone",
+        "value": 4.43903,
+        "yoYValue": 213.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Ravenna|Accumulo Stand Alone": [
+      {
+        "key": "Ravenna|Accumulo Stand Alone",
+        "value": 4.282759
+      }
+    ],
+    "Imperia|Termoelettrico": [
+      {
+        "key": "Imperia|Termoelettrico",
+        "value": 4.282342,
+        "yoYValue": 33.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Siena|Idrico": [
+      {
+        "key": "Siena|Idrico",
+        "value": 4.1786808,
+        "yoYValue": 6.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Agrigento|Idrico": [
+      {
+        "key": "Agrigento|Idrico",
+        "value": 4.081794,
+        "yoYValue": -70.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Aosta|Eolico": [
+      {
+        "key": "Aosta|Eolico",
+        "value": 3.783062,
+        "yoYValue": -12.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Taranto|Accumulo Stand Alone": [
+      {
+        "key": "Taranto|Accumulo Stand Alone",
+        "value": 3.665456,
+        "yoYValue": -100,
+        "yoYPercentage": true
+      }
+    ],
+    "Trapani|Accumulo Stand Alone": [
+      {
+        "key": "Trapani|Accumulo Stand Alone",
+        "value": 3.496099,
+        "yoYValue": 119.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Barletta-Andria-Trani|Idrico": [
+      {
+        "key": "Barletta-Andria-Trani|Idrico",
+        "value": 3.259556,
+        "yoYValue": -20,
+        "yoYPercentage": true
+      }
+    ],
+    "Messina|Idrico": [
+      {
+        "key": "Messina|Idrico",
+        "value": 3.0197615,
+        "yoYValue": -59,
+        "yoYPercentage": true
+      }
+    ],
+    "Grosseto|Idrico": [
+      {
+        "key": "Grosseto|Idrico",
+        "value": 2.9304905,
+        "yoYValue": 37.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Benevento|Termoelettrico": [
+      {
+        "key": "Benevento|Termoelettrico",
+        "value": 2.710663,
+        "yoYValue": 97.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Rovigo|Idrico": [
+      {
+        "key": "Rovigo|Idrico",
+        "value": 2.344577,
+        "yoYValue": -20.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Benevento|Idrico": [
+      {
+        "key": "Benevento|Idrico",
+        "value": 2.2603225,
+        "yoYValue": -34.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Viterbo|Accumulo Stand Alone": [
+      {
+        "key": "Viterbo|Accumulo Stand Alone",
+        "value": 2.176419
+      }
+    ],
+    "Taranto|Idrico": [
+      {
+        "key": "Taranto|Idrico",
+        "value": 2.1764,
+        "yoYValue": -0.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Prato|Termoelettrico": [
+      {
+        "key": "Prato|Termoelettrico",
+        "value": 2.0953265,
+        "yoYValue": -65.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Savona|Accumulo Stand Alone": [
+      {
+        "key": "Savona|Accumulo Stand Alone",
+        "value": 1.91367,
+        "yoYValue": -24.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Bari|Idrico": [
+      {
+        "key": "Bari|Idrico",
+        "value": 1.888802,
+        "yoYValue": -2.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Ravenna|Idrico": [
+      {
+        "key": "Ravenna|Idrico",
+        "value": 1.6677465,
+        "yoYValue": 5,
+        "yoYPercentage": true
+      }
+    ],
+    "Ferrara|Idrico": [
+      {
+        "key": "Ferrara|Idrico",
+        "value": 1.23576,
+        "yoYValue": 14.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Brindisi|Idrico": [
+      {
+        "key": "Brindisi|Idrico",
+        "value": 1.151248,
+        "yoYValue": -29.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Sassari|Accumulo Stand Alone": [
+      {
+        "key": "Sassari|Accumulo Stand Alone",
+        "value": 0.954788
+      }
+    ],
+    "Matera|Idrico": [
+      {
+        "key": "Matera|Idrico",
+        "value": 0.871093,
+        "yoYValue": -37.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Pisa|Idrico": [
+      {
+        "key": "Pisa|Idrico",
+        "value": 0.804283,
+        "yoYValue": 22.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Latina|Idrico": [
+      {
+        "key": "Latina|Idrico",
+        "value": 0.79626106,
+        "yoYValue": -54.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Cagliari|Idrico": [
+      {
+        "key": "Cagliari|Idrico",
+        "value": 0.771948,
+        "yoYValue": -88.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Piacenza|Eolico": [
+      {
+        "key": "Piacenza|Eolico",
+        "value": 0.754255,
+        "yoYValue": -5.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Vibo Valentia|Eolico": [
+      {
+        "key": "Vibo Valentia|Eolico",
+        "value": 0.5045386,
+        "yoYValue": -31,
+        "yoYPercentage": true
+      }
+    ],
+    "Venezia|Accumulo Stand Alone": [
+      {
+        "key": "Venezia|Accumulo Stand Alone",
+        "value": 0.475319
+      }
+    ],
+    "Rimini|Eolico": [
+      {
+        "key": "Rimini|Eolico",
+        "value": 0.2980972,
+        "yoYValue": -36.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Caltanissetta|Idrico": [
+      {
+        "key": "Caltanissetta|Idrico",
+        "value": 0.255074,
+        "yoYValue": -73.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Latina|Accumulo Stand Alone": [
+      {
+        "key": "Latina|Accumulo Stand Alone",
+        "value": 0.212371
+      }
+    ],
+    "Forlì-Cesena|Eolico": [
+      {
+        "key": "Forlì-Cesena|Eolico",
+        "value": 0.12814864,
+        "yoYValue": -20.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Trapani|Idrico": [
+      {
+        "key": "Trapani|Idrico",
+        "value": 0.096155,
+        "yoYValue": -42.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Ancona|Eolico": [
+      {
+        "key": "Ancona|Eolico",
+        "value": 0.05938048,
+        "yoYValue": -39.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Bolzano/Bozen|Eolico": [
+      {
+        "key": "Bolzano/Bozen|Eolico",
+        "value": 0.034198,
+        "yoYValue": -10.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Nuoro|Accumulo Stand Alone": [
+      {
+        "key": "Nuoro|Accumulo Stand Alone",
+        "value": 0.024815,
+        "yoYValue": -32.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Ravenna|Eolico": [
+      {
+        "key": "Ravenna|Eolico",
+        "value": 0.01300236,
+        "yoYValue": 53.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Roma|Eolico": [
+      {
+        "key": "Roma|Eolico",
+        "value": 0.01284596,
+        "yoYValue": 98.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Enna|Idrico": [
+      {
+        "key": "Enna|Idrico",
+        "value": 0.012251,
+        "yoYValue": -99.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Terni|Eolico": [
+      {
+        "key": "Terni|Eolico",
+        "value": 0.00724011,
+        "yoYValue": 32.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Torino|Eolico": [
+      {
+        "key": "Torino|Eolico",
+        "value": 0.0056411,
+        "yoYValue": -6.2,
+        "yoYPercentage": true
+      }
+    ],
+    "La Spezia|Termoelettrico": [
+      {
+        "key": "La Spezia|Termoelettrico",
+        "value": 0.00298803,
+        "yoYValue": 13.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Biella|Eolico": [
+      {
+        "key": "Biella|Eolico",
+        "value": 0.00265322,
+        "yoYValue": -7,
+        "yoYPercentage": true
+      }
+    ],
+    "Bolzano/Bozen|Accumulo Stand Alone": [
+      {
+        "key": "Bolzano/Bozen|Accumulo Stand Alone",
+        "value": 0.002158,
+        "yoYValue": -100,
+        "yoYPercentage": true
+      }
+    ],
+    "Udine|Eolico": [
+      {
+        "key": "Udine|Eolico",
+        "value": 0.00173968,
+        "yoYValue": -21.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Fermo|Eolico": [
+      {
+        "key": "Fermo|Eolico",
+        "value": 0.00155176,
+        "yoYValue": 18.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Modena|Eolico": [
+      {
+        "key": "Modena|Eolico",
+        "value": 0.00103016,
+        "yoYValue": 25.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Brescia|Eolico": [
+      {
+        "key": "Brescia|Eolico",
+        "value": 0.00092463,
+        "yoYValue": 296.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Alessandria|Eolico": [
+      {
+        "key": "Alessandria|Eolico",
+        "value": 0.00016789,
+        "yoYValue": -98.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Vicenza|Eolico": [
+      {
+        "key": "Vicenza|Eolico",
+        "value": 0.00003823,
+        "yoYValue": 1792.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Siena|Eolico": [
+      {
+        "key": "Siena|Eolico",
+        "value": 0.0000372,
+        "yoYValue": 825.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Bergamo|Eolico": [
+      {
+        "key": "Bergamo|Eolico",
+        "value": 0.00001208,
+        "yoYValue": -98.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Pistoia|Eolico": [
+      {
+        "key": "Pistoia|Eolico",
+        "value": 0.00000402,
+        "yoYValue": -98.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Arezzo|Accumulo Stand Alone": [
+      {
+        "key": "Arezzo|Accumulo Stand Alone",
+        "value": 0
+      }
+    ],
+    "Ascoli Piceno|Eolico": [
+      {
+        "key": "Ascoli Piceno|Eolico",
+        "value": 0
+      }
+    ],
+    "Asti|Eolico": [
+      {
+        "key": "Asti|Eolico",
+        "value": 0
+      }
+    ],
+    "Como|Eolico": [
+      {
+        "key": "Como|Eolico",
+        "value": 0
+      }
+    ],
+    "Cremona|Eolico": [
+      {
+        "key": "Cremona|Eolico",
+        "value": 0
+      }
+    ],
+    "Gorizia|Accumulo Stand Alone": [
+      {
+        "key": "Gorizia|Accumulo Stand Alone",
+        "value": 0
+      }
+    ],
+    "Latina|Eolico": [
+      {
+        "key": "Latina|Eolico",
+        "value": 0
+      }
+    ],
+    "Lucca|Eolico": [
+      {
+        "key": "Lucca|Eolico",
+        "value": 0
+      }
+    ],
+    "Mantova|Eolico": [
+      {
+        "key": "Mantova|Eolico",
+        "value": 0
+      }
+    ],
+    "Milano|Eolico": [
+      {
+        "key": "Milano|Eolico",
+        "value": 0
+      }
+    ],
+    "Napoli|Accumulo Stand Alone": [
+      {
+        "key": "Napoli|Accumulo Stand Alone",
+        "value": 0
+      }
+    ],
+    "Napoli|Eolico": [
+      {
+        "key": "Napoli|Eolico",
+        "value": 0
+      }
+    ],
+    "Padova|Eolico": [
+      {
+        "key": "Padova|Eolico",
+        "value": 0
+      }
+    ],
+    "Pavia|Eolico": [
+      {
+        "key": "Pavia|Eolico",
+        "value": 0,
+        "yoYValue": -100,
+        "yoYPercentage": true
+      }
+    ],
+    "Perugia|Accumulo Stand Alone": [
+      {
+        "key": "Perugia|Accumulo Stand Alone",
+        "value": 0
+      }
+    ],
+    "Pordenone|Eolico": [
+      {
+        "key": "Pordenone|Eolico",
+        "value": 0
+      }
+    ],
+    "Prato|Eolico": [
+      {
+        "key": "Prato|Eolico",
+        "value": 0
+      }
+    ],
+    "Reggio Nell'Emilia|Eolico": [
+      {
+        "key": "Reggio Nell'Emilia|Eolico",
+        "value": 0,
+        "yoYValue": -100,
+        "yoYPercentage": true
+      }
+    ],
+    "Trento|Eolico": [
+      {
+        "key": "Trento|Eolico",
+        "value": 0
+      }
+    ],
+    "Trieste|Eolico": [
+      {
+        "key": "Trieste|Eolico",
+        "value": 0
+      }
+    ],
+    "Varese|Eolico": [
+      {
+        "key": "Varese|Eolico",
+        "value": 0,
+        "yoYValue": -100,
+        "yoYPercentage": true
+      }
+    ],
+    "Venezia|Eolico": [
+      {
+        "key": "Venezia|Eolico",
+        "value": 0
+      }
+    ]
+  },
+  "flat": [
+    {
+      "key": "Torino|Termoelettrico",
+      "value": 8557.5747,
+      "yoYValue": -11.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pavia|Termoelettrico",
+      "value": 8450.9732,
+      "yoYValue": 0.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Mantova|Termoelettrico",
+      "value": 8239.6063,
+      "yoYValue": -13.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bolzano/Bozen|Idrico",
+      "value": 7740.7078,
+      "yoYValue": 25.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sondrio|Idrico",
+      "value": 6934.1624,
+      "yoYValue": 49.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ravenna|Termoelettrico",
+      "value": 6523.8052,
+      "yoYValue": -21.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Brindisi|Termoelettrico",
+      "value": 6450.2825,
+      "yoYValue": -35.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Caserta|Termoelettrico",
+      "value": 6379.3352,
+      "yoYValue": 122.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lodi|Termoelettrico",
+      "value": 6201.2544,
+      "yoYValue": 19.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trento|Idrico",
+      "value": 5446.465,
+      "yoYValue": 64.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Milano|Termoelettrico",
+      "value": 5045.288408,
+      "yoYValue": -13,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Foggia|Eolico",
+      "value": 4852.1769,
+      "yoYValue": -10,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Siracusa|Termoelettrico",
+      "value": 4675.7745,
+      "yoYValue": -23,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cagliari|Termoelettrico",
+      "value": 4657.9604,
+      "yoYValue": 11,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Venezia|Termoelettrico",
+      "value": 4317.0647,
+      "yoYValue": -12.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Livorno|Termoelettrico",
+      "value": 3971.33184,
+      "yoYValue": 14.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ferrara|Termoelettrico",
+      "value": 3944.60774,
+      "yoYValue": 19.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Aosta|Idrico",
+      "value": 3900.31462,
+      "yoYValue": 24.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Brescia|Idrico",
+      "value": 3408.12774,
+      "yoYValue": 49.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Vercelli|Termoelettrico",
+      "value": 3057.63354,
+      "yoYValue": -15.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Torino|Idrico",
+      "value": 3046.06259,
+      "yoYValue": 56.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bari|Termoelettrico",
+      "value": 3040.23654,
+      "yoYValue": 89.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Verbano-Cusio-Ossola|Idrico",
+      "value": 2951.84154,
+      "yoYValue": 62.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Foggia|Termoelettrico",
+      "value": 2922.37824,
+      "yoYValue": -13.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pisa|Geotermoelettrico",
+      "value": 2913.88288,
+      "yoYValue": 0.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Taranto|Termoelettrico",
+      "value": 2880.9344,
+      "yoYValue": -12.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Catanzaro|Termoelettrico",
+      "value": 2869.55136,
+      "yoYValue": -30.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piacenza|Termoelettrico",
+      "value": 2840.17382,
+      "yoYValue": -27.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Crotone|Termoelettrico",
+      "value": 2633.93818,
+      "yoYValue": 48.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Udine|Termoelettrico",
+      "value": 2574.30502,
+      "yoYValue": -35.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sassari|Termoelettrico",
+      "value": 2511.01389,
+      "yoYValue": -10.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Belluno|Idrico",
+      "value": 2501.40262,
+      "yoYValue": 36,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Latina|Termoelettrico",
+      "value": 2322.33856,
+      "yoYValue": 57,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cosenza|Termoelettrico",
+      "value": 2300.75571,
+      "yoYValue": -22.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cuneo|Idrico",
+      "value": 2295.57862,
+      "yoYValue": 46.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Potenza|Eolico",
+      "value": 2274.69312,
+      "yoYValue": -11.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Palermo|Termoelettrico",
+      "value": 2184.79181,
+      "yoYValue": -33.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Chieti|Termoelettrico",
+      "value": 1991.7545,
+      "yoYValue": 32.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cuneo|Termoelettrico",
+      "value": 1987.342972325,
+      "yoYValue": -2.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Napoli|Termoelettrico",
+      "value": 1915.72877,
+      "yoYValue": 7.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Benevento|Eolico",
+      "value": 1707.04742,
+      "yoYValue": -9.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Messina|Termoelettrico",
+      "value": 1695.83334,
+      "yoYValue": -27.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Reggio Di Calabria|Termoelettrico",
+      "value": 1672.68557,
+      "yoYValue": 42.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lucca|Termoelettrico",
+      "value": 1635.97811,
+      "yoYValue": 1.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Avellino|Eolico",
+      "value": 1595.26221,
+      "yoYValue": -11.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Roma|Termoelettrico",
+      "value": 1560.60877,
+      "yoYValue": -66.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Arezzo|Termoelettrico",
+      "value": 1489.29165,
+      "yoYValue": -27.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Grosseto|Geotermoelettrico",
+      "value": 1459.2041,
+      "yoYValue": 0.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Brescia|Termoelettrico",
+      "value": 1433.10754,
+      "yoYValue": 2.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Campobasso|Termoelettrico",
+      "value": 1390.33779,
+      "yoYValue": 99.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Novara|Termoelettrico",
+      "value": 1388.16384,
+      "yoYValue": 6.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Viterbo|Fotovoltaico",
+      "value": 1378.46362,
+      "yoYValue": 63,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bergamo|Idrico",
+      "value": 1363.87546,
+      "yoYValue": 45.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Savona|Termoelettrico",
+      "value": 1336.76224,
+      "yoYValue": 17.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bergamo|Termoelettrico",
+      "value": 1336.25587,
+      "yoYValue": 0.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Siena|Geotermoelettrico",
+      "value": 1301.87917,
+      "yoYValue": -2.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Catanzaro|Eolico",
+      "value": 1276.38221,
+      "yoYValue": -2.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trapani|Eolico",
+      "value": 1235.45318,
+      "yoYValue": 18.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Terni|Idrico",
+      "value": 1225.9712,
+      "yoYValue": -7.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sud Sardegna|Termoelettrico",
+      "value": 1219.95533,
+      "yoYValue": -10.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Modena|Termoelettrico",
+      "value": 1208.084577,
+      "yoYValue": -3.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Udine|Idrico",
+      "value": 1178.94144,
+      "yoYValue": 36.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cremona|Termoelettrico",
+      "value": 1156.63616,
+      "yoYValue": -1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Frosinone|Termoelettrico",
+      "value": 1155.84422,
+      "yoYValue": 16.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lecce|Fotovoltaico",
+      "value": 1142.81562,
+      "yoYValue": 11.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sassari|Eolico",
+      "value": 1036.47322,
+      "yoYValue": -7.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Alessandria|Termoelettrico",
+      "value": 990.34003,
+      "yoYValue": 4.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trento|Termoelettrico",
+      "value": 966.692975,
+      "yoYValue": 9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Palermo|Eolico",
+      "value": 966.55686,
+      "yoYValue": 21.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Treviso|Idrico",
+      "value": 963.80134,
+      "yoYValue": 35.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Perugia|Termoelettrico",
+      "value": 956.54458,
+      "yoYValue": 33.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pordenone|Idrico",
+      "value": 946.52736,
+      "yoYValue": 59.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Foggia|Fotovoltaico",
+      "value": 932.33024,
+      "yoYValue": 8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bologna|Termoelettrico",
+      "value": 928.768793,
+      "yoYValue": -5.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Padova|Termoelettrico",
+      "value": 907.641551275,
+      "yoYValue": 2.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bari|Fotovoltaico",
+      "value": 892.91526,
+      "yoYValue": 13.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Brescia|Fotovoltaico",
+      "value": 887.25485,
+      "yoYValue": 20.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Verona|Termoelettrico",
+      "value": 882.24269,
+      "yoYValue": 4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Verona|Idrico",
+      "value": 878.66931,
+      "yoYValue": 17.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Roma|Fotovoltaico",
+      "value": 845.89459,
+      "yoYValue": 25.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cuneo|Fotovoltaico",
+      "value": 823.85037,
+      "yoYValue": 8.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Varese|Termoelettrico",
+      "value": 805.93549,
+      "yoYValue": 14.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Brindisi|Fotovoltaico",
+      "value": 800.91789,
+      "yoYValue": 8.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Torino|Fotovoltaico",
+      "value": 728.79373,
+      "yoYValue": 12,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Crotone|Eolico",
+      "value": 699.77555,
+      "yoYValue": -6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Varese|Idrico",
+      "value": 667.38829,
+      "yoYValue": 38.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cagliari|Fotovoltaico",
+      "value": 658.25882,
+      "yoYValue": 27.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Latina|Fotovoltaico",
+      "value": 636.16365,
+      "yoYValue": 57.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Matera|Eolico",
+      "value": 624.37299,
+      "yoYValue": -5.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Padova|Fotovoltaico",
+      "value": 617.48544,
+      "yoYValue": 17.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Treviso|Fotovoltaico",
+      "value": 602.35238,
+      "yoYValue": 15,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Taranto|Fotovoltaico",
+      "value": 595.98016,
+      "yoYValue": 12.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Milano|Fotovoltaico",
+      "value": 586.73779,
+      "yoYValue": 14.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Verona|Fotovoltaico",
+      "value": 576.09875,
+      "yoYValue": 11.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bergamo|Fotovoltaico",
+      "value": 566.41018,
+      "yoYValue": 15.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Udine|Fotovoltaico",
+      "value": 559.38733,
+      "yoYValue": 33.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piacenza|Idrico",
+      "value": 555.63853,
+      "yoYValue": 72.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ravenna|Fotovoltaico",
+      "value": 553.26355,
+      "yoYValue": 3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Vicenza|Termoelettrico",
+      "value": 552.47494,
+      "yoYValue": 9.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Treviso|Termoelettrico",
+      "value": 546.183536,
+      "yoYValue": 7.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bologna|Fotovoltaico",
+      "value": 533.968704,
+      "yoYValue": 9.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Parma|Termoelettrico",
+      "value": 532.934944,
+      "yoYValue": -1.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Perugia|Fotovoltaico",
+      "value": 530.460288,
+      "yoYValue": 12.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Reggio Nell'Emilia|Termoelettrico",
+      "value": 525.825184,
+      "yoYValue": -19.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lucca|Idrico",
+      "value": 521.739616,
+      "yoYValue": 61.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Vicenza|Fotovoltaico",
+      "value": 517.00128,
+      "yoYValue": 10.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bolzano/Bozen|Termoelettrico",
+      "value": 516.312096,
+      "yoYValue": 0.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Siracusa|Fotovoltaico",
+      "value": 514.565312,
+      "yoYValue": 66.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Rovigo|Termoelettrico",
+      "value": 511.085472,
+      "yoYValue": -7.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trapani|Fotovoltaico",
+      "value": 491.413888,
+      "yoYValue": 32.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Catania|Fotovoltaico",
+      "value": 489.070528,
+      "yoYValue": 22.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Caserta|Idrico",
+      "value": 486.883936,
+      "yoYValue": -19.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "L'Aquila|Termoelettrico",
+      "value": 483.969632,
+      "yoYValue": 2.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Campobasso|Eolico",
+      "value": 469.92144,
+      "yoYValue": -17.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Rovigo|Fotovoltaico",
+      "value": 468.50592,
+      "yoYValue": 0.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Vicenza|Idrico",
+      "value": 457.064448,
+      "yoYValue": 58,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Modena|Fotovoltaico",
+      "value": 444.37712,
+      "yoYValue": 13.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Agrigento|Eolico",
+      "value": 442.38672,
+      "yoYValue": 0.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Macerata|Fotovoltaico",
+      "value": 439.168448,
+      "yoYValue": 5.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sassari|Fotovoltaico",
+      "value": 438.582752,
+      "yoYValue": 34.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Alessandria|Fotovoltaico",
+      "value": 436.605728,
+      "yoYValue": 16.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cosenza|Idrico",
+      "value": 434.87248,
+      "yoYValue": -20.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sud Sardegna|Eolico",
+      "value": 433.36256,
+      "yoYValue": 8.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Salerno|Fotovoltaico",
+      "value": 433.136544,
+      "yoYValue": 23.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ancona|Fotovoltaico",
+      "value": 432.101344,
+      "yoYValue": 8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cosenza|Fotovoltaico",
+      "value": 420.548288,
+      "yoYValue": 16.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Taranto|Eolico",
+      "value": 401.445376,
+      "yoYValue": -4.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Monza e della Brianza|Termoelettrico",
+      "value": 397.700064,
+      "yoYValue": 22.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Catania|Eolico",
+      "value": 395.554304,
+      "yoYValue": 26.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bolzano/Bozen|Fotovoltaico",
+      "value": 395.29104,
+      "yoYValue": 15.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Caserta|Fotovoltaico",
+      "value": 393.666304,
+      "yoYValue": 19.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ragusa|Fotovoltaico",
+      "value": 393.508224,
+      "yoYValue": 18.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Chieti|Fotovoltaico",
+      "value": 381.074656,
+      "yoYValue": 13.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Mantova|Fotovoltaico",
+      "value": 379.87664,
+      "yoYValue": 15.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Potenza|Termoelettrico",
+      "value": 378.913696,
+      "yoYValue": -20.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Teramo|Fotovoltaico",
+      "value": 378.5496,
+      "yoYValue": 14,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Agrigento|Fotovoltaico",
+      "value": 376.00464,
+      "yoYValue": 13.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Gorizia|Termoelettrico",
+      "value": 374.238688,
+      "yoYValue": -45.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pesaro E Urbino|Fotovoltaico",
+      "value": 373.020992,
+      "yoYValue": 7.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Venezia|Fotovoltaico",
+      "value": 370.673792,
+      "yoYValue": 16.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Forlì-Cesena|Fotovoltaico",
+      "value": 367.429632,
+      "yoYValue": 12.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Teramo|Idrico",
+      "value": 362.73872,
+      "yoYValue": -9.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Milano|Idrico",
+      "value": 356.647232,
+      "yoYValue": 61.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Matera|Fotovoltaico",
+      "value": 351.880192,
+      "yoYValue": 13.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Salerno|Eolico",
+      "value": 350.7704,
+      "yoYValue": -19.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Palermo|Fotovoltaico",
+      "value": 348.144896,
+      "yoYValue": 23.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trieste|Termoelettrico",
+      "value": 338.7024,
+      "yoYValue": -3.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Reggio Nell'Emilia|Fotovoltaico",
+      "value": 335.710944,
+      "yoYValue": 22.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Napoli|Fotovoltaico",
+      "value": 334.927936,
+      "yoYValue": 28.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Forlì-Cesena|Termoelettrico",
+      "value": 327.010912,
+      "yoYValue": 6.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Belluno|Termoelettrico",
+      "value": 320.954624,
+      "yoYValue": 24.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cremona|Fotovoltaico",
+      "value": 317.724576,
+      "yoYValue": 3.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ferrara|Fotovoltaico",
+      "value": 316.2376,
+      "yoYValue": 10,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Nuoro|Idrico",
+      "value": 315.585632,
+      "yoYValue": -4.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Potenza|Fotovoltaico",
+      "value": 308.960864,
+      "yoYValue": 18,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Parma|Fotovoltaico",
+      "value": 301.896,
+      "yoYValue": 10.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Savona|Eolico",
+      "value": 300.70176,
+      "yoYValue": 7.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "L'Aquila|Fotovoltaico",
+      "value": 300.609696,
+      "yoYValue": 21.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sud Sardegna|Fotovoltaico",
+      "value": 299.881504,
+      "yoYValue": 7.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trento|Fotovoltaico",
+      "value": 299.552192,
+      "yoYValue": 11.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Chieti|Eolico",
+      "value": 291.2344,
+      "yoYValue": -12.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pordenone|Fotovoltaico",
+      "value": 286.940832,
+      "yoYValue": 24,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pordenone|Termoelettrico",
+      "value": 278.324288,
+      "yoYValue": 14.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pescara|Idrico",
+      "value": 276.183488,
+      "yoYValue": -19.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Frosinone|Fotovoltaico",
+      "value": 274.405024,
+      "yoYValue": 15.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pavia|Fotovoltaico",
+      "value": 274.394656,
+      "yoYValue": 6.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Roma|Idrico",
+      "value": 274.273984,
+      "yoYValue": -22,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Barletta-Andria-Trani|Fotovoltaico",
+      "value": 273.931456,
+      "yoYValue": 12.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Varese|Fotovoltaico",
+      "value": 262.482528,
+      "yoYValue": 11.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Nuoro|Eolico",
+      "value": 255.663856,
+      "yoYValue": -4.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Arezzo|Fotovoltaico",
+      "value": 254.644864,
+      "yoYValue": 10.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ancona|Termoelettrico",
+      "value": 253.632192,
+      "yoYValue": 2.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Chieti|Idrico",
+      "value": 252.633776,
+      "yoYValue": -53.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Como|Termoelettrico",
+      "value": 251.850128,
+      "yoYValue": 2.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Monza e della Brianza|Idrico",
+      "value": 250.575552,
+      "yoYValue": 21.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piacenza|Fotovoltaico",
+      "value": 250.371248,
+      "yoYValue": 1.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Vercelli|Fotovoltaico",
+      "value": 249.632752,
+      "yoYValue": 78.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Potenza|Idrico",
+      "value": 241.776896,
+      "yoYValue": -35.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Messina|Eolico",
+      "value": 234.031104,
+      "yoYValue": 3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Catanzaro|Fotovoltaico",
+      "value": 227.849984,
+      "yoYValue": 12,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Nuoro|Fotovoltaico",
+      "value": 224.503568,
+      "yoYValue": 10.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Crotone|Idrico",
+      "value": 223.774608,
+      "yoYValue": -18.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Rieti|Idrico",
+      "value": 220.7036,
+      "yoYValue": -20.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Grosseto|Termoelettrico",
+      "value": 218.133696,
+      "yoYValue": -17.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Oristano|Fotovoltaico",
+      "value": 218.044096,
+      "yoYValue": 11,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Siracusa|Idrico",
+      "value": 213.511136,
+      "yoYValue": -14.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Salerno|Idrico",
+      "value": 208.070176,
+      "yoYValue": -31.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Campobasso|Fotovoltaico",
+      "value": 206.19784,
+      "yoYValue": 13,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lecco|Termoelettrico",
+      "value": 205.08248,
+      "yoYValue": 8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "L'Aquila|Idrico",
+      "value": 203.76608,
+      "yoYValue": -15.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Frosinone|Idrico",
+      "value": 203.623536,
+      "yoYValue": -32.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Terni|Termoelettrico",
+      "value": 198.43312,
+      "yoYValue": -10.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Salerno|Termoelettrico",
+      "value": 196.86096,
+      "yoYValue": 9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Monza e della Brianza|Fotovoltaico",
+      "value": 195.838784,
+      "yoYValue": 12.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ascoli Piceno|Fotovoltaico",
+      "value": 194.932816,
+      "yoYValue": 14.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Firenze|Fotovoltaico",
+      "value": 193.765808,
+      "yoYValue": 21.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Como|Idrico",
+      "value": 193.094208,
+      "yoYValue": 35.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Firenze|Termoelettrico",
+      "value": 191.315136,
+      "yoYValue": 1.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pisa|Fotovoltaico",
+      "value": 190.934048,
+      "yoYValue": 22.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Enna|Eolico",
+      "value": 187.771232,
+      "yoYValue": -2.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Novara|Fotovoltaico",
+      "value": 185.666736,
+      "yoYValue": 8.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Viterbo|Termoelettrico",
+      "value": 182.536352,
+      "yoYValue": 48.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Novara|Idrico",
+      "value": 182.304784,
+      "yoYValue": 31.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Terni|Fotovoltaico",
+      "value": 181.928528,
+      "yoYValue": 10.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Caltanissetta|Fotovoltaico",
+      "value": 181.226848,
+      "yoYValue": 19.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lecce|Eolico",
+      "value": 180.35336,
+      "yoYValue": -1.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Modena|Idrico",
+      "value": 176.118432,
+      "yoYValue": 28.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Caltanissetta|Eolico",
+      "value": 174.849152,
+      "yoYValue": 37.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pisa|Termoelettrico",
+      "value": 174.80136,
+      "yoYValue": -10.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Barletta-Andria-Trani|Eolico",
+      "value": 173.284448,
+      "yoYValue": -3.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Isernia|Eolico",
+      "value": 172.287408,
+      "yoYValue": -14.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Como|Fotovoltaico",
+      "value": 169.667568,
+      "yoYValue": 14.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lodi|Fotovoltaico",
+      "value": 168.320848,
+      "yoYValue": 4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bari|Eolico",
+      "value": 165.38016,
+      "yoYValue": -4.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sondrio|Termoelettrico",
+      "value": 165.118368,
+      "yoYValue": 7.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Genova|Termoelettrico",
+      "value": 164.905936,
+      "yoYValue": 17.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Siracusa|Eolico",
+      "value": 164.144432,
+      "yoYValue": -10.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cosenza|Eolico",
+      "value": 163.860512,
+      "yoYValue": -10.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Fermo|Fotovoltaico",
+      "value": 163.39496,
+      "yoYValue": 8.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Vercelli|Idrico",
+      "value": 163.146208,
+      "yoYValue": 27.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pescara|Fotovoltaico",
+      "value": 163.111232,
+      "yoYValue": 17.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Parma|Idrico",
+      "value": 161.478192,
+      "yoYValue": 22.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Avellino|Fotovoltaico",
+      "value": 158.828736,
+      "yoYValue": 24.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Siena|Termoelettrico",
+      "value": 155.898256,
+      "yoYValue": 8.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Biella|Fotovoltaico",
+      "value": 153.61432,
+      "yoYValue": 9.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Genova|Idrico",
+      "value": 153.546272,
+      "yoYValue": 70.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Rimini|Fotovoltaico",
+      "value": 151.173664,
+      "yoYValue": 9.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Grosseto|Fotovoltaico",
+      "value": 146.415744,
+      "yoYValue": 24.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pescara|Termoelettrico",
+      "value": 145.423968,
+      "yoYValue": -3.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Biella|Termoelettrico",
+      "value": 140.779632,
+      "yoYValue": 5.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Matera|Termoelettrico",
+      "value": 140.011056,
+      "yoYValue": 10.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Rimini|Termoelettrico",
+      "value": 135.631456,
+      "yoYValue": -12.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Asti|Fotovoltaico",
+      "value": 134.063808,
+      "yoYValue": 5.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Livorno|Fotovoltaico",
+      "value": 132.71064,
+      "yoYValue": 14.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pisa|Eolico",
+      "value": 131.942728,
+      "yoYValue": -19.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lucca|Fotovoltaico",
+      "value": 129.13208,
+      "yoYValue": 12.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Reggio Di Calabria|Fotovoltaico",
+      "value": 128.263776,
+      "yoYValue": 22.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lecco|Idrico",
+      "value": 127.516824,
+      "yoYValue": 137.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Enna|Fotovoltaico",
+      "value": 126.774992,
+      "yoYValue": 22.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Alessandria|Idrico",
+      "value": 126.666152,
+      "yoYValue": 105.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Messina|Fotovoltaico",
+      "value": 123.937288,
+      "yoYValue": 23.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Avellino|Termoelettrico",
+      "value": 123.858352,
+      "yoYValue": -2.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Isernia|Idrico",
+      "value": 122.188296,
+      "yoYValue": -30.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Viterbo|Eolico",
+      "value": 118.431496,
+      "yoYValue": -11.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Enna|Termoelettrico",
+      "value": 117.252808,
+      "yoYValue": 12.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Catanzaro|Idrico",
+      "value": 115.770664,
+      "yoYValue": -15.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Massa-Carrara|Idrico",
+      "value": 114.935672,
+      "yoYValue": 53,
+      "yoYPercentage": true
+    },
+    {
+      "key": "L'Aquila|Eolico",
+      "value": 113.510784,
+      "yoYValue": -24.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Oristano|Eolico",
+      "value": 113.448176,
+      "yoYValue": 1.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Siena|Fotovoltaico",
+      "value": 113.409032,
+      "yoYValue": 14.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Brindisi|Eolico",
+      "value": 112.470704,
+      "yoYValue": -5.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Benevento|Fotovoltaico",
+      "value": 110.774256,
+      "yoYValue": 26,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Agrigento|Termoelettrico",
+      "value": 110.176936,
+      "yoYValue": 40,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Nuoro|Termoelettrico",
+      "value": 106.065776,
+      "yoYValue": -53.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Biella|Idrico",
+      "value": 102.091128,
+      "yoYValue": 96.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Teramo|Termoelettrico",
+      "value": 101.587744,
+      "yoYValue": 19.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lecco|Fotovoltaico",
+      "value": 98.82792,
+      "yoYValue": 21.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Macerata|Termoelettrico",
+      "value": 98.6371,
+      "yoYValue": 10.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Macerata|Idrico",
+      "value": 97.628528,
+      "yoYValue": -50,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Reggio Nell'Emilia|Idrico",
+      "value": 95.953864,
+      "yoYValue": 7.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Prato|Fotovoltaico",
+      "value": 95.770368,
+      "yoYValue": 5.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pistoia|Idrico",
+      "value": 92.8104,
+      "yoYValue": 4.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trapani|Termoelettrico",
+      "value": 91.502936,
+      "yoYValue": 17.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Arezzo|Idrico",
+      "value": 91.402688,
+      "yoYValue": 22.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Imperia|Idrico",
+      "value": 87.832984,
+      "yoYValue": 152,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Isernia|Termoelettrico",
+      "value": 84.610872,
+      "yoYValue": -15.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sondrio|Fotovoltaico",
+      "value": 83.989656,
+      "yoYValue": 14.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Verbano-Cusio-Ossola|Termoelettrico",
+      "value": 83.77664,
+      "yoYValue": 10.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pavia|Idrico",
+      "value": 78.777848,
+      "yoYValue": 45.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pistoia|Fotovoltaico",
+      "value": 76.706808,
+      "yoYValue": 15.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Viterbo|Idrico",
+      "value": 75.106016,
+      "yoYValue": -12.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Gorizia|Fotovoltaico",
+      "value": 74.058392,
+      "yoYValue": 43.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Crotone|Fotovoltaico",
+      "value": 72.698792,
+      "yoYValue": 21.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ascoli Piceno|Idrico",
+      "value": 71.698368,
+      "yoYValue": -67.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ragusa|Eolico",
+      "value": 71.012024,
+      "yoYValue": -5.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pistoia|Termoelettrico",
+      "value": 69.89432,
+      "yoYValue": -8.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Vibo Valentia|Fotovoltaico",
+      "value": 68.919904,
+      "yoYValue": 22.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Belluno|Fotovoltaico",
+      "value": 68.362992,
+      "yoYValue": 7.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Forlì-Cesena|Idrico",
+      "value": 68.2866,
+      "yoYValue": 13,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Catania|Termoelettrico",
+      "value": 67.518184,
+      "yoYValue": 35.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pesaro E Urbino|Termoelettrico",
+      "value": 66.659964,
+      "yoYValue": 17.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lodi|Idrico",
+      "value": 63.716276,
+      "yoYValue": 21.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Isernia|Fotovoltaico",
+      "value": 61.509472,
+      "yoYValue": 22.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Perugia|Idrico",
+      "value": 61.212032,
+      "yoYValue": -24,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Aosta|Termoelettrico",
+      "value": 61.148648,
+      "yoYValue": 5.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bologna|Idrico",
+      "value": 60.014416,
+      "yoYValue": -14.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Asti|Termoelettrico",
+      "value": 58.45456,
+      "yoYValue": 4.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Massa-Carrara|Termoelettrico",
+      "value": 56.949748,
+      "yoYValue": 4.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pesaro E Urbino|Idrico",
+      "value": 55.436808,
+      "yoYValue": -19.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ascoli Piceno|Termoelettrico",
+      "value": 53.888468,
+      "yoYValue": 13.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Savona|Fotovoltaico",
+      "value": 53.103588,
+      "yoYValue": 12.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Gorizia|Idrico",
+      "value": 52.230064,
+      "yoYValue": 8.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cagliari|Eolico",
+      "value": 51.891516,
+      "yoYValue": 30.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Parma|Eolico",
+      "value": 51.23802,
+      "yoYValue": -13.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cremona|Idrico",
+      "value": 49.22146,
+      "yoYValue": 12.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Rieti|Fotovoltaico",
+      "value": 49.221168,
+      "yoYValue": 21.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Genova|Fotovoltaico",
+      "value": 48.662032,
+      "yoYValue": 15.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Reggio Di Calabria|Eolico",
+      "value": 47.282512,
+      "yoYValue": -8.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Imperia|Fotovoltaico",
+      "value": 45.607836,
+      "yoYValue": 8.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Massa-Carrara|Fotovoltaico",
+      "value": 43.254404,
+      "yoYValue": 23.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trieste|Fotovoltaico",
+      "value": 41.018472,
+      "yoYValue": 21.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "La Spezia|Fotovoltaico",
+      "value": 39.801292,
+      "yoYValue": 12.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Livorno|Eolico",
+      "value": 39.04696,
+      "yoYValue": -5.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Aosta|Fotovoltaico",
+      "value": 37.214396,
+      "yoYValue": 8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Oristano|Idrico",
+      "value": 36.624336,
+      "yoYValue": 5.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Mantova|Idrico",
+      "value": 33.728608,
+      "yoYValue": 24.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Verbano-Cusio-Ossola|Fotovoltaico",
+      "value": 33.587976,
+      "yoYValue": 19.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Savona|Idrico",
+      "value": 32.212146,
+      "yoYValue": 291.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Reggio Di Calabria|Idrico",
+      "value": 32.12973,
+      "yoYValue": -28,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Padova|Idrico",
+      "value": 31.92982,
+      "yoYValue": 93.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ragusa|Termoelettrico",
+      "value": 31.730568,
+      "yoYValue": 3.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Grosseto|Eolico",
+      "value": 31.221424,
+      "yoYValue": -5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Udine|Accumulo Stand Alone",
+      "value": 30.07227
+    },
+    {
+      "key": "Firenze|Idrico",
+      "value": 28.126658,
+      "yoYValue": 106.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Rieti|Termoelettrico",
+      "value": 28.00818,
+      "yoYValue": 37.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piacenza|Accumulo Stand Alone",
+      "value": 26.591736,
+      "yoYValue": -100,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cuneo|Eolico",
+      "value": 25.98417,
+      "yoYValue": 3.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Verona|Eolico",
+      "value": 24.588092,
+      "yoYValue": 15.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Firenze|Eolico",
+      "value": 24.341336,
+      "yoYValue": -18.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bologna|Eolico",
+      "value": 24.266708,
+      "yoYValue": -27,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pesaro E Urbino|Eolico",
+      "value": 22.783302,
+      "yoYValue": -19,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sassari|Idrico",
+      "value": 22.3823,
+      "yoYValue": -72.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Fermo|Termoelettrico",
+      "value": 22.33983,
+      "yoYValue": 27.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Oristano|Termoelettrico",
+      "value": 21.107084,
+      "yoYValue": 56.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Asti|Idrico",
+      "value": 20.766842,
+      "yoYValue": 70.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lecce|Termoelettrico",
+      "value": 20.225482,
+      "yoYValue": -11.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Campobasso|Idrico",
+      "value": 19.742896,
+      "yoYValue": -58,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Catania|Idrico",
+      "value": 19.109004,
+      "yoYValue": -73.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ancona|Idrico",
+      "value": 18.787622,
+      "yoYValue": -31.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Vercelli|Accumulo Stand Alone",
+      "value": 17.69858
+    },
+    {
+      "key": "Massa-Carrara|Eolico",
+      "value": 16.843248,
+      "yoYValue": -9.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Avellino|Idrico",
+      "value": 15.345993,
+      "yoYValue": -56.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Caserta|Eolico",
+      "value": 13.565095,
+      "yoYValue": -25.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Frosinone|Eolico",
+      "value": 12.089536,
+      "yoYValue": -20.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Fermo|Idrico",
+      "value": 11.828788,
+      "yoYValue": -29.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Barletta-Andria-Trani|Termoelettrico",
+      "value": 11.639477,
+      "yoYValue": 13.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pescara|Eolico",
+      "value": 11.294852,
+      "yoYValue": -8.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Prato|Idrico",
+      "value": 10.797432,
+      "yoYValue": -7.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Caltanissetta|Termoelettrico",
+      "value": 9.051906,
+      "yoYValue": 2.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Genova|Eolico",
+      "value": 8.093119,
+      "yoYValue": 11.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Rimini|Idrico",
+      "value": 8.0281655,
+      "yoYValue": -16.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Venezia|Idrico",
+      "value": 7.8660815,
+      "yoYValue": 83.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "La Spezia|Accumulo Stand Alone",
+      "value": 7.439911
+    },
+    {
+      "key": "Alessandria|Accumulo Stand Alone",
+      "value": 7.271056,
+      "yoYValue": -100,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Terni|Accumulo Stand Alone",
+      "value": 7.251822,
+      "yoYValue": 177.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Rovigo|Accumulo Stand Alone",
+      "value": 7.222248,
+      "yoYValue": 4011.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Vibo Valentia|Idrico",
+      "value": 7.071437,
+      "yoYValue": -25.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Palermo|Idrico",
+      "value": 6.5385895,
+      "yoYValue": -48.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Arezzo|Eolico",
+      "value": 5.896702,
+      "yoYValue": -13.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lodi|Accumulo Stand Alone",
+      "value": 5.523583
+    },
+    {
+      "key": "Perugia|Eolico",
+      "value": 5.262192,
+      "yoYValue": -1.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Modena|Accumulo Stand Alone",
+      "value": 5.225664
+    },
+    {
+      "key": "Sud Sardegna|Idrico",
+      "value": 5.22117,
+      "yoYValue": -82.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Macerata|Eolico",
+      "value": 4.987407,
+      "yoYValue": -48.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "La Spezia|Idrico",
+      "value": 4.833685,
+      "yoYValue": -43.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Imperia|Eolico",
+      "value": 4.806641,
+      "yoYValue": 10.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "La Spezia|Eolico",
+      "value": 4.790951,
+      "yoYValue": -11,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Vibo Valentia|Termoelettrico",
+      "value": 4.5557815,
+      "yoYValue": -27.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cagliari|Accumulo Stand Alone",
+      "value": 4.43903,
+      "yoYValue": 213.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ravenna|Accumulo Stand Alone",
+      "value": 4.282759
+    },
+    {
+      "key": "Imperia|Termoelettrico",
+      "value": 4.282342,
+      "yoYValue": 33.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Siena|Idrico",
+      "value": 4.1786808,
+      "yoYValue": 6.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Agrigento|Idrico",
+      "value": 4.081794,
+      "yoYValue": -70.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Aosta|Eolico",
+      "value": 3.783062,
+      "yoYValue": -12.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Taranto|Accumulo Stand Alone",
+      "value": 3.665456,
+      "yoYValue": -100,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trapani|Accumulo Stand Alone",
+      "value": 3.496099,
+      "yoYValue": 119.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Barletta-Andria-Trani|Idrico",
+      "value": 3.259556,
+      "yoYValue": -20,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Messina|Idrico",
+      "value": 3.0197615,
+      "yoYValue": -59,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Grosseto|Idrico",
+      "value": 2.9304905,
+      "yoYValue": 37.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Benevento|Termoelettrico",
+      "value": 2.710663,
+      "yoYValue": 97.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Rovigo|Idrico",
+      "value": 2.344577,
+      "yoYValue": -20.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Benevento|Idrico",
+      "value": 2.2603225,
+      "yoYValue": -34.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Viterbo|Accumulo Stand Alone",
+      "value": 2.176419
+    },
+    {
+      "key": "Taranto|Idrico",
+      "value": 2.1764,
+      "yoYValue": -0.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Prato|Termoelettrico",
+      "value": 2.0953265,
+      "yoYValue": -65.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Savona|Accumulo Stand Alone",
+      "value": 1.91367,
+      "yoYValue": -24.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bari|Idrico",
+      "value": 1.888802,
+      "yoYValue": -2.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ravenna|Idrico",
+      "value": 1.6677465,
+      "yoYValue": 5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ferrara|Idrico",
+      "value": 1.23576,
+      "yoYValue": 14.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Brindisi|Idrico",
+      "value": 1.151248,
+      "yoYValue": -29.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sassari|Accumulo Stand Alone",
+      "value": 0.954788
+    },
+    {
+      "key": "Matera|Idrico",
+      "value": 0.871093,
+      "yoYValue": -37.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pisa|Idrico",
+      "value": 0.804283,
+      "yoYValue": 22.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Latina|Idrico",
+      "value": 0.79626106,
+      "yoYValue": -54.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Cagliari|Idrico",
+      "value": 0.771948,
+      "yoYValue": -88.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piacenza|Eolico",
+      "value": 0.754255,
+      "yoYValue": -5.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Vibo Valentia|Eolico",
+      "value": 0.5045386,
+      "yoYValue": -31,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Venezia|Accumulo Stand Alone",
+      "value": 0.475319
+    },
+    {
+      "key": "Rimini|Eolico",
+      "value": 0.2980972,
+      "yoYValue": -36.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Caltanissetta|Idrico",
+      "value": 0.255074,
+      "yoYValue": -73.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Latina|Accumulo Stand Alone",
+      "value": 0.212371
+    },
+    {
+      "key": "Forlì-Cesena|Eolico",
+      "value": 0.12814864,
+      "yoYValue": -20.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trapani|Idrico",
+      "value": 0.096155,
+      "yoYValue": -42.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ancona|Eolico",
+      "value": 0.05938048,
+      "yoYValue": -39.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bolzano/Bozen|Eolico",
+      "value": 0.034198,
+      "yoYValue": -10.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Nuoro|Accumulo Stand Alone",
+      "value": 0.024815,
+      "yoYValue": -32.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Ravenna|Eolico",
+      "value": 0.01300236,
+      "yoYValue": 53.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Roma|Eolico",
+      "value": 0.01284596,
+      "yoYValue": 98.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Enna|Idrico",
+      "value": 0.012251,
+      "yoYValue": -99.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Terni|Eolico",
+      "value": 0.00724011,
+      "yoYValue": 32.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Torino|Eolico",
+      "value": 0.0056411,
+      "yoYValue": -6.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "La Spezia|Termoelettrico",
+      "value": 0.00298803,
+      "yoYValue": 13.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Biella|Eolico",
+      "value": 0.00265322,
+      "yoYValue": -7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bolzano/Bozen|Accumulo Stand Alone",
+      "value": 0.002158,
+      "yoYValue": -100,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Udine|Eolico",
+      "value": 0.00173968,
+      "yoYValue": -21.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Fermo|Eolico",
+      "value": 0.00155176,
+      "yoYValue": 18.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Modena|Eolico",
+      "value": 0.00103016,
+      "yoYValue": 25.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Brescia|Eolico",
+      "value": 0.00092463,
+      "yoYValue": 296.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Alessandria|Eolico",
+      "value": 0.00016789,
+      "yoYValue": -98.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Vicenza|Eolico",
+      "value": 0.00003823,
+      "yoYValue": 1792.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Siena|Eolico",
+      "value": 0.0000372,
+      "yoYValue": 825.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Bergamo|Eolico",
+      "value": 0.00001208,
+      "yoYValue": -98.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Pistoia|Eolico",
+      "value": 0.00000402,
+      "yoYValue": -98.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Arezzo|Accumulo Stand Alone",
+      "value": 0
+    },
+    {
+      "key": "Ascoli Piceno|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Asti|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Como|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Cremona|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Gorizia|Accumulo Stand Alone",
+      "value": 0
+    },
+    {
+      "key": "Latina|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Lucca|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Mantova|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Milano|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Napoli|Accumulo Stand Alone",
+      "value": 0
+    },
+    {
+      "key": "Napoli|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Padova|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Pavia|Eolico",
+      "value": 0,
+      "yoYValue": -100,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Perugia|Accumulo Stand Alone",
+      "value": 0
+    },
+    {
+      "key": "Pordenone|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Prato|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Reggio Nell'Emilia|Eolico",
+      "value": 0,
+      "yoYValue": -100,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trento|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Trieste|Eolico",
+      "value": 0
+    },
+    {
+      "key": "Varese|Eolico",
+      "value": 0,
+      "yoYValue": -100,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Venezia|Eolico",
+      "value": 0
+    }
+  ]
+}

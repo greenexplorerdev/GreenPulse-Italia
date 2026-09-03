@@ -1,0 +1,249 @@
+{
+  "source": "CSV: Produzione YoY% nelle regioni.csv",
+  "generated": "2026-09-03T11:12:41.941Z",
+  "totalRecords": 20,
+  "indexed": {
+    "Abruzzo": [
+      {
+        "key": "Abruzzo",
+        "yoYValue": 3,
+        "yoYPercentage": true
+      }
+    ],
+    "Basilicata": [
+      {
+        "key": "Basilicata",
+        "yoYValue": -9,
+        "yoYPercentage": true
+      }
+    ],
+    "Calabria": [
+      {
+        "key": "Calabria",
+        "yoYValue": -5,
+        "yoYPercentage": true
+      }
+    ],
+    "Campania": [
+      {
+        "key": "Campania",
+        "yoYValue": 28,
+        "yoYPercentage": true
+      }
+    ],
+    "Emilia-Romagna": [
+      {
+        "key": "Emilia-Romagna",
+        "yoYValue": -7,
+        "yoYPercentage": true
+      }
+    ],
+    "Friuli-Venezia Giulia": [
+      {
+        "key": "Friuli-Venezia Giulia",
+        "yoYValue": -10,
+        "yoYPercentage": true
+      }
+    ],
+    "Lazio": [
+      {
+        "key": "Lazio",
+        "yoYValue": -12,
+        "yoYPercentage": true
+      }
+    ],
+    "Liguria": [
+      {
+        "key": "Liguria",
+        "yoYValue": 21,
+        "yoYPercentage": true
+      }
+    ],
+    "Lombardia": [
+      {
+        "key": "Lombardia",
+        "yoYValue": 8,
+        "yoYPercentage": true
+      }
+    ],
+    "Marche": [
+      {
+        "key": "Marche",
+        "yoYValue": -4,
+        "yoYPercentage": true
+      }
+    ],
+    "Molise": [
+      {
+        "key": "Molise",
+        "yoYValue": 24,
+        "yoYPercentage": true
+      }
+    ],
+    "Piemonte": [
+      {
+        "key": "Piemonte",
+        "yoYValue": 7,
+        "yoYPercentage": true
+      }
+    ],
+    "Puglia": [
+      {
+        "key": "Puglia",
+        "yoYValue": -10,
+        "yoYPercentage": true
+      }
+    ],
+    "Sardegna": [
+      {
+        "key": "Sardegna",
+        "yoYValue": 0,
+        "yoYPercentage": true
+      }
+    ],
+    "Sicilia": [
+      {
+        "key": "Sicilia",
+        "yoYValue": -11,
+        "yoYPercentage": true
+      }
+    ],
+    "Toscana": [
+      {
+        "key": "Toscana",
+        "yoYValue": 2,
+        "yoYPercentage": true
+      }
+    ],
+    "Trentino-Alto Adige": [
+      {
+        "key": "Trentino-Alto Adige",
+        "yoYValue": 33,
+        "yoYPercentage": true
+      }
+    ],
+    "Umbria": [
+      {
+        "key": "Umbria",
+        "yoYValue": 6,
+        "yoYPercentage": true
+      }
+    ],
+    "Valle d'Aosta": [
+      {
+        "key": "Valle d'Aosta",
+        "yoYValue": 24,
+        "yoYPercentage": true
+      }
+    ],
+    "Veneto": [
+      {
+        "key": "Veneto",
+        "yoYValue": 7,
+        "yoYPercentage": true
+      }
+    ]
+  },
+  "flat": [
+    {
+      "key": "Abruzzo",
+      "yoYValue": 3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Basilicata",
+      "yoYValue": -9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Calabria",
+      "yoYValue": -5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Campania",
+      "yoYValue": 28,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Emilia-Romagna",
+      "yoYValue": -7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Friuli-Venezia Giulia",
+      "yoYValue": -10,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lazio",
+      "yoYValue": -12,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Liguria",
+      "yoYValue": 21,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lombardia",
+      "yoYValue": 8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Marche",
+      "yoYValue": -4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Molise",
+      "yoYValue": 24,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piemonte",
+      "yoYValue": 7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Puglia",
+      "yoYValue": -10,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sardegna",
+      "yoYValue": 0,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sicilia",
+      "yoYValue": -11,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Toscana",
+      "yoYValue": 2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trentino-Alto Adige",
+      "yoYValue": 33,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Umbria",
+      "yoYValue": 6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Valle d'Aosta",
+      "yoYValue": 24,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Veneto",
+      "yoYValue": 7,
+      "yoYPercentage": true
+    }
+  ]
+}

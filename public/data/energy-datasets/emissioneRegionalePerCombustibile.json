@@ -1,0 +1,789 @@
+{
+  "source": "CSV: Emissione regionale per combustibile [mln di tonnellate].csv",
+  "generated": "2026-09-03T11:12:42.035Z",
+  "totalRecords": 78,
+  "indexed": {
+    "Abruzzo|Petroliferi": [
+      {
+        "key": "Abruzzo|Petroliferi",
+        "value": 0
+      }
+    ],
+    "Emilia-Romagna|Altri": [
+      {
+        "key": "Emilia-Romagna|Altri",
+        "value": 0
+      }
+    ],
+    "Lazio|Altri": [
+      {
+        "key": "Lazio|Altri",
+        "value": 0
+      }
+    ],
+    "Liguria|Bioenergie": [
+      {
+        "key": "Liguria|Bioenergie",
+        "value": 0
+      }
+    ],
+    "Liguria|Petroliferi": [
+      {
+        "key": "Liguria|Petroliferi",
+        "value": 0
+      }
+    ],
+    "Lombardia|Altri": [
+      {
+        "key": "Lombardia|Altri",
+        "value": 0
+      }
+    ],
+    "Lombardia|Solidi": [
+      {
+        "key": "Lombardia|Solidi",
+        "value": 0
+      }
+    ],
+    "Marche|Petroliferi": [
+      {
+        "key": "Marche|Petroliferi",
+        "value": 0
+      }
+    ],
+    "Marche|Solidi": [
+      {
+        "key": "Marche|Solidi",
+        "value": 0
+      }
+    ],
+    "Molise|Petroliferi": [
+      {
+        "key": "Molise|Petroliferi",
+        "value": 0
+      }
+    ],
+    "Piemonte|Altri": [
+      {
+        "key": "Piemonte|Altri",
+        "value": 0
+      }
+    ],
+    "Sardegna|Altri": [
+      {
+        "key": "Sardegna|Altri",
+        "value": 0
+      }
+    ],
+    "Toscana|Altri": [
+      {
+        "key": "Toscana|Altri",
+        "value": 0
+      }
+    ],
+    "Trentino-Alto Adige|Altri": [
+      {
+        "key": "Trentino-Alto Adige|Altri",
+        "value": 0
+      }
+    ],
+    "Umbria|Bioenergie": [
+      {
+        "key": "Umbria|Bioenergie",
+        "value": 0
+      }
+    ],
+    "Valle d'Aosta|Petroliferi": [
+      {
+        "key": "Valle d'Aosta|Petroliferi",
+        "value": 0
+      }
+    ],
+    "Veneto|Altri": [
+      {
+        "key": "Veneto|Altri",
+        "value": 0
+      }
+    ],
+    "Friuli-Venezia Giulia|Altri": [
+      {
+        "key": "Friuli-Venezia Giulia|Altri",
+        "value": 2.37977e-7
+      }
+    ],
+    "Basilicata|Petroliferi": [
+      {
+        "key": "Basilicata|Petroliferi",
+        "value": 0.0000023279651
+      }
+    ],
+    "Marche|Altri": [
+      {
+        "key": "Marche|Altri",
+        "value": 0.0000033021913
+      }
+    ],
+    "Marche|Bioenergie": [
+      {
+        "key": "Marche|Bioenergie",
+        "value": 0.000019413692
+      }
+    ],
+    "Umbria|Petroliferi": [
+      {
+        "key": "Umbria|Petroliferi",
+        "value": 0.0007535763
+      }
+    ],
+    "Calabria|Petroliferi": [
+      {
+        "key": "Calabria|Petroliferi",
+        "value": 0.0009461402
+      }
+    ],
+    "Friuli-Venezia Giulia|Petroliferi": [
+      {
+        "key": "Friuli-Venezia Giulia|Petroliferi",
+        "value": 0.0013110945
+      }
+    ],
+    "Emilia-Romagna|Petroliferi": [
+      {
+        "key": "Emilia-Romagna|Petroliferi",
+        "value": 0.001431347
+      }
+    ],
+    "Sardegna|Gas Naturale": [
+      {
+        "key": "Sardegna|Gas Naturale",
+        "value": 0.0018466448
+      }
+    ],
+    "Trentino-Alto Adige|Petroliferi": [
+      {
+        "key": "Trentino-Alto Adige|Petroliferi",
+        "value": 0.0022527676
+      }
+    ],
+    "Campania|Petroliferi": [
+      {
+        "key": "Campania|Petroliferi",
+        "value": 0.0037960184
+      }
+    ],
+    "Toscana|Petroliferi": [
+      {
+        "key": "Toscana|Petroliferi",
+        "value": 0.007476594
+      }
+    ],
+    "Lazio|Petroliferi": [
+      {
+        "key": "Lazio|Petroliferi",
+        "value": 0.011790545
+      }
+    ],
+    "Sicilia|Altri": [
+      {
+        "key": "Sicilia|Altri",
+        "value": 0.011836147
+      }
+    ],
+    "Valle d'Aosta|Gas Naturale": [
+      {
+        "key": "Valle d'Aosta|Gas Naturale",
+        "value": 0.019087037
+      }
+    ],
+    "Basilicata|Bioenergie": [
+      {
+        "key": "Basilicata|Bioenergie",
+        "value": 0.021275297
+      }
+    ],
+    "Veneto|Petroliferi": [
+      {
+        "key": "Veneto|Petroliferi",
+        "value": 0.038245864
+      }
+    ],
+    "Piemonte|Petroliferi": [
+      {
+        "key": "Piemonte|Petroliferi",
+        "value": 0.03936733
+      }
+    ],
+    "Liguria|Altri": [
+      {
+        "key": "Liguria|Altri",
+        "value": 0.044992764
+      }
+    ],
+    "Trentino-Alto Adige|Bioenergie": [
+      {
+        "key": "Trentino-Alto Adige|Bioenergie",
+        "value": 0.08377351
+      }
+    ],
+    "Lombardia|Petroliferi": [
+      {
+        "key": "Lombardia|Petroliferi",
+        "value": 0.08522074
+      }
+    ],
+    "Molise|Bioenergie": [
+      {
+        "key": "Molise|Bioenergie",
+        "value": 0.088228665
+      }
+    ],
+    "Calabria|Bioenergie": [
+      {
+        "key": "Calabria|Bioenergie",
+        "value": 0.09911621
+      }
+    ],
+    "Marche|Gas Naturale": [
+      {
+        "key": "Marche|Gas Naturale",
+        "value": 0.104249
+      }
+    ],
+    "Toscana|Bioenergie": [
+      {
+        "key": "Toscana|Bioenergie",
+        "value": 0.1148494
+      }
+    ],
+    "Puglia|Petroliferi": [
+      {
+        "key": "Puglia|Petroliferi",
+        "value": 0.12510723
+      }
+    ],
+    "Puglia|Bioenergie": [
+      {
+        "key": "Puglia|Bioenergie",
+        "value": 0.13683309
+      }
+    ],
+    "Friuli-Venezia Giulia|Bioenergie": [
+      {
+        "key": "Friuli-Venezia Giulia|Bioenergie",
+        "value": 0.14089976
+      }
+    ],
+    "Veneto|Bioenergie": [
+      {
+        "key": "Veneto|Bioenergie",
+        "value": 0.15204652
+      }
+    ],
+    "Basilicata|Gas Naturale": [
+      {
+        "key": "Basilicata|Gas Naturale",
+        "value": 0.21390249
+      }
+    ],
+    "Lazio|Bioenergie": [
+      {
+        "key": "Lazio|Bioenergie",
+        "value": 0.21876928
+      }
+    ],
+    "Sardegna|Petroliferi": [
+      {
+        "key": "Sardegna|Petroliferi",
+        "value": 0.24339867
+      }
+    ],
+    "Molise|Gas Naturale": [
+      {
+        "key": "Molise|Gas Naturale",
+        "value": 0.25923672
+      }
+    ],
+    "Friuli-Venezia Giulia|Solidi": [
+      {
+        "key": "Friuli-Venezia Giulia|Solidi",
+        "value": 0.28039536
+      }
+    ],
+    "Umbria|Gas Naturale": [
+      {
+        "key": "Umbria|Gas Naturale",
+        "value": 0.287807
+      }
+    ],
+    "Trentino-Alto Adige|Gas Naturale": [
+      {
+        "key": "Trentino-Alto Adige|Gas Naturale",
+        "value": 0.30926955
+      }
+    ],
+    "Piemonte|Bioenergie": [
+      {
+        "key": "Piemonte|Bioenergie",
+        "value": 0.41740856
+      }
+    ],
+    "Liguria|Gas Naturale": [
+      {
+        "key": "Liguria|Gas Naturale",
+        "value": 0.4383161
+      }
+    ],
+    "Campania|Bioenergie": [
+      {
+        "key": "Campania|Bioenergie",
+        "value": 0.6113068
+      }
+    ],
+    "Abruzzo|Gas Naturale": [
+      {
+        "key": "Abruzzo|Gas Naturale",
+        "value": 0.76306975
+      }
+    ],
+    "Emilia-Romagna|Bioenergie": [
+      {
+        "key": "Emilia-Romagna|Bioenergie",
+        "value": 0.81537306
+      }
+    ],
+    "Lazio|Gas Naturale": [
+      {
+        "key": "Lazio|Gas Naturale",
+        "value": 1.2147601
+      }
+    ],
+    "Sicilia|Bioenergie": [
+      {
+        "key": "Sicilia|Bioenergie",
+        "value": 1.2797207
+      }
+    ],
+    "Sicilia|Petroliferi": [
+      {
+        "key": "Sicilia|Petroliferi",
+        "value": 1.4480299
+      }
+    ],
+    "Lombardia|Bioenergie": [
+      {
+        "key": "Lombardia|Bioenergie",
+        "value": 1.4759669
+      }
+    ],
+    "Campania|Gas Naturale": [
+      {
+        "key": "Campania|Gas Naturale",
+        "value": 1.494694
+      }
+    ],
+    "Puglia|Altri": [
+      {
+        "key": "Puglia|Altri",
+        "value": 1.5337493
+      }
+    ],
+    "Friuli-Venezia Giulia|Gas Naturale": [
+      {
+        "key": "Friuli-Venezia Giulia|Gas Naturale",
+        "value": 1.5939385
+      }
+    ],
+    "Veneto|Gas Naturale": [
+      {
+        "key": "Veneto|Gas Naturale",
+        "value": 1.6471812
+      }
+    ],
+    "Veneto|Solidi": [
+      {
+        "key": "Veneto|Solidi",
+        "value": 1.8026521
+      }
+    ],
+    "Sardegna|Bioenergie": [
+      {
+        "key": "Sardegna|Bioenergie",
+        "value": 1.826731
+      }
+    ],
+    "Toscana|Gas Naturale": [
+      {
+        "key": "Toscana|Gas Naturale",
+        "value": 2.7195141
+      }
+    ],
+    "Sicilia|Gas Naturale": [
+      {
+        "key": "Sicilia|Gas Naturale",
+        "value": 2.9242904
+      }
+    ],
+    "Lazio|Solidi": [
+      {
+        "key": "Lazio|Solidi",
+        "value": 3.0232491
+      }
+    ],
+    "Calabria|Gas Naturale": [
+      {
+        "key": "Calabria|Gas Naturale",
+        "value": 3.4521875
+      }
+    ],
+    "Sardegna|Solidi": [
+      {
+        "key": "Sardegna|Solidi",
+        "value": 3.4824715
+      }
+    ],
+    "Puglia|Solidi": [
+      {
+        "key": "Puglia|Solidi",
+        "value": 3.5144184
+      }
+    ],
+    "Puglia|Gas Naturale": [
+      {
+        "key": "Puglia|Gas Naturale",
+        "value": 4.493488
+      }
+    ],
+    "Piemonte|Gas Naturale": [
+      {
+        "key": "Piemonte|Gas Naturale",
+        "value": 5.381931
+      }
+    ],
+    "Emilia-Romagna|Gas Naturale": [
+      {
+        "key": "Emilia-Romagna|Gas Naturale",
+        "value": 6.169787
+      }
+    ],
+    "Lombardia|Gas Naturale": [
+      {
+        "key": "Lombardia|Gas Naturale",
+        "value": 10.5420265
+      }
+    ]
+  },
+  "flat": [
+    {
+      "key": "Abruzzo|Petroliferi",
+      "value": 0
+    },
+    {
+      "key": "Emilia-Romagna|Altri",
+      "value": 0
+    },
+    {
+      "key": "Lazio|Altri",
+      "value": 0
+    },
+    {
+      "key": "Liguria|Bioenergie",
+      "value": 0
+    },
+    {
+      "key": "Liguria|Petroliferi",
+      "value": 0
+    },
+    {
+      "key": "Lombardia|Altri",
+      "value": 0
+    },
+    {
+      "key": "Lombardia|Solidi",
+      "value": 0
+    },
+    {
+      "key": "Marche|Petroliferi",
+      "value": 0
+    },
+    {
+      "key": "Marche|Solidi",
+      "value": 0
+    },
+    {
+      "key": "Molise|Petroliferi",
+      "value": 0
+    },
+    {
+      "key": "Piemonte|Altri",
+      "value": 0
+    },
+    {
+      "key": "Sardegna|Altri",
+      "value": 0
+    },
+    {
+      "key": "Toscana|Altri",
+      "value": 0
+    },
+    {
+      "key": "Trentino-Alto Adige|Altri",
+      "value": 0
+    },
+    {
+      "key": "Umbria|Bioenergie",
+      "value": 0
+    },
+    {
+      "key": "Valle d'Aosta|Petroliferi",
+      "value": 0
+    },
+    {
+      "key": "Veneto|Altri",
+      "value": 0
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Altri",
+      "value": 2.37977e-7
+    },
+    {
+      "key": "Basilicata|Petroliferi",
+      "value": 0.0000023279651
+    },
+    {
+      "key": "Marche|Altri",
+      "value": 0.0000033021913
+    },
+    {
+      "key": "Marche|Bioenergie",
+      "value": 0.000019413692
+    },
+    {
+      "key": "Umbria|Petroliferi",
+      "value": 0.0007535763
+    },
+    {
+      "key": "Calabria|Petroliferi",
+      "value": 0.0009461402
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Petroliferi",
+      "value": 0.0013110945
+    },
+    {
+      "key": "Emilia-Romagna|Petroliferi",
+      "value": 0.001431347
+    },
+    {
+      "key": "Sardegna|Gas Naturale",
+      "value": 0.0018466448
+    },
+    {
+      "key": "Trentino-Alto Adige|Petroliferi",
+      "value": 0.0022527676
+    },
+    {
+      "key": "Campania|Petroliferi",
+      "value": 0.0037960184
+    },
+    {
+      "key": "Toscana|Petroliferi",
+      "value": 0.007476594
+    },
+    {
+      "key": "Lazio|Petroliferi",
+      "value": 0.011790545
+    },
+    {
+      "key": "Sicilia|Altri",
+      "value": 0.011836147
+    },
+    {
+      "key": "Valle d'Aosta|Gas Naturale",
+      "value": 0.019087037
+    },
+    {
+      "key": "Basilicata|Bioenergie",
+      "value": 0.021275297
+    },
+    {
+      "key": "Veneto|Petroliferi",
+      "value": 0.038245864
+    },
+    {
+      "key": "Piemonte|Petroliferi",
+      "value": 0.03936733
+    },
+    {
+      "key": "Liguria|Altri",
+      "value": 0.044992764
+    },
+    {
+      "key": "Trentino-Alto Adige|Bioenergie",
+      "value": 0.08377351
+    },
+    {
+      "key": "Lombardia|Petroliferi",
+      "value": 0.08522074
+    },
+    {
+      "key": "Molise|Bioenergie",
+      "value": 0.088228665
+    },
+    {
+      "key": "Calabria|Bioenergie",
+      "value": 0.09911621
+    },
+    {
+      "key": "Marche|Gas Naturale",
+      "value": 0.104249
+    },
+    {
+      "key": "Toscana|Bioenergie",
+      "value": 0.1148494
+    },
+    {
+      "key": "Puglia|Petroliferi",
+      "value": 0.12510723
+    },
+    {
+      "key": "Puglia|Bioenergie",
+      "value": 0.13683309
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Bioenergie",
+      "value": 0.14089976
+    },
+    {
+      "key": "Veneto|Bioenergie",
+      "value": 0.15204652
+    },
+    {
+      "key": "Basilicata|Gas Naturale",
+      "value": 0.21390249
+    },
+    {
+      "key": "Lazio|Bioenergie",
+      "value": 0.21876928
+    },
+    {
+      "key": "Sardegna|Petroliferi",
+      "value": 0.24339867
+    },
+    {
+      "key": "Molise|Gas Naturale",
+      "value": 0.25923672
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Solidi",
+      "value": 0.28039536
+    },
+    {
+      "key": "Umbria|Gas Naturale",
+      "value": 0.287807
+    },
+    {
+      "key": "Trentino-Alto Adige|Gas Naturale",
+      "value": 0.30926955
+    },
+    {
+      "key": "Piemonte|Bioenergie",
+      "value": 0.41740856
+    },
+    {
+      "key": "Liguria|Gas Naturale",
+      "value": 0.4383161
+    },
+    {
+      "key": "Campania|Bioenergie",
+      "value": 0.6113068
+    },
+    {
+      "key": "Abruzzo|Gas Naturale",
+      "value": 0.76306975
+    },
+    {
+      "key": "Emilia-Romagna|Bioenergie",
+      "value": 0.81537306
+    },
+    {
+      "key": "Lazio|Gas Naturale",
+      "value": 1.2147601
+    },
+    {
+      "key": "Sicilia|Bioenergie",
+      "value": 1.2797207
+    },
+    {
+      "key": "Sicilia|Petroliferi",
+      "value": 1.4480299
+    },
+    {
+      "key": "Lombardia|Bioenergie",
+      "value": 1.4759669
+    },
+    {
+      "key": "Campania|Gas Naturale",
+      "value": 1.494694
+    },
+    {
+      "key": "Puglia|Altri",
+      "value": 1.5337493
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Gas Naturale",
+      "value": 1.5939385
+    },
+    {
+      "key": "Veneto|Gas Naturale",
+      "value": 1.6471812
+    },
+    {
+      "key": "Veneto|Solidi",
+      "value": 1.8026521
+    },
+    {
+      "key": "Sardegna|Bioenergie",
+      "value": 1.826731
+    },
+    {
+      "key": "Toscana|Gas Naturale",
+      "value": 2.7195141
+    },
+    {
+      "key": "Sicilia|Gas Naturale",
+      "value": 2.9242904
+    },
+    {
+      "key": "Lazio|Solidi",
+      "value": 3.0232491
+    },
+    {
+      "key": "Calabria|Gas Naturale",
+      "value": 3.4521875
+    },
+    {
+      "key": "Sardegna|Solidi",
+      "value": 3.4824715
+    },
+    {
+      "key": "Puglia|Solidi",
+      "value": 3.5144184
+    },
+    {
+      "key": "Puglia|Gas Naturale",
+      "value": 4.493488
+    },
+    {
+      "key": "Piemonte|Gas Naturale",
+      "value": 5.381931
+    },
+    {
+      "key": "Emilia-Romagna|Gas Naturale",
+      "value": 6.169787
+    },
+    {
+      "key": "Lombardia|Gas Naturale",
+      "value": 10.5420265
+    }
+  ]
+}

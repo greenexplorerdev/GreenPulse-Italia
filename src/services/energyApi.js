@@ -5,7 +5,7 @@
 //  2. deriveMetrics(rawData) — calcola metriche energetiche dai dati grezzi
 //  3. getEnergyData(lat, lng, signal) — funzione principale che combina i due passi
 
-// 1. Fetch dati grezzi da Open-Meteo 
+// ─── 1. Fetch dati grezzi da Open-Meteo ────────────────────────────────────
 
 async function fetchEnergyData(latitude, longitude, signal) {
   const url = new URL("https://api.open-meteo.com/v1/forecast");
@@ -41,13 +41,13 @@ async function fetchEnergyData(latitude, longitude, signal) {
   return response.json();
 }
 
-// ─── 2. Calcolo metriche derivate 
+// ─── 2. Calcolo metriche derivate ──────────────────────────────────────────
 
 function deriveMetrics(raw) {
   const c = raw.current;   // dati ora corrente
   const h = raw.hourly;    // dati 24 ore
 
-  // ── Valori correnti (mostrati nelle EnergyCard)
+  // ── Valori correnti (mostrati nelle EnergyCard) ──────────────────────────
 
   const solarNow = Math.round(c.shortwave_radiation);  // W/m²
   const windNow  = Math.round(c.wind_speed_10m * 10) / 10; // km/h, 1 decimale

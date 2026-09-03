@@ -1,0 +1,1319 @@
+{
+  "source": "CSV: Produzione regionale per fonte.csv",
+  "generated": "2026-09-03T11:12:41.949Z",
+  "totalRecords": 95,
+  "indexed": {
+    "Lombardia|Termoelettrico": [
+      {
+        "key": "Lombardia|Termoelettrico",
+        "value": 33688.808408,
+        "yoYValue": -2.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Emilia-Romagna|Termoelettrico": [
+      {
+        "key": "Emilia-Romagna|Termoelettrico",
+        "value": 16966.842626,
+        "yoYValue": -12.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Piemonte|Termoelettrico": [
+      {
+        "key": "Piemonte|Termoelettrico",
+        "value": 16264.065914325,
+        "yoYValue": -8.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Puglia|Termoelettrico": [
+      {
+        "key": "Puglia|Termoelettrico",
+        "value": 15325.696639,
+        "yoYValue": -16.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Lombardia|Idrico": [
+      {
+        "key": "Lombardia|Idrico",
+        "value": 13526.831898,
+        "yoYValue": 47.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Trentino-Alto Adige|Idrico": [
+      {
+        "key": "Trentino-Alto Adige|Idrico",
+        "value": 13187.1728,
+        "yoYValue": 38.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Calabria|Termoelettrico": [
+      {
+        "key": "Calabria|Termoelettrico",
+        "value": 9481.4866015,
+        "yoYValue": -5.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Sicilia|Termoelettrico": [
+      {
+        "key": "Sicilia|Termoelettrico",
+        "value": 8983.632988,
+        "yoYValue": -25.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Piemonte|Idrico": [
+      {
+        "key": "Piemonte|Idrico",
+        "value": 8888.457864,
+        "yoYValue": 55.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Campania|Termoelettrico": [
+      {
+        "key": "Campania|Termoelettrico",
+        "value": 8618.493945,
+        "yoYValue": 73.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Sardegna|Termoelettrico": [
+      {
+        "key": "Sardegna|Termoelettrico",
+        "value": 8516.10248,
+        "yoYValue": -1.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Veneto|Termoelettrico": [
+      {
+        "key": "Veneto|Termoelettrico",
+        "value": 8037.647513275,
+        "yoYValue": -5.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Toscana|Termoelettrico": [
+      {
+        "key": "Toscana|Termoelettrico",
+        "value": 7965.6894425,
+        "yoYValue": -1.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Puglia|Eolico": [
+      {
+        "key": "Puglia|Eolico",
+        "value": 5885.110948,
+        "yoYValue": -9,
+        "yoYPercentage": true
+      }
+    ],
+    "Toscana|Geotermoelettrico": [
+      {
+        "key": "Toscana|Geotermoelettrico",
+        "value": 5674.96615,
+        "yoYValue": -0.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Lazio|Termoelettrico": [
+      {
+        "key": "Lazio|Termoelettrico",
+        "value": 5249.336082,
+        "yoYValue": -27.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Veneto|Idrico": [
+      {
+        "key": "Veneto|Idrico",
+        "value": 4843.0781965,
+        "yoYValue": 34.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Puglia|Fotovoltaico": [
+      {
+        "key": "Puglia|Fotovoltaico",
+        "value": 4638.890626,
+        "yoYValue": 10.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Lombardia|Fotovoltaico": [
+      {
+        "key": "Lombardia|Fotovoltaico",
+        "value": 3991.525996,
+        "yoYValue": 13.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Valle d'Aosta|Idrico": [
+      {
+        "key": "Valle d'Aosta|Idrico",
+        "value": 3900.31462,
+        "yoYValue": 24.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Sicilia|Eolico": [
+      {
+        "key": "Sicilia|Eolico",
+        "value": 3871.759008,
+        "yoYValue": 14,
+        "yoYPercentage": true
+      }
+    ],
+    "Campania|Eolico": [
+      {
+        "key": "Campania|Eolico",
+        "value": 3666.645125,
+        "yoYValue": -11.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Friuli-Venezia Giulia|Termoelettrico": [
+      {
+        "key": "Friuli-Venezia Giulia|Termoelettrico",
+        "value": 3565.570396,
+        "yoYValue": -32.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Emilia-Romagna|Fotovoltaico": [
+      {
+        "key": "Emilia-Romagna|Fotovoltaico",
+        "value": 3254.428462,
+        "yoYValue": 9.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Veneto|Fotovoltaico": [
+      {
+        "key": "Veneto|Fotovoltaico",
+        "value": 3220.480554,
+        "yoYValue": 11.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Lazio|Fotovoltaico": [
+      {
+        "key": "Lazio|Fotovoltaico",
+        "value": 3184.148052,
+        "yoYValue": 44.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Sicilia|Fotovoltaico": [
+      {
+        "key": "Sicilia|Fotovoltaico",
+        "value": 3044.646616,
+        "yoYValue": 27.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Basilicata|Eolico": [
+      {
+        "key": "Basilicata|Eolico",
+        "value": 2899.06611,
+        "yoYValue": -10.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Piemonte|Fotovoltaico": [
+      {
+        "key": "Piemonte|Fotovoltaico",
+        "value": 2745.81542,
+        "yoYValue": 14.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Abruzzo|Termoelettrico": [
+      {
+        "key": "Abruzzo|Termoelettrico",
+        "value": 2722.735844,
+        "yoYValue": 23.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Calabria|Eolico": [
+      {
+        "key": "Calabria|Eolico",
+        "value": 2187.8053226,
+        "yoYValue": -4.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Friuli-Venezia Giulia|Idrico": [
+      {
+        "key": "Friuli-Venezia Giulia|Idrico",
+        "value": 2177.698864,
+        "yoYValue": 44.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Sardegna|Eolico": [
+      {
+        "key": "Sardegna|Eolico",
+        "value": 1890.839328,
+        "yoYValue": -2.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Sardegna|Fotovoltaico": [
+      {
+        "key": "Sardegna|Fotovoltaico",
+        "value": 1839.27074,
+        "yoYValue": 21,
+        "yoYPercentage": true
+      }
+    ],
+    "Marche|Fotovoltaico": [
+      {
+        "key": "Marche|Fotovoltaico",
+        "value": 1602.61856,
+        "yoYValue": 8,
+        "yoYPercentage": true
+      }
+    ],
+    "Liguria|Termoelettrico": [
+      {
+        "key": "Liguria|Termoelettrico",
+        "value": 1505.95350603,
+        "yoYValue": 17.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Trentino-Alto Adige|Termoelettrico": [
+      {
+        "key": "Trentino-Alto Adige|Termoelettrico",
+        "value": 1483.005071,
+        "yoYValue": 6,
+        "yoYPercentage": true
+      }
+    ],
+    "Molise|Termoelettrico": [
+      {
+        "key": "Molise|Termoelettrico",
+        "value": 1474.948662,
+        "yoYValue": 84.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Campania|Fotovoltaico": [
+      {
+        "key": "Campania|Fotovoltaico",
+        "value": 1431.333776,
+        "yoYValue": 23.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Toscana|Fotovoltaico": [
+      {
+        "key": "Toscana|Fotovoltaico",
+        "value": 1376.743796,
+        "yoYValue": 16.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Umbria|Idrico": [
+      {
+        "key": "Umbria|Idrico",
+        "value": 1287.183232,
+        "yoYValue": -8.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Abruzzo|Fotovoltaico": [
+      {
+        "key": "Abruzzo|Fotovoltaico",
+        "value": 1223.345184,
+        "yoYValue": 16,
+        "yoYPercentage": true
+      }
+    ],
+    "Umbria|Termoelettrico": [
+      {
+        "key": "Umbria|Termoelettrico",
+        "value": 1154.9777,
+        "yoYValue": 23.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Emilia-Romagna|Idrico": [
+      {
+        "key": "Emilia-Romagna|Idrico",
+        "value": 1128.421706,
+        "yoYValue": 37.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Abruzzo|Idrico": [
+      {
+        "key": "Abruzzo|Idrico",
+        "value": 1095.322064,
+        "yoYValue": -28.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Friuli-Venezia Giulia|Fotovoltaico": [
+      {
+        "key": "Friuli-Venezia Giulia|Fotovoltaico",
+        "value": 961.405026,
+        "yoYValue": 30.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Calabria|Fotovoltaico": [
+      {
+        "key": "Calabria|Fotovoltaico",
+        "value": 918.280744,
+        "yoYValue": 16.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Toscana|Idrico": [
+      {
+        "key": "Toscana|Idrico",
+        "value": 867.7259203,
+        "yoYValue": 46.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Calabria|Idrico": [
+      {
+        "key": "Calabria|Idrico",
+        "value": 813.618919,
+        "yoYValue": -19.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Lazio|Idrico": [
+      {
+        "key": "Lazio|Idrico",
+        "value": 774.50339706,
+        "yoYValue": -24.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Campania|Idrico": [
+      {
+        "key": "Campania|Idrico",
+        "value": 712.5604275,
+        "yoYValue": -25,
+        "yoYPercentage": true
+      }
+    ],
+    "Umbria|Fotovoltaico": [
+      {
+        "key": "Umbria|Fotovoltaico",
+        "value": 712.388816,
+        "yoYValue": 12.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Trentino-Alto Adige|Fotovoltaico": [
+      {
+        "key": "Trentino-Alto Adige|Fotovoltaico",
+        "value": 694.843232,
+        "yoYValue": 13.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Basilicata|Fotovoltaico": [
+      {
+        "key": "Basilicata|Fotovoltaico",
+        "value": 660.841056,
+        "yoYValue": 15.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Molise|Eolico": [
+      {
+        "key": "Molise|Eolico",
+        "value": 642.208848,
+        "yoYValue": -16.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Basilicata|Termoelettrico": [
+      {
+        "key": "Basilicata|Termoelettrico",
+        "value": 518.924752,
+        "yoYValue": -13.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Marche|Termoelettrico": [
+      {
+        "key": "Marche|Termoelettrico",
+        "value": 495.157554,
+        "yoYValue": 8.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Abruzzo|Eolico": [
+      {
+        "key": "Abruzzo|Eolico",
+        "value": 416.040036,
+        "yoYValue": -16,
+        "yoYPercentage": true
+      }
+    ],
+    "Sardegna|Idrico": [
+      {
+        "key": "Sardegna|Idrico",
+        "value": 380.585386,
+        "yoYValue": -21.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Liguria|Eolico": [
+      {
+        "key": "Liguria|Eolico",
+        "value": 318.392471,
+        "yoYValue": 7.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Liguria|Idrico": [
+      {
+        "key": "Liguria|Idrico",
+        "value": 278.425087,
+        "yoYValue": 96.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Molise|Fotovoltaico": [
+      {
+        "key": "Molise|Fotovoltaico",
+        "value": 267.707312,
+        "yoYValue": 15,
+        "yoYPercentage": true
+      }
+    ],
+    "Marche|Idrico": [
+      {
+        "key": "Marche|Idrico",
+        "value": 255.380114,
+        "yoYValue": -51.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Toscana|Eolico": [
+      {
+        "key": "Toscana|Eolico",
+        "value": 249.29243922,
+        "yoYValue": -14.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Sicilia|Idrico": [
+      {
+        "key": "Sicilia|Idrico",
+        "value": 246.623765,
+        "yoYValue": -32.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Basilicata|Idrico": [
+      {
+        "key": "Basilicata|Idrico",
+        "value": 242.647989,
+        "yoYValue": -35.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Liguria|Fotovoltaico": [
+      {
+        "key": "Liguria|Fotovoltaico",
+        "value": 187.174748,
+        "yoYValue": 12.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Molise|Idrico": [
+      {
+        "key": "Molise|Idrico",
+        "value": 141.931192,
+        "yoYValue": -36.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Lazio|Eolico": [
+      {
+        "key": "Lazio|Eolico",
+        "value": 130.53387796,
+        "yoYValue": -12,
+        "yoYPercentage": true
+      }
+    ],
+    "Emilia-Romagna|Eolico": [
+      {
+        "key": "Emilia-Romagna|Eolico",
+        "value": 76.69926136,
+        "yoYValue": -18.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Valle d'Aosta|Termoelettrico": [
+      {
+        "key": "Valle d'Aosta|Termoelettrico",
+        "value": 61.148648,
+        "yoYValue": 5.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Valle d'Aosta|Fotovoltaico": [
+      {
+        "key": "Valle d'Aosta|Fotovoltaico",
+        "value": 37.214396,
+        "yoYValue": 8,
+        "yoYPercentage": true
+      }
+    ],
+    "Emilia-Romagna|Accumulo Stand Alone": [
+      {
+        "key": "Emilia-Romagna|Accumulo Stand Alone",
+        "value": 36.100159,
+        "yoYValue": -100,
+        "yoYPercentage": true
+      }
+    ],
+    "Friuli-Venezia Giulia|Accumulo Stand Alone": [
+      {
+        "key": "Friuli-Venezia Giulia|Accumulo Stand Alone",
+        "value": 30.07227
+      }
+    ],
+    "Marche|Eolico": [
+      {
+        "key": "Marche|Eolico",
+        "value": 27.83164124,
+        "yoYValue": -26.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Piemonte|Eolico": [
+      {
+        "key": "Piemonte|Eolico",
+        "value": 25.99263221,
+        "yoYValue": 3.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Piemonte|Accumulo Stand Alone": [
+      {
+        "key": "Piemonte|Accumulo Stand Alone",
+        "value": 24.969636,
+        "yoYValue": -100,
+        "yoYPercentage": true
+      }
+    ],
+    "Veneto|Eolico": [
+      {
+        "key": "Veneto|Eolico",
+        "value": 24.58813023,
+        "yoYValue": 15.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Liguria|Accumulo Stand Alone": [
+      {
+        "key": "Liguria|Accumulo Stand Alone",
+        "value": 9.353581,
+        "yoYValue": 270.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Puglia|Idrico": [
+      {
+        "key": "Puglia|Idrico",
+        "value": 8.476006,
+        "yoYValue": -13.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Veneto|Accumulo Stand Alone": [
+      {
+        "key": "Veneto|Accumulo Stand Alone",
+        "value": 7.697567,
+        "yoYValue": 4282.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Umbria|Accumulo Stand Alone": [
+      {
+        "key": "Umbria|Accumulo Stand Alone",
+        "value": 7.251822,
+        "yoYValue": 177.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Lombardia|Accumulo Stand Alone": [
+      {
+        "key": "Lombardia|Accumulo Stand Alone",
+        "value": 5.523583
+      }
+    ],
+    "Sardegna|Accumulo Stand Alone": [
+      {
+        "key": "Sardegna|Accumulo Stand Alone",
+        "value": 5.418633,
+        "yoYValue": 272.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Umbria|Eolico": [
+      {
+        "key": "Umbria|Eolico",
+        "value": 5.26943211,
+        "yoYValue": -1.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Valle d'Aosta|Eolico": [
+      {
+        "key": "Valle d'Aosta|Eolico",
+        "value": 3.783062,
+        "yoYValue": -12.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Puglia|Accumulo Stand Alone": [
+      {
+        "key": "Puglia|Accumulo Stand Alone",
+        "value": 3.665456,
+        "yoYValue": -100,
+        "yoYPercentage": true
+      }
+    ],
+    "Sicilia|Accumulo Stand Alone": [
+      {
+        "key": "Sicilia|Accumulo Stand Alone",
+        "value": 3.496099,
+        "yoYValue": 119.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Lazio|Accumulo Stand Alone": [
+      {
+        "key": "Lazio|Accumulo Stand Alone",
+        "value": 2.38879
+      }
+    ],
+    "Trentino-Alto Adige|Eolico": [
+      {
+        "key": "Trentino-Alto Adige|Eolico",
+        "value": 0.034198,
+        "yoYValue": -10.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Trentino-Alto Adige|Accumulo Stand Alone": [
+      {
+        "key": "Trentino-Alto Adige|Accumulo Stand Alone",
+        "value": 0.002158,
+        "yoYValue": -100,
+        "yoYPercentage": true
+      }
+    ],
+    "Friuli-Venezia Giulia|Eolico": [
+      {
+        "key": "Friuli-Venezia Giulia|Eolico",
+        "value": 0.00173968,
+        "yoYValue": -21.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Lombardia|Eolico": [
+      {
+        "key": "Lombardia|Eolico",
+        "value": 0.00093671,
+        "yoYValue": -50.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Campania|Accumulo Stand Alone": [
+      {
+        "key": "Campania|Accumulo Stand Alone",
+        "value": 0
+      }
+    ],
+    "Toscana|Accumulo Stand Alone": [
+      {
+        "key": "Toscana|Accumulo Stand Alone",
+        "value": 0
+      }
+    ]
+  },
+  "flat": [
+    {
+      "key": "Lombardia|Termoelettrico",
+      "value": 33688.808408,
+      "yoYValue": -2.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Emilia-Romagna|Termoelettrico",
+      "value": 16966.842626,
+      "yoYValue": -12.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piemonte|Termoelettrico",
+      "value": 16264.065914325,
+      "yoYValue": -8.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Puglia|Termoelettrico",
+      "value": 15325.696639,
+      "yoYValue": -16.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lombardia|Idrico",
+      "value": 13526.831898,
+      "yoYValue": 47.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trentino-Alto Adige|Idrico",
+      "value": 13187.1728,
+      "yoYValue": 38.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Calabria|Termoelettrico",
+      "value": 9481.4866015,
+      "yoYValue": -5.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sicilia|Termoelettrico",
+      "value": 8983.632988,
+      "yoYValue": -25.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piemonte|Idrico",
+      "value": 8888.457864,
+      "yoYValue": 55.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Campania|Termoelettrico",
+      "value": 8618.493945,
+      "yoYValue": 73.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sardegna|Termoelettrico",
+      "value": 8516.10248,
+      "yoYValue": -1.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Veneto|Termoelettrico",
+      "value": 8037.647513275,
+      "yoYValue": -5.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Toscana|Termoelettrico",
+      "value": 7965.6894425,
+      "yoYValue": -1.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Puglia|Eolico",
+      "value": 5885.110948,
+      "yoYValue": -9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Toscana|Geotermoelettrico",
+      "value": 5674.96615,
+      "yoYValue": -0.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lazio|Termoelettrico",
+      "value": 5249.336082,
+      "yoYValue": -27.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Veneto|Idrico",
+      "value": 4843.0781965,
+      "yoYValue": 34.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Puglia|Fotovoltaico",
+      "value": 4638.890626,
+      "yoYValue": 10.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lombardia|Fotovoltaico",
+      "value": 3991.525996,
+      "yoYValue": 13.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Valle d'Aosta|Idrico",
+      "value": 3900.31462,
+      "yoYValue": 24.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sicilia|Eolico",
+      "value": 3871.759008,
+      "yoYValue": 14,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Campania|Eolico",
+      "value": 3666.645125,
+      "yoYValue": -11.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Termoelettrico",
+      "value": 3565.570396,
+      "yoYValue": -32.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Emilia-Romagna|Fotovoltaico",
+      "value": 3254.428462,
+      "yoYValue": 9.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Veneto|Fotovoltaico",
+      "value": 3220.480554,
+      "yoYValue": 11.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lazio|Fotovoltaico",
+      "value": 3184.148052,
+      "yoYValue": 44.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sicilia|Fotovoltaico",
+      "value": 3044.646616,
+      "yoYValue": 27.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Basilicata|Eolico",
+      "value": 2899.06611,
+      "yoYValue": -10.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piemonte|Fotovoltaico",
+      "value": 2745.81542,
+      "yoYValue": 14.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Abruzzo|Termoelettrico",
+      "value": 2722.735844,
+      "yoYValue": 23.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Calabria|Eolico",
+      "value": 2187.8053226,
+      "yoYValue": -4.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Idrico",
+      "value": 2177.698864,
+      "yoYValue": 44.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sardegna|Eolico",
+      "value": 1890.839328,
+      "yoYValue": -2.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sardegna|Fotovoltaico",
+      "value": 1839.27074,
+      "yoYValue": 21,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Marche|Fotovoltaico",
+      "value": 1602.61856,
+      "yoYValue": 8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Liguria|Termoelettrico",
+      "value": 1505.95350603,
+      "yoYValue": 17.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trentino-Alto Adige|Termoelettrico",
+      "value": 1483.005071,
+      "yoYValue": 6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Molise|Termoelettrico",
+      "value": 1474.948662,
+      "yoYValue": 84.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Campania|Fotovoltaico",
+      "value": 1431.333776,
+      "yoYValue": 23.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Toscana|Fotovoltaico",
+      "value": 1376.743796,
+      "yoYValue": 16.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Umbria|Idrico",
+      "value": 1287.183232,
+      "yoYValue": -8.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Abruzzo|Fotovoltaico",
+      "value": 1223.345184,
+      "yoYValue": 16,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Umbria|Termoelettrico",
+      "value": 1154.9777,
+      "yoYValue": 23.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Emilia-Romagna|Idrico",
+      "value": 1128.421706,
+      "yoYValue": 37.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Abruzzo|Idrico",
+      "value": 1095.322064,
+      "yoYValue": -28.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Fotovoltaico",
+      "value": 961.405026,
+      "yoYValue": 30.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Calabria|Fotovoltaico",
+      "value": 918.280744,
+      "yoYValue": 16.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Toscana|Idrico",
+      "value": 867.7259203,
+      "yoYValue": 46.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Calabria|Idrico",
+      "value": 813.618919,
+      "yoYValue": -19.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lazio|Idrico",
+      "value": 774.50339706,
+      "yoYValue": -24.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Campania|Idrico",
+      "value": 712.5604275,
+      "yoYValue": -25,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Umbria|Fotovoltaico",
+      "value": 712.388816,
+      "yoYValue": 12.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trentino-Alto Adige|Fotovoltaico",
+      "value": 694.843232,
+      "yoYValue": 13.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Basilicata|Fotovoltaico",
+      "value": 660.841056,
+      "yoYValue": 15.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Molise|Eolico",
+      "value": 642.208848,
+      "yoYValue": -16.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Basilicata|Termoelettrico",
+      "value": 518.924752,
+      "yoYValue": -13.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Marche|Termoelettrico",
+      "value": 495.157554,
+      "yoYValue": 8.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Abruzzo|Eolico",
+      "value": 416.040036,
+      "yoYValue": -16,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sardegna|Idrico",
+      "value": 380.585386,
+      "yoYValue": -21.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Liguria|Eolico",
+      "value": 318.392471,
+      "yoYValue": 7.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Liguria|Idrico",
+      "value": 278.425087,
+      "yoYValue": 96.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Molise|Fotovoltaico",
+      "value": 267.707312,
+      "yoYValue": 15,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Marche|Idrico",
+      "value": 255.380114,
+      "yoYValue": -51.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Toscana|Eolico",
+      "value": 249.29243922,
+      "yoYValue": -14.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sicilia|Idrico",
+      "value": 246.623765,
+      "yoYValue": -32.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Basilicata|Idrico",
+      "value": 242.647989,
+      "yoYValue": -35.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Liguria|Fotovoltaico",
+      "value": 187.174748,
+      "yoYValue": 12.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Molise|Idrico",
+      "value": 141.931192,
+      "yoYValue": -36.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lazio|Eolico",
+      "value": 130.53387796,
+      "yoYValue": -12,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Emilia-Romagna|Eolico",
+      "value": 76.69926136,
+      "yoYValue": -18.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Valle d'Aosta|Termoelettrico",
+      "value": 61.148648,
+      "yoYValue": 5.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Valle d'Aosta|Fotovoltaico",
+      "value": 37.214396,
+      "yoYValue": 8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Emilia-Romagna|Accumulo Stand Alone",
+      "value": 36.100159,
+      "yoYValue": -100,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Accumulo Stand Alone",
+      "value": 30.07227
+    },
+    {
+      "key": "Marche|Eolico",
+      "value": 27.83164124,
+      "yoYValue": -26.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piemonte|Eolico",
+      "value": 25.99263221,
+      "yoYValue": 3.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piemonte|Accumulo Stand Alone",
+      "value": 24.969636,
+      "yoYValue": -100,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Veneto|Eolico",
+      "value": 24.58813023,
+      "yoYValue": 15.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Liguria|Accumulo Stand Alone",
+      "value": 9.353581,
+      "yoYValue": 270.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Puglia|Idrico",
+      "value": 8.476006,
+      "yoYValue": -13.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Veneto|Accumulo Stand Alone",
+      "value": 7.697567,
+      "yoYValue": 4282.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Umbria|Accumulo Stand Alone",
+      "value": 7.251822,
+      "yoYValue": 177.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lombardia|Accumulo Stand Alone",
+      "value": 5.523583
+    },
+    {
+      "key": "Sardegna|Accumulo Stand Alone",
+      "value": 5.418633,
+      "yoYValue": 272.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Umbria|Eolico",
+      "value": 5.26943211,
+      "yoYValue": -1.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Valle d'Aosta|Eolico",
+      "value": 3.783062,
+      "yoYValue": -12.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Puglia|Accumulo Stand Alone",
+      "value": 3.665456,
+      "yoYValue": -100,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sicilia|Accumulo Stand Alone",
+      "value": 3.496099,
+      "yoYValue": 119.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lazio|Accumulo Stand Alone",
+      "value": 2.38879
+    },
+    {
+      "key": "Trentino-Alto Adige|Eolico",
+      "value": 0.034198,
+      "yoYValue": -10.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trentino-Alto Adige|Accumulo Stand Alone",
+      "value": 0.002158,
+      "yoYValue": -100,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Eolico",
+      "value": 0.00173968,
+      "yoYValue": -21.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lombardia|Eolico",
+      "value": 0.00093671,
+      "yoYValue": -50.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Campania|Accumulo Stand Alone",
+      "value": 0
+    },
+    {
+      "key": "Toscana|Accumulo Stand Alone",
+      "value": 0
+    }
+  ]
+}

@@ -1,0 +1,849 @@
+{
+  "source": "CSV: Domanda totale regionale [GWh].csv",
+  "generated": "2026-09-03T11:12:42.038Z",
+  "totalRecords": 60,
+  "indexed": {
+    "Lombardia|Fonti tradizionali": [
+      {
+        "key": "Lombardia|Fonti tradizionali",
+        "value": 32275.960628253,
+        "yoYValue": -2.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Lombardia|Saldo import/export": [
+      {
+        "key": "Lombardia|Saldo import/export",
+        "value": 16770.428,
+        "yoYValue": -16.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Emilia-Romagna|Fonti tradizionali": [
+      {
+        "key": "Emilia-Romagna|Fonti tradizionali",
+        "value": 16346.652933302,
+        "yoYValue": -12.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Veneto|Saldo import/export": [
+      {
+        "key": "Veneto|Saldo import/export",
+        "value": 15720.918,
+        "yoYValue": -0.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Piemonte|Fonti tradizionali": [
+      {
+        "key": "Piemonte|Fonti tradizionali",
+        "value": 15689.25969009,
+        "yoYValue": -8.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Puglia|Fonti tradizionali": [
+      {
+        "key": "Puglia|Fonti tradizionali",
+        "value": 14785.550590128,
+        "yoYValue": -15.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Lazio|Saldo import/export": [
+      {
+        "key": "Lazio|Saldo import/export",
+        "value": 13960.329,
+        "yoYValue": 13.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Puglia|Fonti rinnovabili": [
+      {
+        "key": "Puglia|Fonti rinnovabili",
+        "value": 12353.048109872,
+        "yoYValue": 2.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Calabria|Fonti tradizionali": [
+      {
+        "key": "Calabria|Fonti tradizionali",
+        "value": 9145.615092835,
+        "yoYValue": -6.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Sicilia|Fonti tradizionali": [
+      {
+        "key": "Sicilia|Fonti tradizionali",
+        "value": 8576.368495076,
+        "yoYValue": -25.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Emilia-Romagna|Saldo import/export": [
+      {
+        "key": "Emilia-Romagna|Saldo import/export",
+        "value": 8478.507,
+        "yoYValue": 39.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Campania|Fonti tradizionali": [
+      {
+        "key": "Campania|Fonti tradizionali",
+        "value": 8185.187984433,
+        "yoYValue": 74.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Sardegna|Fonti tradizionali": [
+      {
+        "key": "Sardegna|Fonti tradizionali",
+        "value": 7824.16383411,
+        "yoYValue": -1.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Toscana|Fonti tradizionali": [
+      {
+        "key": "Toscana|Fonti tradizionali",
+        "value": 7742.235083368,
+        "yoYValue": -0.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Veneto|Fonti tradizionali": [
+      {
+        "key": "Veneto|Fonti tradizionali",
+        "value": 7665.563831929,
+        "yoYValue": -3.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Lombardia|Fonti rinnovabili": [
+      {
+        "key": "Lombardia|Fonti rinnovabili",
+        "value": 7581.651883747,
+        "yoYValue": 8.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Toscana|Fonti rinnovabili": [
+      {
+        "key": "Toscana|Fonti rinnovabili",
+        "value": 7201.457586632,
+        "yoYValue": 1.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Sicilia|Fonti rinnovabili": [
+      {
+        "key": "Sicilia|Fonti rinnovabili",
+        "value": 6971.920614924,
+        "yoYValue": 19.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Campania|Fonti rinnovabili": [
+      {
+        "key": "Campania|Fonti rinnovabili",
+        "value": 5795.840265567,
+        "yoYValue": -1.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Emilia-Romagna|Fonti rinnovabili": [
+      {
+        "key": "Emilia-Romagna|Fonti rinnovabili",
+        "value": 5359.258981698,
+        "yoYValue": 5.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Lazio|Fonti tradizionali": [
+      {
+        "key": "Lazio|Fonti tradizionali",
+        "value": 5044.732201321,
+        "yoYValue": -26.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Marche|Saldo import/export": [
+      {
+        "key": "Marche|Saldo import/export",
+        "value": 5038.562,
+        "yoYValue": 9,
+        "yoYPercentage": true
+      }
+    ],
+    "Veneto|Fonti rinnovabili": [
+      {
+        "key": "Veneto|Fonti rinnovabili",
+        "value": 4881.180661431,
+        "yoYValue": 10,
+        "yoYPercentage": true
+      }
+    ],
+    "Campania|Saldo import/export": [
+      {
+        "key": "Campania|Saldo import/export",
+        "value": 4690.844,
+        "yoYValue": -38,
+        "yoYPercentage": true
+      }
+    ],
+    "Piemonte|Fonti rinnovabili": [
+      {
+        "key": "Piemonte|Fonti rinnovabili",
+        "value": 4193.47218891,
+        "yoYValue": 9.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Toscana|Saldo import/export": [
+      {
+        "key": "Toscana|Saldo import/export",
+        "value": 4169.9536,
+        "yoYValue": 1.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Calabria|Fonti rinnovabili": [
+      {
+        "key": "Calabria|Fonti rinnovabili",
+        "value": 4154.812260165,
+        "yoYValue": 9.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Liguria|Saldo import/export": [
+      {
+        "key": "Liguria|Saldo import/export",
+        "value": 4137.133,
+        "yoYValue": -6.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Sardegna|Fonti rinnovabili": [
+      {
+        "key": "Sardegna|Fonti rinnovabili",
+        "value": 4094.21014589,
+        "yoYValue": 5.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Lazio|Fonti rinnovabili": [
+      {
+        "key": "Lazio|Fonti rinnovabili",
+        "value": 3832.129648679,
+        "yoYValue": 34.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Basilicata|Fonti rinnovabili": [
+      {
+        "key": "Basilicata|Fonti rinnovabili",
+        "value": 3647.63560293,
+        "yoYValue": -7,
+        "yoYPercentage": true
+      }
+    ],
+    "Sicilia|Saldo import/export": [
+      {
+        "key": "Sicilia|Saldo import/export",
+        "value": 3427.954,
+        "yoYValue": 137.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Friuli-Venezia Giulia|Fonti tradizionali": [
+      {
+        "key": "Friuli-Venezia Giulia|Fonti tradizionali",
+        "value": 3395.39851105,
+        "yoYValue": -33,
+        "yoYPercentage": true
+      }
+    ],
+    "Friuli-Venezia Giulia|Saldo import/export": [
+      {
+        "key": "Friuli-Venezia Giulia|Saldo import/export",
+        "value": 3341.3887,
+        "yoYValue": 45.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Abruzzo|Fonti tradizionali": [
+      {
+        "key": "Abruzzo|Fonti tradizionali",
+        "value": 2659.06647958,
+        "yoYValue": 24.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Umbria|Saldo import/export": [
+      {
+        "key": "Umbria|Saldo import/export",
+        "value": 2482.9746,
+        "yoYValue": 7,
+        "yoYPercentage": true
+      }
+    ],
+    "Marche|Fonti rinnovabili": [
+      {
+        "key": "Marche|Fonti rinnovabili",
+        "value": 1730.052761226,
+        "yoYValue": 7,
+        "yoYPercentage": true
+      }
+    ],
+    "Abruzzo|Fonti rinnovabili": [
+      {
+        "key": "Abruzzo|Fonti rinnovabili",
+        "value": 1690.67615742,
+        "yoYValue": 4.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Friuli-Venezia Giulia|Fonti rinnovabili": [
+      {
+        "key": "Friuli-Venezia Giulia|Fonti rinnovabili",
+        "value": 1578.55823555,
+        "yoYValue": 21.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Liguria|Fonti tradizionali": [
+      {
+        "key": "Liguria|Fonti tradizionali",
+        "value": 1468.856555163,
+        "yoYValue": 17.5,
+        "yoYPercentage": true
+      }
+    ],
+    "Molise|Fonti tradizionali": [
+      {
+        "key": "Molise|Fonti tradizionali",
+        "value": 1415.820221189,
+        "yoYValue": 87.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Trentino-Alto Adige|Fonti tradizionali": [
+      {
+        "key": "Trentino-Alto Adige|Fonti tradizionali",
+        "value": 1377.8772752,
+        "yoYValue": 6.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Abruzzo|Saldo import/export": [
+      {
+        "key": "Abruzzo|Saldo import/export",
+        "value": 1248.0818,
+        "yoYValue": 10.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Umbria|Fonti tradizionali": [
+      {
+        "key": "Umbria|Fonti tradizionali",
+        "value": 1112.87013687,
+        "yoYValue": 23.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Molise|Fonti rinnovabili": [
+      {
+        "key": "Molise|Fonti rinnovabili",
+        "value": 1016.850138811,
+        "yoYValue": -7.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Trentino-Alto Adige|Fonti rinnovabili": [
+      {
+        "key": "Trentino-Alto Adige|Fonti rinnovabili",
+        "value": 1005.2616128,
+        "yoYValue": 11.6,
+        "yoYPercentage": true
+      }
+    ],
+    "Umbria|Fonti rinnovabili": [
+      {
+        "key": "Umbria|Fonti rinnovabili",
+        "value": 860.20610823,
+        "yoYValue": 8.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Liguria|Fonti rinnovabili": [
+      {
+        "key": "Liguria|Fonti rinnovabili",
+        "value": 514.264268837,
+        "yoYValue": 9,
+        "yoYPercentage": true
+      }
+    ],
+    "Basilicata|Fonti tradizionali": [
+      {
+        "key": "Basilicata|Fonti tradizionali",
+        "value": 497.41595707,
+        "yoYValue": -13.7,
+        "yoYPercentage": true
+      }
+    ],
+    "Marche|Fonti tradizionali": [
+      {
+        "key": "Marche|Fonti tradizionali",
+        "value": 475.684163774,
+        "yoYValue": 8.2,
+        "yoYPercentage": true
+      }
+    ],
+    "Valle d'Aosta|Fonti tradizionali": [
+      {
+        "key": "Valle d'Aosta|Fonti tradizionali",
+        "value": 56.077841,
+        "yoYValue": 3.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Valle d'Aosta|Fonti rinnovabili": [
+      {
+        "key": "Valle d'Aosta|Fonti rinnovabili",
+        "value": 50.464785,
+        "yoYValue": 5.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Molise|Saldo import/export": [
+      {
+        "key": "Molise|Saldo import/export",
+        "value": -984.0914,
+        "yoYValue": 78.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Basilicata|Saldo import/export": [
+      {
+        "key": "Basilicata|Saldo import/export",
+        "value": -1149.0571,
+        "yoYValue": -28.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Piemonte|Saldo import/export": [
+      {
+        "key": "Piemonte|Saldo import/export",
+        "value": -2409.194,
+        "yoYValue": 178.9,
+        "yoYPercentage": true
+      }
+    ],
+    "Valle d'Aosta|Saldo import/export": [
+      {
+        "key": "Valle d'Aosta|Saldo import/export",
+        "value": -2798.0562,
+        "yoYValue": 30.8,
+        "yoYPercentage": true
+      }
+    ],
+    "Sardegna|Saldo import/export": [
+      {
+        "key": "Sardegna|Saldo import/export",
+        "value": -3110.2715,
+        "yoYValue": -11.4,
+        "yoYPercentage": true
+      }
+    ],
+    "Calabria|Saldo import/export": [
+      {
+        "key": "Calabria|Saldo import/export",
+        "value": -6898.6367,
+        "yoYValue": -11.3,
+        "yoYPercentage": true
+      }
+    ],
+    "Puglia|Saldo import/export": [
+      {
+        "key": "Puglia|Saldo import/export",
+        "value": -7347.151,
+        "yoYValue": -28.1,
+        "yoYPercentage": true
+      }
+    ],
+    "Trentino-Alto Adige|Saldo import/export": [
+      {
+        "key": "Trentino-Alto Adige|Saldo import/export",
+        "value": -7771.0156,
+        "yoYValue": 86.1,
+        "yoYPercentage": true
+      }
+    ]
+  },
+  "flat": [
+    {
+      "key": "Lombardia|Fonti tradizionali",
+      "value": 32275.960628253,
+      "yoYValue": -2.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lombardia|Saldo import/export",
+      "value": 16770.428,
+      "yoYValue": -16.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Emilia-Romagna|Fonti tradizionali",
+      "value": 16346.652933302,
+      "yoYValue": -12.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Veneto|Saldo import/export",
+      "value": 15720.918,
+      "yoYValue": -0.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piemonte|Fonti tradizionali",
+      "value": 15689.25969009,
+      "yoYValue": -8.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Puglia|Fonti tradizionali",
+      "value": 14785.550590128,
+      "yoYValue": -15.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lazio|Saldo import/export",
+      "value": 13960.329,
+      "yoYValue": 13.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Puglia|Fonti rinnovabili",
+      "value": 12353.048109872,
+      "yoYValue": 2.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Calabria|Fonti tradizionali",
+      "value": 9145.615092835,
+      "yoYValue": -6.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sicilia|Fonti tradizionali",
+      "value": 8576.368495076,
+      "yoYValue": -25.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Emilia-Romagna|Saldo import/export",
+      "value": 8478.507,
+      "yoYValue": 39.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Campania|Fonti tradizionali",
+      "value": 8185.187984433,
+      "yoYValue": 74.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sardegna|Fonti tradizionali",
+      "value": 7824.16383411,
+      "yoYValue": -1.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Toscana|Fonti tradizionali",
+      "value": 7742.235083368,
+      "yoYValue": -0.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Veneto|Fonti tradizionali",
+      "value": 7665.563831929,
+      "yoYValue": -3.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lombardia|Fonti rinnovabili",
+      "value": 7581.651883747,
+      "yoYValue": 8.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Toscana|Fonti rinnovabili",
+      "value": 7201.457586632,
+      "yoYValue": 1.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sicilia|Fonti rinnovabili",
+      "value": 6971.920614924,
+      "yoYValue": 19.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Campania|Fonti rinnovabili",
+      "value": 5795.840265567,
+      "yoYValue": -1.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Emilia-Romagna|Fonti rinnovabili",
+      "value": 5359.258981698,
+      "yoYValue": 5.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lazio|Fonti tradizionali",
+      "value": 5044.732201321,
+      "yoYValue": -26.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Marche|Saldo import/export",
+      "value": 5038.562,
+      "yoYValue": 9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Veneto|Fonti rinnovabili",
+      "value": 4881.180661431,
+      "yoYValue": 10,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Campania|Saldo import/export",
+      "value": 4690.844,
+      "yoYValue": -38,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piemonte|Fonti rinnovabili",
+      "value": 4193.47218891,
+      "yoYValue": 9.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Toscana|Saldo import/export",
+      "value": 4169.9536,
+      "yoYValue": 1.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Calabria|Fonti rinnovabili",
+      "value": 4154.812260165,
+      "yoYValue": 9.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Liguria|Saldo import/export",
+      "value": 4137.133,
+      "yoYValue": -6.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sardegna|Fonti rinnovabili",
+      "value": 4094.21014589,
+      "yoYValue": 5.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Lazio|Fonti rinnovabili",
+      "value": 3832.129648679,
+      "yoYValue": 34.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Basilicata|Fonti rinnovabili",
+      "value": 3647.63560293,
+      "yoYValue": -7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sicilia|Saldo import/export",
+      "value": 3427.954,
+      "yoYValue": 137.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Fonti tradizionali",
+      "value": 3395.39851105,
+      "yoYValue": -33,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Saldo import/export",
+      "value": 3341.3887,
+      "yoYValue": 45.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Abruzzo|Fonti tradizionali",
+      "value": 2659.06647958,
+      "yoYValue": 24.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Umbria|Saldo import/export",
+      "value": 2482.9746,
+      "yoYValue": 7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Marche|Fonti rinnovabili",
+      "value": 1730.052761226,
+      "yoYValue": 7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Abruzzo|Fonti rinnovabili",
+      "value": 1690.67615742,
+      "yoYValue": 4.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Fonti rinnovabili",
+      "value": 1578.55823555,
+      "yoYValue": 21.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Liguria|Fonti tradizionali",
+      "value": 1468.856555163,
+      "yoYValue": 17.5,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Molise|Fonti tradizionali",
+      "value": 1415.820221189,
+      "yoYValue": 87.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trentino-Alto Adige|Fonti tradizionali",
+      "value": 1377.8772752,
+      "yoYValue": 6.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Abruzzo|Saldo import/export",
+      "value": 1248.0818,
+      "yoYValue": 10.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Umbria|Fonti tradizionali",
+      "value": 1112.87013687,
+      "yoYValue": 23.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Molise|Fonti rinnovabili",
+      "value": 1016.850138811,
+      "yoYValue": -7.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trentino-Alto Adige|Fonti rinnovabili",
+      "value": 1005.2616128,
+      "yoYValue": 11.6,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Umbria|Fonti rinnovabili",
+      "value": 860.20610823,
+      "yoYValue": 8.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Liguria|Fonti rinnovabili",
+      "value": 514.264268837,
+      "yoYValue": 9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Basilicata|Fonti tradizionali",
+      "value": 497.41595707,
+      "yoYValue": -13.7,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Marche|Fonti tradizionali",
+      "value": 475.684163774,
+      "yoYValue": 8.2,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Valle d'Aosta|Fonti tradizionali",
+      "value": 56.077841,
+      "yoYValue": 3.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Valle d'Aosta|Fonti rinnovabili",
+      "value": 50.464785,
+      "yoYValue": 5.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Molise|Saldo import/export",
+      "value": -984.0914,
+      "yoYValue": 78.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Basilicata|Saldo import/export",
+      "value": -1149.0571,
+      "yoYValue": -28.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Piemonte|Saldo import/export",
+      "value": -2409.194,
+      "yoYValue": 178.9,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Valle d'Aosta|Saldo import/export",
+      "value": -2798.0562,
+      "yoYValue": 30.8,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Sardegna|Saldo import/export",
+      "value": -3110.2715,
+      "yoYValue": -11.4,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Calabria|Saldo import/export",
+      "value": -6898.6367,
+      "yoYValue": -11.3,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Puglia|Saldo import/export",
+      "value": -7347.151,
+      "yoYValue": -28.1,
+      "yoYPercentage": true
+    },
+    {
+      "key": "Trentino-Alto Adige|Saldo import/export",
+      "value": -7771.0156,
+      "yoYValue": 86.1,
+      "yoYPercentage": true
+    }
+  ]
+}

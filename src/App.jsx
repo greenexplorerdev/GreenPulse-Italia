@@ -1,64 +1,70 @@
-
-
-import "./index.css";
 import { useEffect } from "react";
-import { Route, Routes } from "react-router-dom";
-import { useTheme } from "./context/ThemeContext";
+import { Routes, Route } from "react-router-dom";
+import { useAppStore }  from "./store/useAppStore";
+import * as ternaData from "./services/ternaData";
 
-import Dashboard   from "./pages/Dashboard";
+import ProtectedRoute from "./components/ProtectedRoute";
+import Layout         from "./components/Layout";
+import WelcomeModal   from "./components/WelcomeModal";
+
 import HomePage    from "./pages/HomePage";
+import Dashboard   from "./pages/Dashboard";
+import RegionPage  from "./pages/RegionPage";
 import AboutPage   from "./pages/AboutPage";
+import LoginPage   from "./pages/LoginPage";
 import NotFound    from "./pages/NotFound";
 
-import Layout        from "./components/Layout";
-import WelcomeModal  from "./components/WelcomeModal";
+export default function App() {
+  const theme       = useAppStore((s) => s.theme);
+  const toggleTheme = useAppStore((s) => s.toggleTheme);
 
-function App() {
-  const { theme, toggleTheme } = useTheme();
-
-  
+  // Applica/rimuove la classe "dark" su <html> — necessario per Tailwind dark:*
   useEffect(() => {
-    if (theme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
+    document.documentElement.classList.toggle("dark", theme === "dark");
   }, [theme]);
 
+  // Precarica tutti i dataset TERNA/GSE all'avvio
+  useEffect(() => {
+    ternaData.preloadAll().catch(() => {});
+  }, []);
+
   return (
-   
-    <div className="min-h-screen bg-linear-to-b from-sky-50 to-sky-100 dark:from-gray-900 dark:to-gray-800 px-3 py-4 sm:px-6 sm:py-6">
+    <div className="min-h-screen bg-linear-to-br from-emerald-50 to-green-100
+      dark:from-gray-950 dark:to-gray-900 transition-colors duration-300">
 
-
+      {/* Tutorial al primo accesso */}
       <WelcomeModal />
 
-      <div className="max-w-4xl mx-auto">
-        <Routes>
- 
-          <Route path="/"      element={<HomePage />} />
+      <Routes>
+        {/* Pubbliche */}
+        <Route path="/"      element={<HomePage />} />
+        <Route path="/login" element={<LoginPage />} />
+
+        {/* Con Navbar (Layout) — protette */}
+        <Route element={<Layout />}>
+          <Route path="/dashboard" element={
+            <ProtectedRoute><Dashboard /></ProtectedRoute>
+          } />
+          <Route path="/regioni/:regionId" element={
+            <ProtectedRoute><RegionPage /></ProtectedRoute>
+          } />
           <Route path="/about" element={<AboutPage />} />
+        </Route>
 
-         
-          <Route element={<Layout />}>
-            <Route path="/dashboard"           element={<Dashboard />} />
-         
-          </Route>
+        {/* 404 */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
 
-          {/* 404 — sempre ultima */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </div>
-
-      {/* Pulsante dark mode tooglata */}
+      {/* Pulsante dark mode fisso */}
       <button
         onClick={toggleTheme}
-        className="fixed bottom-4 right-15 z-40 p-3 mx-auto bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-800 rounded-full shadow-lg hover:scale-110 transition-transform"
         aria-label={theme === "dark" ? "Attiva tema chiaro" : "Attiva tema scuro"}
-      >
+        className="fixed bottom-5 right-5 z-50 w-10 h-10 rounded-full
+          flex items-center justify-center shadow-lg text-base
+          bg-gray-800 dark:bg-gray-200 text-white dark:text-gray-900
+          hover:scale-110 transition-transform duration-200">
         {theme === "dark" ? "☀️" : "🌙"}
       </button>
     </div>
   );
 }
-
-export default App;

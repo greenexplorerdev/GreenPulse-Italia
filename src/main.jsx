@@ -1,18 +1,15 @@
+import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
-import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
-import { ThemeProvider } from "./context/ThemeContext.jsx";
-import { DashboardProvider } from "./context/DashboardContext";
+import App from "./App";
+import "./index.css";
 
-
-
+// Niente Provider esterni — Zustand non richiede wrapper
+// BrowserRouter è l'unico wrapper necessario
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-    <ThemeProvider>
-      <DashboardProvider>
-        <App />
-      </DashboardProvider>
-    </ThemeProvider>
-  </BrowserRouter>,
+  <StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </StrictMode>
 );

@@ -1,0 +1,3679 @@
+{
+  "source": "CSV: Potenza efficiente regionale per fonte [MW].csv",
+  "generated": "2026-09-03T11:12:42.005Z",
+  "totalRecords": 435,
+  "indexed": {
+    "Lombardia|Termoelettrico": [
+      {
+        "key": "Lombardia|Termoelettrico",
+        "value": 3735.447
+      },
+      {
+        "key": "Lombardia|Termoelettrico",
+        "value": 2901.4158
+      },
+      {
+        "key": "Lombardia|Termoelettrico",
+        "value": 2853.785
+      },
+      {
+        "key": "Lombardia|Termoelettrico",
+        "value": 1710.4548
+      },
+      {
+        "key": "Lombardia|Termoelettrico",
+        "value": 297.82137
+      },
+      {
+        "key": "Lombardia|Termoelettrico",
+        "value": 275.3061
+      },
+      {
+        "key": "Lombardia|Termoelettrico",
+        "value": 274.377
+      },
+      {
+        "key": "Lombardia|Termoelettrico",
+        "value": 196.039
+      },
+      {
+        "key": "Lombardia|Termoelettrico",
+        "value": 83.954
+      },
+      {
+        "key": "Lombardia|Termoelettrico",
+        "value": 45.249
+      },
+      {
+        "key": "Lombardia|Termoelettrico",
+        "value": 34.987
+      },
+      {
+        "key": "Lombardia|Termoelettrico",
+        "value": 32.56
+      }
+    ],
+    "Lazio|Termoelettrico": [
+      {
+        "key": "Lazio|Termoelettrico",
+        "value": 3344.329
+      },
+      {
+        "key": "Lazio|Termoelettrico",
+        "value": 874.645
+      },
+      {
+        "key": "Lazio|Termoelettrico",
+        "value": 613.345
+      },
+      {
+        "key": "Lazio|Termoelettrico",
+        "value": 300.935
+      },
+      {
+        "key": "Lazio|Termoelettrico",
+        "value": 7.234
+      }
+    ],
+    "Puglia|Termoelettrico": [
+      {
+        "key": "Puglia|Termoelettrico",
+        "value": 3128.198
+      },
+      {
+        "key": "Puglia|Termoelettrico",
+        "value": 1165.495
+      },
+      {
+        "key": "Puglia|Termoelettrico",
+        "value": 1030.906
+      },
+      {
+        "key": "Puglia|Termoelettrico",
+        "value": 890.146
+      },
+      {
+        "key": "Puglia|Termoelettrico",
+        "value": 6.712
+      },
+      {
+        "key": "Puglia|Termoelettrico",
+        "value": 5.81
+      }
+    ],
+    "Piemonte|Termoelettrico": [
+      {
+        "key": "Piemonte|Termoelettrico",
+        "value": 3119.501
+      },
+      {
+        "key": "Piemonte|Termoelettrico",
+        "value": 924.95
+      },
+      {
+        "key": "Piemonte|Termoelettrico",
+        "value": 425.4356
+      },
+      {
+        "key": "Piemonte|Termoelettrico",
+        "value": 246.738
+      },
+      {
+        "key": "Piemonte|Termoelettrico",
+        "value": 199.284
+      },
+      {
+        "key": "Piemonte|Termoelettrico",
+        "value": 28.403
+      },
+      {
+        "key": "Piemonte|Termoelettrico",
+        "value": 12.884
+      },
+      {
+        "key": "Piemonte|Termoelettrico",
+        "value": 11.629
+      }
+    ],
+    "Puglia|Eolico": [
+      {
+        "key": "Puglia|Eolico",
+        "value": 2683.706
+      },
+      {
+        "key": "Puglia|Eolico",
+        "value": 192.344
+      },
+      {
+        "key": "Puglia|Eolico",
+        "value": 109.901
+      },
+      {
+        "key": "Puglia|Eolico",
+        "value": 91.946
+      },
+      {
+        "key": "Puglia|Eolico",
+        "value": 88.225
+      },
+      {
+        "key": "Puglia|Eolico",
+        "value": 62.101
+      }
+    ],
+    "Emilia-Romagna|Termoelettrico": [
+      {
+        "key": "Emilia-Romagna|Termoelettrico",
+        "value": 2562.4834
+      },
+      {
+        "key": "Emilia-Romagna|Termoelettrico",
+        "value": 2279.2449
+      },
+      {
+        "key": "Emilia-Romagna|Termoelettrico",
+        "value": 882.435
+      },
+      {
+        "key": "Emilia-Romagna|Termoelettrico",
+        "value": 280.6299
+      },
+      {
+        "key": "Emilia-Romagna|Termoelettrico",
+        "value": 205.35442
+      },
+      {
+        "key": "Emilia-Romagna|Termoelettrico",
+        "value": 177.72955
+      },
+      {
+        "key": "Emilia-Romagna|Termoelettrico",
+        "value": 113.895
+      },
+      {
+        "key": "Emilia-Romagna|Termoelettrico",
+        "value": 63.73988
+      },
+      {
+        "key": "Emilia-Romagna|Termoelettrico",
+        "value": 27.75438
+      }
+    ],
+    "Lombardia|Idrico": [
+      {
+        "key": "Lombardia|Idrico",
+        "value": 2244.8562
+      },
+      {
+        "key": "Lombardia|Idrico",
+        "value": 2230.2441
+      },
+      {
+        "key": "Lombardia|Idrico",
+        "value": 1069.575
+      },
+      {
+        "key": "Lombardia|Idrico",
+        "value": 355.2586
+      },
+      {
+        "key": "Lombardia|Idrico",
+        "value": 64.9917
+      },
+      {
+        "key": "Lombardia|Idrico",
+        "value": 47.36575
+      },
+      {
+        "key": "Lombardia|Idrico",
+        "value": 45.028
+      },
+      {
+        "key": "Lombardia|Idrico",
+        "value": 32.568
+      },
+      {
+        "key": "Lombardia|Idrico",
+        "value": 26.05049
+      },
+      {
+        "key": "Lombardia|Idrico",
+        "value": 16.92
+      },
+      {
+        "key": "Lombardia|Idrico",
+        "value": 12.8323
+      },
+      {
+        "key": "Lombardia|Idrico",
+        "value": 9.648
+      }
+    ],
+    "Sicilia|Termoelettrico": [
+      {
+        "key": "Sicilia|Termoelettrico",
+        "value": 2220.079
+      },
+      {
+        "key": "Sicilia|Termoelettrico",
+        "value": 1225.762
+      },
+      {
+        "key": "Sicilia|Termoelettrico",
+        "value": 1083.414
+      },
+      {
+        "key": "Sicilia|Termoelettrico",
+        "value": 254.389
+      },
+      {
+        "key": "Sicilia|Termoelettrico",
+        "value": 124.439
+      },
+      {
+        "key": "Sicilia|Termoelettrico",
+        "value": 38.7363
+      },
+      {
+        "key": "Sicilia|Termoelettrico",
+        "value": 17.702
+      },
+      {
+        "key": "Sicilia|Termoelettrico",
+        "value": 12.649
+      },
+      {
+        "key": "Sicilia|Termoelettrico",
+        "value": 1.39
+      }
+    ],
+    "Trentino-Alto Adige|Idrico": [
+      {
+        "key": "Trentino-Alto Adige|Idrico",
+        "value": 1968.1595
+      },
+      {
+        "key": "Trentino-Alto Adige|Idrico",
+        "value": 1636.4464
+      }
+    ],
+    "Campania|Termoelettrico": [
+      {
+        "key": "Campania|Termoelettrico",
+        "value": 1949.134
+      },
+      {
+        "key": "Campania|Termoelettrico",
+        "value": 755.77
+      },
+      {
+        "key": "Campania|Termoelettrico",
+        "value": 61.776
+      },
+      {
+        "key": "Campania|Termoelettrico",
+        "value": 28.245
+      },
+      {
+        "key": "Campania|Termoelettrico",
+        "value": 4.854
+      }
+    ],
+    "Piemonte|Idrico": [
+      {
+        "key": "Piemonte|Idrico",
+        "value": 1732.0243
+      },
+      {
+        "key": "Piemonte|Idrico",
+        "value": 1109.9456
+      },
+      {
+        "key": "Piemonte|Idrico",
+        "value": 852.0194
+      },
+      {
+        "key": "Piemonte|Idrico",
+        "value": 41.6355
+      },
+      {
+        "key": "Piemonte|Idrico",
+        "value": 39.9085
+      },
+      {
+        "key": "Piemonte|Idrico",
+        "value": 39.01274
+      },
+      {
+        "key": "Piemonte|Idrico",
+        "value": 31.1609
+      },
+      {
+        "key": "Piemonte|Idrico",
+        "value": 5.543
+      }
+    ],
+    "Veneto|Termoelettrico": [
+      {
+        "key": "Veneto|Termoelettrico",
+        "value": 1680.035
+      },
+      {
+        "key": "Veneto|Termoelettrico",
+        "value": 244.144
+      },
+      {
+        "key": "Veneto|Termoelettrico",
+        "value": 196.118
+      },
+      {
+        "key": "Veneto|Termoelettrico",
+        "value": 195.921
+      },
+      {
+        "key": "Veneto|Termoelettrico",
+        "value": 136.495
+      },
+      {
+        "key": "Veneto|Termoelettrico",
+        "value": 108.395
+      },
+      {
+        "key": "Veneto|Termoelettrico",
+        "value": 43.999
+      }
+    ],
+    "Lazio|Fotovoltaico": [
+      {
+        "key": "Lazio|Fotovoltaico",
+        "value": 1579.506
+      },
+      {
+        "key": "Lazio|Fotovoltaico",
+        "value": 819.418
+      },
+      {
+        "key": "Lazio|Fotovoltaico",
+        "value": 561.615
+      },
+      {
+        "key": "Lazio|Fotovoltaico",
+        "value": 281.938
+      },
+      {
+        "key": "Lazio|Fotovoltaico",
+        "value": 52.573
+      }
+    ],
+    "Campania|Idrico": [
+      {
+        "key": "Campania|Idrico",
+        "value": 1207.995
+      },
+      {
+        "key": "Campania|Idrico",
+        "value": 99.50763
+      },
+      {
+        "key": "Campania|Idrico",
+        "value": 16.59
+      },
+      {
+        "key": "Campania|Idrico",
+        "value": 1.632
+      }
+    ],
+    "Basilicata|Eolico": [
+      {
+        "key": "Basilicata|Eolico",
+        "value": 1180.055
+      },
+      {
+        "key": "Basilicata|Eolico",
+        "value": 315.774
+      }
+    ],
+    "Molise|Termoelettrico": [
+      {
+        "key": "Molise|Termoelettrico",
+        "value": 1155.303
+      },
+      {
+        "key": "Molise|Termoelettrico",
+        "value": 14.636
+      }
+    ],
+    "Lombardia|Fotovoltaico": [
+      {
+        "key": "Lombardia|Fotovoltaico",
+        "value": 1081.546
+      },
+      {
+        "key": "Lombardia|Fotovoltaico",
+        "value": 762.033
+      },
+      {
+        "key": "Lombardia|Fotovoltaico",
+        "value": 672.588
+      },
+      {
+        "key": "Lombardia|Fotovoltaico",
+        "value": 451.85
+      },
+      {
+        "key": "Lombardia|Fotovoltaico",
+        "value": 397.855
+      },
+      {
+        "key": "Lombardia|Fotovoltaico",
+        "value": 339.005
+      },
+      {
+        "key": "Lombardia|Fotovoltaico",
+        "value": 335.721
+      },
+      {
+        "key": "Lombardia|Fotovoltaico",
+        "value": 257.978
+      },
+      {
+        "key": "Lombardia|Fotovoltaico",
+        "value": 219.331
+      },
+      {
+        "key": "Lombardia|Fotovoltaico",
+        "value": 208.242
+      },
+      {
+        "key": "Lombardia|Fotovoltaico",
+        "value": 132.105
+      },
+      {
+        "key": "Lombardia|Fotovoltaico",
+        "value": 101.044
+      }
+    ],
+    "Calabria|Termoelettrico": [
+      {
+        "key": "Calabria|Termoelettrico",
+        "value": 1069.687
+      },
+      {
+        "key": "Calabria|Termoelettrico",
+        "value": 917.375
+      },
+      {
+        "key": "Calabria|Termoelettrico",
+        "value": 846.441
+      },
+      {
+        "key": "Calabria|Termoelettrico",
+        "value": 783.141
+      },
+      {
+        "key": "Calabria|Termoelettrico",
+        "value": 3.323
+      }
+    ],
+    "Toscana|Termoelettrico": [
+      {
+        "key": "Toscana|Termoelettrico",
+        "value": 1059.347
+      },
+      {
+        "key": "Toscana|Termoelettrico",
+        "value": 435.10077
+      },
+      {
+        "key": "Toscana|Termoelettrico",
+        "value": 288.104
+      },
+      {
+        "key": "Toscana|Termoelettrico",
+        "value": 85.858
+      },
+      {
+        "key": "Toscana|Termoelettrico",
+        "value": 75.986
+      },
+      {
+        "key": "Toscana|Termoelettrico",
+        "value": 67.168
+      },
+      {
+        "key": "Toscana|Termoelettrico",
+        "value": 46.323
+      },
+      {
+        "key": "Toscana|Termoelettrico",
+        "value": 31.924
+      },
+      {
+        "key": "Toscana|Termoelettrico",
+        "value": 15.344
+      },
+      {
+        "key": "Toscana|Termoelettrico",
+        "value": 3.407
+      }
+    ],
+    "Campania|Eolico": [
+      {
+        "key": "Campania|Eolico",
+        "value": 1024.746
+      },
+      {
+        "key": "Campania|Eolico",
+        "value": 908.341
+      },
+      {
+        "key": "Campania|Eolico",
+        "value": 219.802
+      },
+      {
+        "key": "Campania|Eolico",
+        "value": 20.015
+      },
+      {
+        "key": "Campania|Eolico",
+        "value": 0.002
+      }
+    ],
+    "Friuli-Venezia Giulia|Termoelettrico": [
+      {
+        "key": "Friuli-Venezia Giulia|Termoelettrico",
+        "value": 1024.3605
+      },
+      {
+        "key": "Friuli-Venezia Giulia|Termoelettrico",
+        "value": 287.577
+      },
+      {
+        "key": "Friuli-Venezia Giulia|Termoelettrico",
+        "value": 138.527
+      },
+      {
+        "key": "Friuli-Venezia Giulia|Termoelettrico",
+        "value": 47.601
+      }
+    ],
+    "Valle D'Aosta|Idrico": [
+      {
+        "key": "Valle D'Aosta|Idrico",
+        "value": 1023.44965
+      }
+    ],
+    "Abruzzo|Termoelettrico": [
+      {
+        "key": "Abruzzo|Termoelettrico",
+        "value": 953.787
+      },
+      {
+        "key": "Abruzzo|Termoelettrico",
+        "value": 368.903
+      },
+      {
+        "key": "Abruzzo|Termoelettrico",
+        "value": 139.285
+      },
+      {
+        "key": "Abruzzo|Termoelettrico",
+        "value": 20.802
+      }
+    ],
+    "Sardegna|Termoelettrico": [
+      {
+        "key": "Sardegna|Termoelettrico",
+        "value": 892.089
+      },
+      {
+        "key": "Sardegna|Termoelettrico",
+        "value": 605.958
+      },
+      {
+        "key": "Sardegna|Termoelettrico",
+        "value": 491.302
+      },
+      {
+        "key": "Sardegna|Termoelettrico",
+        "value": 169.6
+      },
+      {
+        "key": "Sardegna|Termoelettrico",
+        "value": 15.971
+      }
+    ],
+    "Piemonte|Fotovoltaico": [
+      {
+        "key": "Piemonte|Fotovoltaico",
+        "value": 889.739
+      },
+      {
+        "key": "Piemonte|Fotovoltaico",
+        "value": 863.736
+      },
+      {
+        "key": "Piemonte|Fotovoltaico",
+        "value": 459.861
+      },
+      {
+        "key": "Piemonte|Fotovoltaico",
+        "value": 263.629
+      },
+      {
+        "key": "Piemonte|Fotovoltaico",
+        "value": 222.609
+      },
+      {
+        "key": "Piemonte|Fotovoltaico",
+        "value": 182.13
+      },
+      {
+        "key": "Piemonte|Fotovoltaico",
+        "value": 155.076
+      },
+      {
+        "key": "Piemonte|Fotovoltaico",
+        "value": 46.577
+      }
+    ],
+    "Puglia|Fotovoltaico": [
+      {
+        "key": "Puglia|Fotovoltaico",
+        "value": 882.958
+      },
+      {
+        "key": "Puglia|Fotovoltaico",
+        "value": 752.486
+      },
+      {
+        "key": "Puglia|Fotovoltaico",
+        "value": 736.999
+      },
+      {
+        "key": "Puglia|Fotovoltaico",
+        "value": 562.725
+      },
+      {
+        "key": "Puglia|Fotovoltaico",
+        "value": 473.825
+      },
+      {
+        "key": "Puglia|Fotovoltaico",
+        "value": 217.864
+      }
+    ],
+    "Liguria|Termoelettrico": [
+      {
+        "key": "Liguria|Termoelettrico",
+        "value": 832.567
+      },
+      {
+        "key": "Liguria|Termoelettrico",
+        "value": 69.505
+      },
+      {
+        "key": "Liguria|Termoelettrico",
+        "value": 1.411
+      },
+      {
+        "key": "Liguria|Termoelettrico",
+        "value": 0.945
+      }
+    ],
+    "Veneto|Fotovoltaico": [
+      {
+        "key": "Veneto|Fotovoltaico",
+        "value": 738.717
+      },
+      {
+        "key": "Veneto|Fotovoltaico",
+        "value": 702.245
+      },
+      {
+        "key": "Veneto|Fotovoltaico",
+        "value": 692.904
+      },
+      {
+        "key": "Veneto|Fotovoltaico",
+        "value": 632.401
+      },
+      {
+        "key": "Veneto|Fotovoltaico",
+        "value": 449.449
+      },
+      {
+        "key": "Veneto|Fotovoltaico",
+        "value": 448.239
+      },
+      {
+        "key": "Veneto|Fotovoltaico",
+        "value": 83.883
+      }
+    ],
+    "Calabria|Eolico": [
+      {
+        "key": "Calabria|Eolico",
+        "value": 718.744
+      },
+      {
+        "key": "Calabria|Eolico",
+        "value": 408.406
+      },
+      {
+        "key": "Calabria|Eolico",
+        "value": 87.972
+      },
+      {
+        "key": "Calabria|Eolico",
+        "value": 32.282
+      },
+      {
+        "key": "Calabria|Eolico",
+        "value": 0.952
+      }
+    ],
+    "Sicilia|Eolico": [
+      {
+        "key": "Sicilia|Eolico",
+        "value": 707.622
+      },
+      {
+        "key": "Sicilia|Eolico",
+        "value": 579.844
+      },
+      {
+        "key": "Sicilia|Eolico",
+        "value": 305.415
+      },
+      {
+        "key": "Sicilia|Eolico",
+        "value": 296.216
+      },
+      {
+        "key": "Sicilia|Eolico",
+        "value": 165.99
+      },
+      {
+        "key": "Sicilia|Eolico",
+        "value": 142.74
+      },
+      {
+        "key": "Sicilia|Eolico",
+        "value": 126.51
+      },
+      {
+        "key": "Sicilia|Eolico",
+        "value": 109.536
+      },
+      {
+        "key": "Sicilia|Eolico",
+        "value": 47.815
+      }
+    ],
+    "Friuli-Venezia Giulia|Fotovoltaico": [
+      {
+        "key": "Friuli-Venezia Giulia|Fotovoltaico",
+        "value": 694.807
+      },
+      {
+        "key": "Friuli-Venezia Giulia|Fotovoltaico",
+        "value": 372.622
+      },
+      {
+        "key": "Friuli-Venezia Giulia|Fotovoltaico",
+        "value": 90.445
+      },
+      {
+        "key": "Friuli-Venezia Giulia|Fotovoltaico",
+        "value": 52.923
+      }
+    ],
+    "Sardegna|Fotovoltaico": [
+      {
+        "key": "Sardegna|Fotovoltaico",
+        "value": 634.066
+      },
+      {
+        "key": "Sardegna|Fotovoltaico",
+        "value": 405.621
+      },
+      {
+        "key": "Sardegna|Fotovoltaico",
+        "value": 272.071
+      },
+      {
+        "key": "Sardegna|Fotovoltaico",
+        "value": 213.702
+      },
+      {
+        "key": "Sardegna|Fotovoltaico",
+        "value": 196.633
+      }
+    ],
+    "Sardegna|Eolico": [
+      {
+        "key": "Sardegna|Eolico",
+        "value": 628.655
+      },
+      {
+        "key": "Sardegna|Eolico",
+        "value": 277.286
+      },
+      {
+        "key": "Sardegna|Eolico",
+        "value": 134.207
+      },
+      {
+        "key": "Sardegna|Eolico",
+        "value": 106.572
+      },
+      {
+        "key": "Sardegna|Eolico",
+        "value": 46.483
+      }
+    ],
+    "Veneto|Idrico": [
+      {
+        "key": "Veneto|Idrico",
+        "value": 618.8495
+      },
+      {
+        "key": "Veneto|Idrico",
+        "value": 373.5192
+      },
+      {
+        "key": "Veneto|Idrico",
+        "value": 133.056
+      },
+      {
+        "key": "Veneto|Idrico",
+        "value": 80.57428
+      },
+      {
+        "key": "Veneto|Idrico",
+        "value": 5.9336
+      },
+      {
+        "key": "Veneto|Idrico",
+        "value": 1.605
+      },
+      {
+        "key": "Veneto|Idrico",
+        "value": 0.956
+      }
+    ],
+    "Abruzzo|Idrico": [
+      {
+        "key": "Abruzzo|Idrico",
+        "value": 611.9995
+      },
+      {
+        "key": "Abruzzo|Idrico",
+        "value": 219.40073
+      },
+      {
+        "key": "Abruzzo|Idrico",
+        "value": 160.177
+      },
+      {
+        "key": "Abruzzo|Idrico",
+        "value": 79.505
+      }
+    ],
+    "Emilia-Romagna|Fotovoltaico": [
+      {
+        "key": "Emilia-Romagna|Fotovoltaico",
+        "value": 578.581
+      },
+      {
+        "key": "Emilia-Romagna|Fotovoltaico",
+        "value": 526.505
+      },
+      {
+        "key": "Emilia-Romagna|Fotovoltaico",
+        "value": 515.931
+      },
+      {
+        "key": "Emilia-Romagna|Fotovoltaico",
+        "value": 394.577
+      },
+      {
+        "key": "Emilia-Romagna|Fotovoltaico",
+        "value": 363.859
+      },
+      {
+        "key": "Emilia-Romagna|Fotovoltaico",
+        "value": 356.428
+      },
+      {
+        "key": "Emilia-Romagna|Fotovoltaico",
+        "value": 356.059
+      },
+      {
+        "key": "Emilia-Romagna|Fotovoltaico",
+        "value": 321.549
+      },
+      {
+        "key": "Emilia-Romagna|Fotovoltaico",
+        "value": 160.617
+      }
+    ],
+    "Umbria|Fotovoltaico": [
+      {
+        "key": "Umbria|Fotovoltaico",
+        "value": 557.346
+      },
+      {
+        "key": "Umbria|Fotovoltaico",
+        "value": 175.066
+      }
+    ],
+    "Sicilia|Idrico": [
+      {
+        "key": "Sicilia|Idrico",
+        "value": 506.39
+      },
+      {
+        "key": "Sicilia|Idrico",
+        "value": 92.641
+      },
+      {
+        "key": "Sicilia|Idrico",
+        "value": 72.55
+      },
+      {
+        "key": "Sicilia|Idrico",
+        "value": 28.33
+      },
+      {
+        "key": "Sicilia|Idrico",
+        "value": 11.298
+      },
+      {
+        "key": "Sicilia|Idrico",
+        "value": 1.728
+      },
+      {
+        "key": "Sicilia|Idrico",
+        "value": 0.788
+      },
+      {
+        "key": "Sicilia|Idrico",
+        "value": 0.068
+      }
+    ],
+    "Umbria|Idrico": [
+      {
+        "key": "Umbria|Idrico",
+        "value": 483.57
+      },
+      {
+        "key": "Umbria|Idrico",
+        "value": 31.60478
+      }
+    ],
+    "Campania|Fotovoltaico": [
+      {
+        "key": "Campania|Fotovoltaico",
+        "value": 449.982
+      },
+      {
+        "key": "Campania|Fotovoltaico",
+        "value": 414.5
+      },
+      {
+        "key": "Campania|Fotovoltaico",
+        "value": 369.704
+      },
+      {
+        "key": "Campania|Fotovoltaico",
+        "value": 161.1
+      },
+      {
+        "key": "Campania|Fotovoltaico",
+        "value": 129.282
+      }
+    ],
+    "Trentino-Alto Adige|Fotovoltaico": [
+      {
+        "key": "Trentino-Alto Adige|Fotovoltaico",
+        "value": 448.723
+      },
+      {
+        "key": "Trentino-Alto Adige|Fotovoltaico",
+        "value": 361.29
+      }
+    ],
+    "Sicilia|Fotovoltaico": [
+      {
+        "key": "Sicilia|Fotovoltaico",
+        "value": 446.584
+      },
+      {
+        "key": "Sicilia|Fotovoltaico",
+        "value": 427.218
+      },
+      {
+        "key": "Sicilia|Fotovoltaico",
+        "value": 423.054
+      },
+      {
+        "key": "Sicilia|Fotovoltaico",
+        "value": 388.081
+      },
+      {
+        "key": "Sicilia|Fotovoltaico",
+        "value": 313.387
+      },
+      {
+        "key": "Sicilia|Fotovoltaico",
+        "value": 309.817
+      },
+      {
+        "key": "Sicilia|Fotovoltaico",
+        "value": 147.366
+      },
+      {
+        "key": "Sicilia|Fotovoltaico",
+        "value": 123.385
+      },
+      {
+        "key": "Sicilia|Fotovoltaico",
+        "value": 95.079
+      }
+    ],
+    "Marche|Termoelettrico": [
+      {
+        "key": "Marche|Termoelettrico",
+        "value": 435.331
+      },
+      {
+        "key": "Marche|Termoelettrico",
+        "value": 23.2013
+      },
+      {
+        "key": "Marche|Termoelettrico",
+        "value": 15.008
+      },
+      {
+        "key": "Marche|Termoelettrico",
+        "value": 13.488
+      },
+      {
+        "key": "Marche|Termoelettrico",
+        "value": 4.92
+      }
+    ],
+    "Umbria|Termoelettrico": [
+      {
+        "key": "Umbria|Termoelettrico",
+        "value": 425.989
+      },
+      {
+        "key": "Umbria|Termoelettrico",
+        "value": 133.979
+      }
+    ],
+    "Marche|Fotovoltaico": [
+      {
+        "key": "Marche|Fotovoltaico",
+        "value": 413.855
+      },
+      {
+        "key": "Marche|Fotovoltaico",
+        "value": 400.503
+      },
+      {
+        "key": "Marche|Fotovoltaico",
+        "value": 370.497
+      },
+      {
+        "key": "Marche|Fotovoltaico",
+        "value": 184.255
+      },
+      {
+        "key": "Marche|Fotovoltaico",
+        "value": 146.716
+      }
+    ],
+    "Toscana|Geotermoelettrico": [
+      {
+        "key": "Toscana|Geotermoelettrico",
+        "value": 387.4
+      },
+      {
+        "key": "Toscana|Geotermoelettrico",
+        "value": 193.4
+      },
+      {
+        "key": "Toscana|Geotermoelettrico",
+        "value": 190.99
+      }
+    ],
+    "Calabria|Fotovoltaico": [
+      {
+        "key": "Calabria|Fotovoltaico",
+        "value": 385.809
+      },
+      {
+        "key": "Calabria|Fotovoltaico",
+        "value": 195.488
+      },
+      {
+        "key": "Calabria|Fotovoltaico",
+        "value": 123.729
+      },
+      {
+        "key": "Calabria|Fotovoltaico",
+        "value": 65.097
+      },
+      {
+        "key": "Calabria|Fotovoltaico",
+        "value": 62.967
+      }
+    ],
+    "Calabria|Idrico": [
+      {
+        "key": "Calabria|Idrico",
+        "value": 383.153
+      },
+      {
+        "key": "Calabria|Idrico",
+        "value": 272.657
+      },
+      {
+        "key": "Calabria|Idrico",
+        "value": 151.054
+      },
+      {
+        "key": "Calabria|Idrico",
+        "value": 19.329
+      },
+      {
+        "key": "Calabria|Idrico",
+        "value": 7.171
+      }
+    ],
+    "Sardegna|Idrico": [
+      {
+        "key": "Sardegna|Idrico",
+        "value": 356.339
+      },
+      {
+        "key": "Sardegna|Idrico",
+        "value": 38.12
+      },
+      {
+        "key": "Sardegna|Idrico",
+        "value": 37.19
+      },
+      {
+        "key": "Sardegna|Idrico",
+        "value": 29.87
+      },
+      {
+        "key": "Sardegna|Idrico",
+        "value": 1.9
+      }
+    ],
+    "Abruzzo|Fotovoltaico": [
+      {
+        "key": "Abruzzo|Fotovoltaico",
+        "value": 352.336
+      },
+      {
+        "key": "Abruzzo|Fotovoltaico",
+        "value": 351.403
+      },
+      {
+        "key": "Abruzzo|Fotovoltaico",
+        "value": 261.133
+      },
+      {
+        "key": "Abruzzo|Fotovoltaico",
+        "value": 150.271
+      }
+    ],
+    "Emilia-Romagna|Idrico": [
+      {
+        "key": "Emilia-Romagna|Idrico",
+        "value": 344.3108
+      },
+      {
+        "key": "Emilia-Romagna|Idrico",
+        "value": 105.375
+      },
+      {
+        "key": "Emilia-Romagna|Idrico",
+        "value": 68.7438
+      },
+      {
+        "key": "Emilia-Romagna|Idrico",
+        "value": 52.25055
+      },
+      {
+        "key": "Emilia-Romagna|Idrico",
+        "value": 46.28725
+      },
+      {
+        "key": "Emilia-Romagna|Idrico",
+        "value": 20.4279
+      },
+      {
+        "key": "Emilia-Romagna|Idrico",
+        "value": 3.645
+      },
+      {
+        "key": "Emilia-Romagna|Idrico",
+        "value": 2.509
+      },
+      {
+        "key": "Emilia-Romagna|Idrico",
+        "value": 0.238
+      }
+    ],
+    "Friuli-Venezia Giulia|Idrico": [
+      {
+        "key": "Friuli-Venezia Giulia|Idrico",
+        "value": 322.21332
+      },
+      {
+        "key": "Friuli-Venezia Giulia|Idrico",
+        "value": 191.33005
+      },
+      {
+        "key": "Friuli-Venezia Giulia|Idrico",
+        "value": 9.17685
+      }
+    ],
+    "Basilicata|Fotovoltaico": [
+      {
+        "key": "Basilicata|Fotovoltaico",
+        "value": 307.373
+      },
+      {
+        "key": "Basilicata|Fotovoltaico",
+        "value": 277.143
+      }
+    ],
+    "Molise|Eolico": [
+      {
+        "key": "Molise|Eolico",
+        "value": 289.157
+      },
+      {
+        "key": "Molise|Eolico",
+        "value": 117.775
+      }
+    ],
+    "Toscana|Fotovoltaico": [
+      {
+        "key": "Toscana|Fotovoltaico",
+        "value": 256.761
+      },
+      {
+        "key": "Toscana|Fotovoltaico",
+        "value": 225.251
+      },
+      {
+        "key": "Toscana|Fotovoltaico",
+        "value": 201.469
+      },
+      {
+        "key": "Toscana|Fotovoltaico",
+        "value": 148.001
+      },
+      {
+        "key": "Toscana|Fotovoltaico",
+        "value": 139.922
+      },
+      {
+        "key": "Toscana|Fotovoltaico",
+        "value": 123.373
+      },
+      {
+        "key": "Toscana|Fotovoltaico",
+        "value": 122.27
+      },
+      {
+        "key": "Toscana|Fotovoltaico",
+        "value": 109.953
+      },
+      {
+        "key": "Toscana|Fotovoltaico",
+        "value": 87.432
+      },
+      {
+        "key": "Toscana|Fotovoltaico",
+        "value": 52.128
+      }
+    ],
+    "Piemonte|Accumulo stand alone": [
+      {
+        "key": "Piemonte|Accumulo stand alone",
+        "value": 225
+      },
+      {
+        "key": "Piemonte|Accumulo stand alone",
+        "value": 44.8
+      }
+    ],
+    "Toscana|Idrico": [
+      {
+        "key": "Toscana|Idrico",
+        "value": 220.2446
+      },
+      {
+        "key": "Toscana|Idrico",
+        "value": 52.53835
+      },
+      {
+        "key": "Toscana|Idrico",
+        "value": 49.259
+      },
+      {
+        "key": "Toscana|Idrico",
+        "value": 36.07435
+      },
+      {
+        "key": "Toscana|Idrico",
+        "value": 13.8302
+      },
+      {
+        "key": "Toscana|Idrico",
+        "value": 3.257
+      },
+      {
+        "key": "Toscana|Idrico",
+        "value": 3.09504
+      },
+      {
+        "key": "Toscana|Idrico",
+        "value": 1.488
+      },
+      {
+        "key": "Toscana|Idrico",
+        "value": 0.099
+      }
+    ],
+    "Friuli-Venezia Giulia|Accumulo stand alone": [
+      {
+        "key": "Friuli-Venezia Giulia|Accumulo stand alone",
+        "value": 200
+      },
+      {
+        "key": "Friuli-Venezia Giulia|Accumulo stand alone",
+        "value": 11.98
+      }
+    ],
+    "Molise|Fotovoltaico": [
+      {
+        "key": "Molise|Fotovoltaico",
+        "value": 190.25
+      },
+      {
+        "key": "Molise|Fotovoltaico",
+        "value": 65.753
+      }
+    ],
+    "Trentino-Alto Adige|Termoelettrico": [
+      {
+        "key": "Trentino-Alto Adige|Termoelettrico",
+        "value": 168.6395
+      },
+      {
+        "key": "Trentino-Alto Adige|Termoelettrico",
+        "value": 123.77
+      }
+    ],
+    "Basilicata|Termoelettrico": [
+      {
+        "key": "Basilicata|Termoelettrico",
+        "value": 166.802
+      },
+      {
+        "key": "Basilicata|Termoelettrico",
+        "value": 92.315
+      }
+    ],
+    "Abruzzo|Eolico": [
+      {
+        "key": "Abruzzo|Eolico",
+        "value": 164.716
+      },
+      {
+        "key": "Abruzzo|Eolico",
+        "value": 105.002
+      },
+      {
+        "key": "Abruzzo|Eolico",
+        "value": 4.503
+      }
+    ],
+    "Lazio|Idrico": [
+      {
+        "key": "Lazio|Idrico",
+        "value": 155.04974
+      },
+      {
+        "key": "Lazio|Idrico",
+        "value": 130.864
+      },
+      {
+        "key": "Lazio|Idrico",
+        "value": 98.502
+      },
+      {
+        "key": "Lazio|Idrico",
+        "value": 28.851
+      },
+      {
+        "key": "Lazio|Idrico",
+        "value": 0.891
+      }
+    ],
+    "Basilicata|Idrico": [
+      {
+        "key": "Basilicata|Idrico",
+        "value": 132.15225
+      },
+      {
+        "key": "Basilicata|Idrico",
+        "value": 1.435
+      }
+    ],
+    "Liguria|Eolico": [
+      {
+        "key": "Liguria|Eolico",
+        "value": 123.05
+      },
+      {
+        "key": "Liguria|Eolico",
+        "value": 4.02
+      },
+      {
+        "key": "Liguria|Eolico",
+        "value": 3.168
+      },
+      {
+        "key": "Liguria|Eolico",
+        "value": 3.08
+      }
+    ],
+    "Marche|Idrico": [
+      {
+        "key": "Marche|Idrico",
+        "value": 106.91717
+      },
+      {
+        "key": "Marche|Idrico",
+        "value": 84.43832
+      },
+      {
+        "key": "Marche|Idrico",
+        "value": 33.227
+      },
+      {
+        "key": "Marche|Idrico",
+        "value": 10.809
+      },
+      {
+        "key": "Marche|Idrico",
+        "value": 7.92052
+      }
+    ],
+    "Umbria|Accumulo stand alone": [
+      {
+        "key": "Umbria|Accumulo stand alone",
+        "value": 98.4
+      },
+      {
+        "key": "Umbria|Accumulo stand alone",
+        "value": 28.8
+      }
+    ],
+    "Toscana|Eolico": [
+      {
+        "key": "Toscana|Eolico",
+        "value": 74.452
+      },
+      {
+        "key": "Toscana|Eolico",
+        "value": 20.34
+      },
+      {
+        "key": "Toscana|Eolico",
+        "value": 19.914
+      },
+      {
+        "key": "Toscana|Eolico",
+        "value": 14.243
+      },
+      {
+        "key": "Toscana|Eolico",
+        "value": 10
+      },
+      {
+        "key": "Toscana|Eolico",
+        "value": 4.742
+      },
+      {
+        "key": "Toscana|Eolico",
+        "value": 0.235
+      },
+      {
+        "key": "Toscana|Eolico",
+        "value": 0.046
+      },
+      {
+        "key": "Toscana|Eolico",
+        "value": 0.02
+      },
+      {
+        "key": "Toscana|Eolico",
+        "value": 0.015
+      }
+    ],
+    "Emilia-Romagna|Accumulo stand alone": [
+      {
+        "key": "Emilia-Romagna|Accumulo stand alone",
+        "value": 70
+      },
+      {
+        "key": "Emilia-Romagna|Accumulo stand alone",
+        "value": 31.7
+      },
+      {
+        "key": "Emilia-Romagna|Accumulo stand alone",
+        "value": 30
+      }
+    ],
+    "Lazio|Eolico": [
+      {
+        "key": "Lazio|Eolico",
+        "value": 68.692
+      },
+      {
+        "key": "Lazio|Eolico",
+        "value": 9
+      },
+      {
+        "key": "Lazio|Eolico",
+        "value": 0.054
+      },
+      {
+        "key": "Lazio|Eolico",
+        "value": 0.046
+      }
+    ],
+    "Liguria|Fotovoltaico": [
+      {
+        "key": "Liguria|Fotovoltaico",
+        "value": 67.471
+      },
+      {
+        "key": "Liguria|Fotovoltaico",
+        "value": 66.216
+      },
+      {
+        "key": "Liguria|Fotovoltaico",
+        "value": 49.068
+      },
+      {
+        "key": "Liguria|Fotovoltaico",
+        "value": 48.354
+      }
+    ],
+    "Molise|Idrico": [
+      {
+        "key": "Molise|Idrico",
+        "value": 67.43415
+      },
+      {
+        "key": "Molise|Idrico",
+        "value": 20.27775
+      }
+    ],
+    "Liguria|Idrico": [
+      {
+        "key": "Liguria|Idrico",
+        "value": 54.48465
+      },
+      {
+        "key": "Liguria|Idrico",
+        "value": 18.838
+      },
+      {
+        "key": "Liguria|Idrico",
+        "value": 12.756
+      },
+      {
+        "key": "Liguria|Idrico",
+        "value": 7.009
+      }
+    ],
+    "Sardegna|Accumulo stand alone": [
+      {
+        "key": "Sardegna|Accumulo stand alone",
+        "value": 54.4
+      },
+      {
+        "key": "Sardegna|Accumulo stand alone",
+        "value": 6
+      },
+      {
+        "key": "Sardegna|Accumulo stand alone",
+        "value": 1.5
+      }
+    ],
+    "Lombardia|Accumulo stand alone": [
+      {
+        "key": "Lombardia|Accumulo stand alone",
+        "value": 52.183
+      }
+    ],
+    "Veneto|Accumulo stand alone": [
+      {
+        "key": "Veneto|Accumulo stand alone",
+        "value": 48.6
+      },
+      {
+        "key": "Veneto|Accumulo stand alone",
+        "value": 18.5
+      }
+    ],
+    "Lazio|Accumulo stand alone": [
+      {
+        "key": "Lazio|Accumulo stand alone",
+        "value": 44.5
+      },
+      {
+        "key": "Lazio|Accumulo stand alone",
+        "value": 5
+      }
+    ],
+    "Valle D'Aosta|Fotovoltaico": [
+      {
+        "key": "Valle D'Aosta|Fotovoltaico",
+        "value": 39.533
+      }
+    ],
+    "Emilia-Romagna|Eolico": [
+      {
+        "key": "Emilia-Romagna|Eolico",
+        "value": 26.017
+      },
+      {
+        "key": "Emilia-Romagna|Eolico",
+        "value": 16.605
+      },
+      {
+        "key": "Emilia-Romagna|Eolico",
+        "value": 1.08
+      },
+      {
+        "key": "Emilia-Romagna|Eolico",
+        "value": 0.382
+      },
+      {
+        "key": "Emilia-Romagna|Eolico",
+        "value": 0.325
+      },
+      {
+        "key": "Emilia-Romagna|Eolico",
+        "value": 0.158
+      },
+      {
+        "key": "Emilia-Romagna|Eolico",
+        "value": 0.078
+      },
+      {
+        "key": "Emilia-Romagna|Eolico",
+        "value": 0.07
+      }
+    ],
+    "Liguria|Accumulo stand alone": [
+      {
+        "key": "Liguria|Accumulo stand alone",
+        "value": 20.69
+      },
+      {
+        "key": "Liguria|Accumulo stand alone",
+        "value": 9
+      }
+    ],
+    "Piemonte|Eolico": [
+      {
+        "key": "Piemonte|Eolico",
+        "value": 18.58
+      },
+      {
+        "key": "Piemonte|Eolico",
+        "value": 0.204
+      },
+      {
+        "key": "Piemonte|Eolico",
+        "value": 0.03
+      },
+      {
+        "key": "Piemonte|Eolico",
+        "value": 0.006
+      },
+      {
+        "key": "Piemonte|Eolico",
+        "value": 0.003
+      }
+    ],
+    "Toscana|Accumulo stand alone": [
+      {
+        "key": "Toscana|Accumulo stand alone",
+        "value": 17.8
+      }
+    ],
+    "Sicilia|Accumulo stand alone": [
+      {
+        "key": "Sicilia|Accumulo stand alone",
+        "value": 13.963
+      }
+    ],
+    "Valle D'Aosta|Termoelettrico": [
+      {
+        "key": "Valle D'Aosta|Termoelettrico",
+        "value": 13.585
+      }
+    ],
+    "Veneto|Eolico": [
+      {
+        "key": "Veneto|Eolico",
+        "value": 13.11
+      },
+      {
+        "key": "Veneto|Eolico",
+        "value": 0.02
+      },
+      {
+        "key": "Veneto|Eolico",
+        "value": 0.005
+      },
+      {
+        "key": "Veneto|Eolico",
+        "value": 0.004
+      }
+    ],
+    "Marche|Eolico": [
+      {
+        "key": "Marche|Eolico",
+        "value": 11.347
+      },
+      {
+        "key": "Marche|Eolico",
+        "value": 8.626
+      },
+      {
+        "key": "Marche|Eolico",
+        "value": 0.089
+      },
+      {
+        "key": "Marche|Eolico",
+        "value": 0.029
+      },
+      {
+        "key": "Marche|Eolico",
+        "value": 0.01
+      }
+    ],
+    "Puglia|Accumulo stand alone": [
+      {
+        "key": "Puglia|Accumulo stand alone",
+        "value": 8.78
+      }
+    ],
+    "Umbria|Eolico": [
+      {
+        "key": "Umbria|Eolico",
+        "value": 3.862
+      },
+      {
+        "key": "Umbria|Eolico",
+        "value": 0.056
+      }
+    ],
+    "Valle D'Aosta|Eolico": [
+      {
+        "key": "Valle D'Aosta|Eolico",
+        "value": 2.583
+      }
+    ],
+    "Puglia|Idrico": [
+      {
+        "key": "Puglia|Idrico",
+        "value": 1.439
+      },
+      {
+        "key": "Puglia|Idrico",
+        "value": 1.253
+      },
+      {
+        "key": "Puglia|Idrico",
+        "value": 0.898
+      },
+      {
+        "key": "Puglia|Idrico",
+        "value": 0.44
+      }
+    ],
+    "Campania|Accumulo stand alone": [
+      {
+        "key": "Campania|Accumulo stand alone",
+        "value": 1
+      }
+    ],
+    "Trentino-Alto Adige|Eolico": [
+      {
+        "key": "Trentino-Alto Adige|Eolico",
+        "value": 0.293
+      },
+      {
+        "key": "Trentino-Alto Adige|Eolico",
+        "value": 0.044
+      }
+    ],
+    "Lombardia|Eolico": [
+      {
+        "key": "Lombardia|Eolico",
+        "value": 0.017
+      },
+      {
+        "key": "Lombardia|Eolico",
+        "value": 0.011
+      },
+      {
+        "key": "Lombardia|Eolico",
+        "value": 0.01
+      },
+      {
+        "key": "Lombardia|Eolico",
+        "value": 0.008
+      },
+      {
+        "key": "Lombardia|Eolico",
+        "value": 0.006
+      },
+      {
+        "key": "Lombardia|Eolico",
+        "value": 0.003
+      },
+      {
+        "key": "Lombardia|Eolico",
+        "value": 0.002
+      },
+      {
+        "key": "Lombardia|Eolico",
+        "value": 0.002
+      }
+    ],
+    "Trentino-Alto Adige|Accumulo stand alone": [
+      {
+        "key": "Trentino-Alto Adige|Accumulo stand alone",
+        "value": 0.016
+      }
+    ],
+    "Friuli-Venezia Giulia|Eolico": [
+      {
+        "key": "Friuli-Venezia Giulia|Eolico",
+        "value": 0.007
+      },
+      {
+        "key": "Friuli-Venezia Giulia|Eolico",
+        "value": 0.0035
+      },
+      {
+        "key": "Friuli-Venezia Giulia|Eolico",
+        "value": 0.002
+      }
+    ]
+  },
+  "flat": [
+    {
+      "key": "Lombardia|Termoelettrico",
+      "value": 3735.447
+    },
+    {
+      "key": "Lazio|Termoelettrico",
+      "value": 3344.329
+    },
+    {
+      "key": "Puglia|Termoelettrico",
+      "value": 3128.198
+    },
+    {
+      "key": "Piemonte|Termoelettrico",
+      "value": 3119.501
+    },
+    {
+      "key": "Lombardia|Termoelettrico",
+      "value": 2901.4158
+    },
+    {
+      "key": "Lombardia|Termoelettrico",
+      "value": 2853.785
+    },
+    {
+      "key": "Puglia|Eolico",
+      "value": 2683.706
+    },
+    {
+      "key": "Emilia-Romagna|Termoelettrico",
+      "value": 2562.4834
+    },
+    {
+      "key": "Emilia-Romagna|Termoelettrico",
+      "value": 2279.2449
+    },
+    {
+      "key": "Lombardia|Idrico",
+      "value": 2244.8562
+    },
+    {
+      "key": "Lombardia|Idrico",
+      "value": 2230.2441
+    },
+    {
+      "key": "Sicilia|Termoelettrico",
+      "value": 2220.079
+    },
+    {
+      "key": "Trentino-Alto Adige|Idrico",
+      "value": 1968.1595
+    },
+    {
+      "key": "Campania|Termoelettrico",
+      "value": 1949.134
+    },
+    {
+      "key": "Piemonte|Idrico",
+      "value": 1732.0243
+    },
+    {
+      "key": "Lombardia|Termoelettrico",
+      "value": 1710.4548
+    },
+    {
+      "key": "Veneto|Termoelettrico",
+      "value": 1680.035
+    },
+    {
+      "key": "Trentino-Alto Adige|Idrico",
+      "value": 1636.4464
+    },
+    {
+      "key": "Lazio|Fotovoltaico",
+      "value": 1579.506
+    },
+    {
+      "key": "Sicilia|Termoelettrico",
+      "value": 1225.762
+    },
+    {
+      "key": "Campania|Idrico",
+      "value": 1207.995
+    },
+    {
+      "key": "Basilicata|Eolico",
+      "value": 1180.055
+    },
+    {
+      "key": "Puglia|Termoelettrico",
+      "value": 1165.495
+    },
+    {
+      "key": "Molise|Termoelettrico",
+      "value": 1155.303
+    },
+    {
+      "key": "Piemonte|Idrico",
+      "value": 1109.9456
+    },
+    {
+      "key": "Sicilia|Termoelettrico",
+      "value": 1083.414
+    },
+    {
+      "key": "Lombardia|Fotovoltaico",
+      "value": 1081.546
+    },
+    {
+      "key": "Calabria|Termoelettrico",
+      "value": 1069.687
+    },
+    {
+      "key": "Lombardia|Idrico",
+      "value": 1069.575
+    },
+    {
+      "key": "Toscana|Termoelettrico",
+      "value": 1059.347
+    },
+    {
+      "key": "Puglia|Termoelettrico",
+      "value": 1030.906
+    },
+    {
+      "key": "Campania|Eolico",
+      "value": 1024.746
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Termoelettrico",
+      "value": 1024.3605
+    },
+    {
+      "key": "Valle D'Aosta|Idrico",
+      "value": 1023.44965
+    },
+    {
+      "key": "Abruzzo|Termoelettrico",
+      "value": 953.787
+    },
+    {
+      "key": "Piemonte|Termoelettrico",
+      "value": 924.95
+    },
+    {
+      "key": "Calabria|Termoelettrico",
+      "value": 917.375
+    },
+    {
+      "key": "Campania|Eolico",
+      "value": 908.341
+    },
+    {
+      "key": "Sardegna|Termoelettrico",
+      "value": 892.089
+    },
+    {
+      "key": "Puglia|Termoelettrico",
+      "value": 890.146
+    },
+    {
+      "key": "Piemonte|Fotovoltaico",
+      "value": 889.739
+    },
+    {
+      "key": "Puglia|Fotovoltaico",
+      "value": 882.958
+    },
+    {
+      "key": "Emilia-Romagna|Termoelettrico",
+      "value": 882.435
+    },
+    {
+      "key": "Lazio|Termoelettrico",
+      "value": 874.645
+    },
+    {
+      "key": "Piemonte|Fotovoltaico",
+      "value": 863.736
+    },
+    {
+      "key": "Piemonte|Idrico",
+      "value": 852.0194
+    },
+    {
+      "key": "Calabria|Termoelettrico",
+      "value": 846.441
+    },
+    {
+      "key": "Liguria|Termoelettrico",
+      "value": 832.567
+    },
+    {
+      "key": "Lazio|Fotovoltaico",
+      "value": 819.418
+    },
+    {
+      "key": "Calabria|Termoelettrico",
+      "value": 783.141
+    },
+    {
+      "key": "Lombardia|Fotovoltaico",
+      "value": 762.033
+    },
+    {
+      "key": "Campania|Termoelettrico",
+      "value": 755.77
+    },
+    {
+      "key": "Puglia|Fotovoltaico",
+      "value": 752.486
+    },
+    {
+      "key": "Veneto|Fotovoltaico",
+      "value": 738.717
+    },
+    {
+      "key": "Puglia|Fotovoltaico",
+      "value": 736.999
+    },
+    {
+      "key": "Calabria|Eolico",
+      "value": 718.744
+    },
+    {
+      "key": "Sicilia|Eolico",
+      "value": 707.622
+    },
+    {
+      "key": "Veneto|Fotovoltaico",
+      "value": 702.245
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Fotovoltaico",
+      "value": 694.807
+    },
+    {
+      "key": "Veneto|Fotovoltaico",
+      "value": 692.904
+    },
+    {
+      "key": "Lombardia|Fotovoltaico",
+      "value": 672.588
+    },
+    {
+      "key": "Sardegna|Fotovoltaico",
+      "value": 634.066
+    },
+    {
+      "key": "Veneto|Fotovoltaico",
+      "value": 632.401
+    },
+    {
+      "key": "Sardegna|Eolico",
+      "value": 628.655
+    },
+    {
+      "key": "Veneto|Idrico",
+      "value": 618.8495
+    },
+    {
+      "key": "Lazio|Termoelettrico",
+      "value": 613.345
+    },
+    {
+      "key": "Abruzzo|Idrico",
+      "value": 611.9995
+    },
+    {
+      "key": "Sardegna|Termoelettrico",
+      "value": 605.958
+    },
+    {
+      "key": "Sicilia|Eolico",
+      "value": 579.844
+    },
+    {
+      "key": "Emilia-Romagna|Fotovoltaico",
+      "value": 578.581
+    },
+    {
+      "key": "Puglia|Fotovoltaico",
+      "value": 562.725
+    },
+    {
+      "key": "Lazio|Fotovoltaico",
+      "value": 561.615
+    },
+    {
+      "key": "Umbria|Fotovoltaico",
+      "value": 557.346
+    },
+    {
+      "key": "Emilia-Romagna|Fotovoltaico",
+      "value": 526.505
+    },
+    {
+      "key": "Emilia-Romagna|Fotovoltaico",
+      "value": 515.931
+    },
+    {
+      "key": "Sicilia|Idrico",
+      "value": 506.39
+    },
+    {
+      "key": "Sardegna|Termoelettrico",
+      "value": 491.302
+    },
+    {
+      "key": "Umbria|Idrico",
+      "value": 483.57
+    },
+    {
+      "key": "Puglia|Fotovoltaico",
+      "value": 473.825
+    },
+    {
+      "key": "Piemonte|Fotovoltaico",
+      "value": 459.861
+    },
+    {
+      "key": "Lombardia|Fotovoltaico",
+      "value": 451.85
+    },
+    {
+      "key": "Campania|Fotovoltaico",
+      "value": 449.982
+    },
+    {
+      "key": "Veneto|Fotovoltaico",
+      "value": 449.449
+    },
+    {
+      "key": "Trentino-Alto Adige|Fotovoltaico",
+      "value": 448.723
+    },
+    {
+      "key": "Veneto|Fotovoltaico",
+      "value": 448.239
+    },
+    {
+      "key": "Sicilia|Fotovoltaico",
+      "value": 446.584
+    },
+    {
+      "key": "Marche|Termoelettrico",
+      "value": 435.331
+    },
+    {
+      "key": "Toscana|Termoelettrico",
+      "value": 435.10077
+    },
+    {
+      "key": "Sicilia|Fotovoltaico",
+      "value": 427.218
+    },
+    {
+      "key": "Umbria|Termoelettrico",
+      "value": 425.989
+    },
+    {
+      "key": "Piemonte|Termoelettrico",
+      "value": 425.4356
+    },
+    {
+      "key": "Sicilia|Fotovoltaico",
+      "value": 423.054
+    },
+    {
+      "key": "Campania|Fotovoltaico",
+      "value": 414.5
+    },
+    {
+      "key": "Marche|Fotovoltaico",
+      "value": 413.855
+    },
+    {
+      "key": "Calabria|Eolico",
+      "value": 408.406
+    },
+    {
+      "key": "Sardegna|Fotovoltaico",
+      "value": 405.621
+    },
+    {
+      "key": "Marche|Fotovoltaico",
+      "value": 400.503
+    },
+    {
+      "key": "Lombardia|Fotovoltaico",
+      "value": 397.855
+    },
+    {
+      "key": "Emilia-Romagna|Fotovoltaico",
+      "value": 394.577
+    },
+    {
+      "key": "Sicilia|Fotovoltaico",
+      "value": 388.081
+    },
+    {
+      "key": "Toscana|Geotermoelettrico",
+      "value": 387.4
+    },
+    {
+      "key": "Calabria|Fotovoltaico",
+      "value": 385.809
+    },
+    {
+      "key": "Calabria|Idrico",
+      "value": 383.153
+    },
+    {
+      "key": "Veneto|Idrico",
+      "value": 373.5192
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Fotovoltaico",
+      "value": 372.622
+    },
+    {
+      "key": "Marche|Fotovoltaico",
+      "value": 370.497
+    },
+    {
+      "key": "Campania|Fotovoltaico",
+      "value": 369.704
+    },
+    {
+      "key": "Abruzzo|Termoelettrico",
+      "value": 368.903
+    },
+    {
+      "key": "Emilia-Romagna|Fotovoltaico",
+      "value": 363.859
+    },
+    {
+      "key": "Trentino-Alto Adige|Fotovoltaico",
+      "value": 361.29
+    },
+    {
+      "key": "Emilia-Romagna|Fotovoltaico",
+      "value": 356.428
+    },
+    {
+      "key": "Sardegna|Idrico",
+      "value": 356.339
+    },
+    {
+      "key": "Emilia-Romagna|Fotovoltaico",
+      "value": 356.059
+    },
+    {
+      "key": "Lombardia|Idrico",
+      "value": 355.2586
+    },
+    {
+      "key": "Abruzzo|Fotovoltaico",
+      "value": 352.336
+    },
+    {
+      "key": "Abruzzo|Fotovoltaico",
+      "value": 351.403
+    },
+    {
+      "key": "Emilia-Romagna|Idrico",
+      "value": 344.3108
+    },
+    {
+      "key": "Lombardia|Fotovoltaico",
+      "value": 339.005
+    },
+    {
+      "key": "Lombardia|Fotovoltaico",
+      "value": 335.721
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Idrico",
+      "value": 322.21332
+    },
+    {
+      "key": "Emilia-Romagna|Fotovoltaico",
+      "value": 321.549
+    },
+    {
+      "key": "Basilicata|Eolico",
+      "value": 315.774
+    },
+    {
+      "key": "Sicilia|Fotovoltaico",
+      "value": 313.387
+    },
+    {
+      "key": "Sicilia|Fotovoltaico",
+      "value": 309.817
+    },
+    {
+      "key": "Basilicata|Fotovoltaico",
+      "value": 307.373
+    },
+    {
+      "key": "Sicilia|Eolico",
+      "value": 305.415
+    },
+    {
+      "key": "Lazio|Termoelettrico",
+      "value": 300.935
+    },
+    {
+      "key": "Lombardia|Termoelettrico",
+      "value": 297.82137
+    },
+    {
+      "key": "Sicilia|Eolico",
+      "value": 296.216
+    },
+    {
+      "key": "Molise|Eolico",
+      "value": 289.157
+    },
+    {
+      "key": "Toscana|Termoelettrico",
+      "value": 288.104
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Termoelettrico",
+      "value": 287.577
+    },
+    {
+      "key": "Lazio|Fotovoltaico",
+      "value": 281.938
+    },
+    {
+      "key": "Emilia-Romagna|Termoelettrico",
+      "value": 280.6299
+    },
+    {
+      "key": "Sardegna|Eolico",
+      "value": 277.286
+    },
+    {
+      "key": "Basilicata|Fotovoltaico",
+      "value": 277.143
+    },
+    {
+      "key": "Lombardia|Termoelettrico",
+      "value": 275.3061
+    },
+    {
+      "key": "Lombardia|Termoelettrico",
+      "value": 274.377
+    },
+    {
+      "key": "Calabria|Idrico",
+      "value": 272.657
+    },
+    {
+      "key": "Sardegna|Fotovoltaico",
+      "value": 272.071
+    },
+    {
+      "key": "Piemonte|Fotovoltaico",
+      "value": 263.629
+    },
+    {
+      "key": "Abruzzo|Fotovoltaico",
+      "value": 261.133
+    },
+    {
+      "key": "Lombardia|Fotovoltaico",
+      "value": 257.978
+    },
+    {
+      "key": "Toscana|Fotovoltaico",
+      "value": 256.761
+    },
+    {
+      "key": "Sicilia|Termoelettrico",
+      "value": 254.389
+    },
+    {
+      "key": "Piemonte|Termoelettrico",
+      "value": 246.738
+    },
+    {
+      "key": "Veneto|Termoelettrico",
+      "value": 244.144
+    },
+    {
+      "key": "Toscana|Fotovoltaico",
+      "value": 225.251
+    },
+    {
+      "key": "Piemonte|Accumulo stand alone",
+      "value": 225
+    },
+    {
+      "key": "Piemonte|Fotovoltaico",
+      "value": 222.609
+    },
+    {
+      "key": "Toscana|Idrico",
+      "value": 220.2446
+    },
+    {
+      "key": "Campania|Eolico",
+      "value": 219.802
+    },
+    {
+      "key": "Abruzzo|Idrico",
+      "value": 219.40073
+    },
+    {
+      "key": "Lombardia|Fotovoltaico",
+      "value": 219.331
+    },
+    {
+      "key": "Puglia|Fotovoltaico",
+      "value": 217.864
+    },
+    {
+      "key": "Sardegna|Fotovoltaico",
+      "value": 213.702
+    },
+    {
+      "key": "Lombardia|Fotovoltaico",
+      "value": 208.242
+    },
+    {
+      "key": "Emilia-Romagna|Termoelettrico",
+      "value": 205.35442
+    },
+    {
+      "key": "Toscana|Fotovoltaico",
+      "value": 201.469
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Accumulo stand alone",
+      "value": 200
+    },
+    {
+      "key": "Piemonte|Termoelettrico",
+      "value": 199.284
+    },
+    {
+      "key": "Sardegna|Fotovoltaico",
+      "value": 196.633
+    },
+    {
+      "key": "Veneto|Termoelettrico",
+      "value": 196.118
+    },
+    {
+      "key": "Lombardia|Termoelettrico",
+      "value": 196.039
+    },
+    {
+      "key": "Veneto|Termoelettrico",
+      "value": 195.921
+    },
+    {
+      "key": "Calabria|Fotovoltaico",
+      "value": 195.488
+    },
+    {
+      "key": "Toscana|Geotermoelettrico",
+      "value": 193.4
+    },
+    {
+      "key": "Puglia|Eolico",
+      "value": 192.344
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Idrico",
+      "value": 191.33005
+    },
+    {
+      "key": "Toscana|Geotermoelettrico",
+      "value": 190.99
+    },
+    {
+      "key": "Molise|Fotovoltaico",
+      "value": 190.25
+    },
+    {
+      "key": "Marche|Fotovoltaico",
+      "value": 184.255
+    },
+    {
+      "key": "Piemonte|Fotovoltaico",
+      "value": 182.13
+    },
+    {
+      "key": "Emilia-Romagna|Termoelettrico",
+      "value": 177.72955
+    },
+    {
+      "key": "Umbria|Fotovoltaico",
+      "value": 175.066
+    },
+    {
+      "key": "Sardegna|Termoelettrico",
+      "value": 169.6
+    },
+    {
+      "key": "Trentino-Alto Adige|Termoelettrico",
+      "value": 168.6395
+    },
+    {
+      "key": "Basilicata|Termoelettrico",
+      "value": 166.802
+    },
+    {
+      "key": "Sicilia|Eolico",
+      "value": 165.99
+    },
+    {
+      "key": "Abruzzo|Eolico",
+      "value": 164.716
+    },
+    {
+      "key": "Campania|Fotovoltaico",
+      "value": 161.1
+    },
+    {
+      "key": "Emilia-Romagna|Fotovoltaico",
+      "value": 160.617
+    },
+    {
+      "key": "Abruzzo|Idrico",
+      "value": 160.177
+    },
+    {
+      "key": "Piemonte|Fotovoltaico",
+      "value": 155.076
+    },
+    {
+      "key": "Lazio|Idrico",
+      "value": 155.04974
+    },
+    {
+      "key": "Calabria|Idrico",
+      "value": 151.054
+    },
+    {
+      "key": "Abruzzo|Fotovoltaico",
+      "value": 150.271
+    },
+    {
+      "key": "Toscana|Fotovoltaico",
+      "value": 148.001
+    },
+    {
+      "key": "Sicilia|Fotovoltaico",
+      "value": 147.366
+    },
+    {
+      "key": "Marche|Fotovoltaico",
+      "value": 146.716
+    },
+    {
+      "key": "Sicilia|Eolico",
+      "value": 142.74
+    },
+    {
+      "key": "Toscana|Fotovoltaico",
+      "value": 139.922
+    },
+    {
+      "key": "Abruzzo|Termoelettrico",
+      "value": 139.285
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Termoelettrico",
+      "value": 138.527
+    },
+    {
+      "key": "Veneto|Termoelettrico",
+      "value": 136.495
+    },
+    {
+      "key": "Sardegna|Eolico",
+      "value": 134.207
+    },
+    {
+      "key": "Umbria|Termoelettrico",
+      "value": 133.979
+    },
+    {
+      "key": "Veneto|Idrico",
+      "value": 133.056
+    },
+    {
+      "key": "Basilicata|Idrico",
+      "value": 132.15225
+    },
+    {
+      "key": "Lombardia|Fotovoltaico",
+      "value": 132.105
+    },
+    {
+      "key": "Lazio|Idrico",
+      "value": 130.864
+    },
+    {
+      "key": "Campania|Fotovoltaico",
+      "value": 129.282
+    },
+    {
+      "key": "Sicilia|Eolico",
+      "value": 126.51
+    },
+    {
+      "key": "Sicilia|Termoelettrico",
+      "value": 124.439
+    },
+    {
+      "key": "Trentino-Alto Adige|Termoelettrico",
+      "value": 123.77
+    },
+    {
+      "key": "Calabria|Fotovoltaico",
+      "value": 123.729
+    },
+    {
+      "key": "Sicilia|Fotovoltaico",
+      "value": 123.385
+    },
+    {
+      "key": "Toscana|Fotovoltaico",
+      "value": 123.373
+    },
+    {
+      "key": "Liguria|Eolico",
+      "value": 123.05
+    },
+    {
+      "key": "Toscana|Fotovoltaico",
+      "value": 122.27
+    },
+    {
+      "key": "Molise|Eolico",
+      "value": 117.775
+    },
+    {
+      "key": "Emilia-Romagna|Termoelettrico",
+      "value": 113.895
+    },
+    {
+      "key": "Toscana|Fotovoltaico",
+      "value": 109.953
+    },
+    {
+      "key": "Puglia|Eolico",
+      "value": 109.901
+    },
+    {
+      "key": "Sicilia|Eolico",
+      "value": 109.536
+    },
+    {
+      "key": "Veneto|Termoelettrico",
+      "value": 108.395
+    },
+    {
+      "key": "Marche|Idrico",
+      "value": 106.91717
+    },
+    {
+      "key": "Sardegna|Eolico",
+      "value": 106.572
+    },
+    {
+      "key": "Emilia-Romagna|Idrico",
+      "value": 105.375
+    },
+    {
+      "key": "Abruzzo|Eolico",
+      "value": 105.002
+    },
+    {
+      "key": "Lombardia|Fotovoltaico",
+      "value": 101.044
+    },
+    {
+      "key": "Campania|Idrico",
+      "value": 99.50763
+    },
+    {
+      "key": "Lazio|Idrico",
+      "value": 98.502
+    },
+    {
+      "key": "Umbria|Accumulo stand alone",
+      "value": 98.4
+    },
+    {
+      "key": "Sicilia|Fotovoltaico",
+      "value": 95.079
+    },
+    {
+      "key": "Sicilia|Idrico",
+      "value": 92.641
+    },
+    {
+      "key": "Basilicata|Termoelettrico",
+      "value": 92.315
+    },
+    {
+      "key": "Puglia|Eolico",
+      "value": 91.946
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Fotovoltaico",
+      "value": 90.445
+    },
+    {
+      "key": "Puglia|Eolico",
+      "value": 88.225
+    },
+    {
+      "key": "Calabria|Eolico",
+      "value": 87.972
+    },
+    {
+      "key": "Toscana|Fotovoltaico",
+      "value": 87.432
+    },
+    {
+      "key": "Toscana|Termoelettrico",
+      "value": 85.858
+    },
+    {
+      "key": "Marche|Idrico",
+      "value": 84.43832
+    },
+    {
+      "key": "Lombardia|Termoelettrico",
+      "value": 83.954
+    },
+    {
+      "key": "Veneto|Fotovoltaico",
+      "value": 83.883
+    },
+    {
+      "key": "Veneto|Idrico",
+      "value": 80.57428
+    },
+    {
+      "key": "Abruzzo|Idrico",
+      "value": 79.505
+    },
+    {
+      "key": "Toscana|Termoelettrico",
+      "value": 75.986
+    },
+    {
+      "key": "Toscana|Eolico",
+      "value": 74.452
+    },
+    {
+      "key": "Sicilia|Idrico",
+      "value": 72.55
+    },
+    {
+      "key": "Emilia-Romagna|Accumulo stand alone",
+      "value": 70
+    },
+    {
+      "key": "Liguria|Termoelettrico",
+      "value": 69.505
+    },
+    {
+      "key": "Emilia-Romagna|Idrico",
+      "value": 68.7438
+    },
+    {
+      "key": "Lazio|Eolico",
+      "value": 68.692
+    },
+    {
+      "key": "Liguria|Fotovoltaico",
+      "value": 67.471
+    },
+    {
+      "key": "Molise|Idrico",
+      "value": 67.43415
+    },
+    {
+      "key": "Toscana|Termoelettrico",
+      "value": 67.168
+    },
+    {
+      "key": "Liguria|Fotovoltaico",
+      "value": 66.216
+    },
+    {
+      "key": "Molise|Fotovoltaico",
+      "value": 65.753
+    },
+    {
+      "key": "Calabria|Fotovoltaico",
+      "value": 65.097
+    },
+    {
+      "key": "Lombardia|Idrico",
+      "value": 64.9917
+    },
+    {
+      "key": "Emilia-Romagna|Termoelettrico",
+      "value": 63.73988
+    },
+    {
+      "key": "Calabria|Fotovoltaico",
+      "value": 62.967
+    },
+    {
+      "key": "Puglia|Eolico",
+      "value": 62.101
+    },
+    {
+      "key": "Campania|Termoelettrico",
+      "value": 61.776
+    },
+    {
+      "key": "Liguria|Idrico",
+      "value": 54.48465
+    },
+    {
+      "key": "Sardegna|Accumulo stand alone",
+      "value": 54.4
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Fotovoltaico",
+      "value": 52.923
+    },
+    {
+      "key": "Lazio|Fotovoltaico",
+      "value": 52.573
+    },
+    {
+      "key": "Toscana|Idrico",
+      "value": 52.53835
+    },
+    {
+      "key": "Emilia-Romagna|Idrico",
+      "value": 52.25055
+    },
+    {
+      "key": "Lombardia|Accumulo stand alone",
+      "value": 52.183
+    },
+    {
+      "key": "Toscana|Fotovoltaico",
+      "value": 52.128
+    },
+    {
+      "key": "Toscana|Idrico",
+      "value": 49.259
+    },
+    {
+      "key": "Liguria|Fotovoltaico",
+      "value": 49.068
+    },
+    {
+      "key": "Veneto|Accumulo stand alone",
+      "value": 48.6
+    },
+    {
+      "key": "Liguria|Fotovoltaico",
+      "value": 48.354
+    },
+    {
+      "key": "Sicilia|Eolico",
+      "value": 47.815
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Termoelettrico",
+      "value": 47.601
+    },
+    {
+      "key": "Lombardia|Idrico",
+      "value": 47.36575
+    },
+    {
+      "key": "Piemonte|Fotovoltaico",
+      "value": 46.577
+    },
+    {
+      "key": "Sardegna|Eolico",
+      "value": 46.483
+    },
+    {
+      "key": "Toscana|Termoelettrico",
+      "value": 46.323
+    },
+    {
+      "key": "Emilia-Romagna|Idrico",
+      "value": 46.28725
+    },
+    {
+      "key": "Lombardia|Termoelettrico",
+      "value": 45.249
+    },
+    {
+      "key": "Lombardia|Idrico",
+      "value": 45.028
+    },
+    {
+      "key": "Piemonte|Accumulo stand alone",
+      "value": 44.8
+    },
+    {
+      "key": "Lazio|Accumulo stand alone",
+      "value": 44.5
+    },
+    {
+      "key": "Veneto|Termoelettrico",
+      "value": 43.999
+    },
+    {
+      "key": "Piemonte|Idrico",
+      "value": 41.6355
+    },
+    {
+      "key": "Piemonte|Idrico",
+      "value": 39.9085
+    },
+    {
+      "key": "Valle D'Aosta|Fotovoltaico",
+      "value": 39.533
+    },
+    {
+      "key": "Piemonte|Idrico",
+      "value": 39.01274
+    },
+    {
+      "key": "Sicilia|Termoelettrico",
+      "value": 38.7363
+    },
+    {
+      "key": "Sardegna|Idrico",
+      "value": 38.12
+    },
+    {
+      "key": "Sardegna|Idrico",
+      "value": 37.19
+    },
+    {
+      "key": "Toscana|Idrico",
+      "value": 36.07435
+    },
+    {
+      "key": "Lombardia|Termoelettrico",
+      "value": 34.987
+    },
+    {
+      "key": "Marche|Idrico",
+      "value": 33.227
+    },
+    {
+      "key": "Lombardia|Idrico",
+      "value": 32.568
+    },
+    {
+      "key": "Lombardia|Termoelettrico",
+      "value": 32.56
+    },
+    {
+      "key": "Calabria|Eolico",
+      "value": 32.282
+    },
+    {
+      "key": "Toscana|Termoelettrico",
+      "value": 31.924
+    },
+    {
+      "key": "Emilia-Romagna|Accumulo stand alone",
+      "value": 31.7
+    },
+    {
+      "key": "Umbria|Idrico",
+      "value": 31.60478
+    },
+    {
+      "key": "Piemonte|Idrico",
+      "value": 31.1609
+    },
+    {
+      "key": "Emilia-Romagna|Accumulo stand alone",
+      "value": 30
+    },
+    {
+      "key": "Sardegna|Idrico",
+      "value": 29.87
+    },
+    {
+      "key": "Lazio|Idrico",
+      "value": 28.851
+    },
+    {
+      "key": "Umbria|Accumulo stand alone",
+      "value": 28.8
+    },
+    {
+      "key": "Piemonte|Termoelettrico",
+      "value": 28.403
+    },
+    {
+      "key": "Sicilia|Idrico",
+      "value": 28.33
+    },
+    {
+      "key": "Campania|Termoelettrico",
+      "value": 28.245
+    },
+    {
+      "key": "Emilia-Romagna|Termoelettrico",
+      "value": 27.75438
+    },
+    {
+      "key": "Lombardia|Idrico",
+      "value": 26.05049
+    },
+    {
+      "key": "Emilia-Romagna|Eolico",
+      "value": 26.017
+    },
+    {
+      "key": "Marche|Termoelettrico",
+      "value": 23.2013
+    },
+    {
+      "key": "Abruzzo|Termoelettrico",
+      "value": 20.802
+    },
+    {
+      "key": "Liguria|Accumulo stand alone",
+      "value": 20.69
+    },
+    {
+      "key": "Emilia-Romagna|Idrico",
+      "value": 20.4279
+    },
+    {
+      "key": "Toscana|Eolico",
+      "value": 20.34
+    },
+    {
+      "key": "Molise|Idrico",
+      "value": 20.27775
+    },
+    {
+      "key": "Campania|Eolico",
+      "value": 20.015
+    },
+    {
+      "key": "Toscana|Eolico",
+      "value": 19.914
+    },
+    {
+      "key": "Calabria|Idrico",
+      "value": 19.329
+    },
+    {
+      "key": "Liguria|Idrico",
+      "value": 18.838
+    },
+    {
+      "key": "Piemonte|Eolico",
+      "value": 18.58
+    },
+    {
+      "key": "Veneto|Accumulo stand alone",
+      "value": 18.5
+    },
+    {
+      "key": "Toscana|Accumulo stand alone",
+      "value": 17.8
+    },
+    {
+      "key": "Sicilia|Termoelettrico",
+      "value": 17.702
+    },
+    {
+      "key": "Lombardia|Idrico",
+      "value": 16.92
+    },
+    {
+      "key": "Emilia-Romagna|Eolico",
+      "value": 16.605
+    },
+    {
+      "key": "Campania|Idrico",
+      "value": 16.59
+    },
+    {
+      "key": "Sardegna|Termoelettrico",
+      "value": 15.971
+    },
+    {
+      "key": "Toscana|Termoelettrico",
+      "value": 15.344
+    },
+    {
+      "key": "Marche|Termoelettrico",
+      "value": 15.008
+    },
+    {
+      "key": "Molise|Termoelettrico",
+      "value": 14.636
+    },
+    {
+      "key": "Toscana|Eolico",
+      "value": 14.243
+    },
+    {
+      "key": "Sicilia|Accumulo stand alone",
+      "value": 13.963
+    },
+    {
+      "key": "Toscana|Idrico",
+      "value": 13.8302
+    },
+    {
+      "key": "Valle D'Aosta|Termoelettrico",
+      "value": 13.585
+    },
+    {
+      "key": "Marche|Termoelettrico",
+      "value": 13.488
+    },
+    {
+      "key": "Veneto|Eolico",
+      "value": 13.11
+    },
+    {
+      "key": "Piemonte|Termoelettrico",
+      "value": 12.884
+    },
+    {
+      "key": "Lombardia|Idrico",
+      "value": 12.8323
+    },
+    {
+      "key": "Liguria|Idrico",
+      "value": 12.756
+    },
+    {
+      "key": "Sicilia|Termoelettrico",
+      "value": 12.649
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Accumulo stand alone",
+      "value": 11.98
+    },
+    {
+      "key": "Piemonte|Termoelettrico",
+      "value": 11.629
+    },
+    {
+      "key": "Marche|Eolico",
+      "value": 11.347
+    },
+    {
+      "key": "Sicilia|Idrico",
+      "value": 11.298
+    },
+    {
+      "key": "Marche|Idrico",
+      "value": 10.809
+    },
+    {
+      "key": "Toscana|Eolico",
+      "value": 10
+    },
+    {
+      "key": "Lombardia|Idrico",
+      "value": 9.648
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Idrico",
+      "value": 9.17685
+    },
+    {
+      "key": "Lazio|Eolico",
+      "value": 9
+    },
+    {
+      "key": "Liguria|Accumulo stand alone",
+      "value": 9
+    },
+    {
+      "key": "Puglia|Accumulo stand alone",
+      "value": 8.78
+    },
+    {
+      "key": "Marche|Eolico",
+      "value": 8.626
+    },
+    {
+      "key": "Marche|Idrico",
+      "value": 7.92052
+    },
+    {
+      "key": "Lazio|Termoelettrico",
+      "value": 7.234
+    },
+    {
+      "key": "Calabria|Idrico",
+      "value": 7.171
+    },
+    {
+      "key": "Liguria|Idrico",
+      "value": 7.009
+    },
+    {
+      "key": "Puglia|Termoelettrico",
+      "value": 6.712
+    },
+    {
+      "key": "Sardegna|Accumulo stand alone",
+      "value": 6
+    },
+    {
+      "key": "Veneto|Idrico",
+      "value": 5.9336
+    },
+    {
+      "key": "Puglia|Termoelettrico",
+      "value": 5.81
+    },
+    {
+      "key": "Piemonte|Idrico",
+      "value": 5.543
+    },
+    {
+      "key": "Lazio|Accumulo stand alone",
+      "value": 5
+    },
+    {
+      "key": "Marche|Termoelettrico",
+      "value": 4.92
+    },
+    {
+      "key": "Campania|Termoelettrico",
+      "value": 4.854
+    },
+    {
+      "key": "Toscana|Eolico",
+      "value": 4.742
+    },
+    {
+      "key": "Abruzzo|Eolico",
+      "value": 4.503
+    },
+    {
+      "key": "Liguria|Eolico",
+      "value": 4.02
+    },
+    {
+      "key": "Umbria|Eolico",
+      "value": 3.862
+    },
+    {
+      "key": "Emilia-Romagna|Idrico",
+      "value": 3.645
+    },
+    {
+      "key": "Toscana|Termoelettrico",
+      "value": 3.407
+    },
+    {
+      "key": "Calabria|Termoelettrico",
+      "value": 3.323
+    },
+    {
+      "key": "Toscana|Idrico",
+      "value": 3.257
+    },
+    {
+      "key": "Liguria|Eolico",
+      "value": 3.168
+    },
+    {
+      "key": "Toscana|Idrico",
+      "value": 3.09504
+    },
+    {
+      "key": "Liguria|Eolico",
+      "value": 3.08
+    },
+    {
+      "key": "Valle D'Aosta|Eolico",
+      "value": 2.583
+    },
+    {
+      "key": "Emilia-Romagna|Idrico",
+      "value": 2.509
+    },
+    {
+      "key": "Sardegna|Idrico",
+      "value": 1.9
+    },
+    {
+      "key": "Sicilia|Idrico",
+      "value": 1.728
+    },
+    {
+      "key": "Campania|Idrico",
+      "value": 1.632
+    },
+    {
+      "key": "Veneto|Idrico",
+      "value": 1.605
+    },
+    {
+      "key": "Sardegna|Accumulo stand alone",
+      "value": 1.5
+    },
+    {
+      "key": "Toscana|Idrico",
+      "value": 1.488
+    },
+    {
+      "key": "Puglia|Idrico",
+      "value": 1.439
+    },
+    {
+      "key": "Basilicata|Idrico",
+      "value": 1.435
+    },
+    {
+      "key": "Liguria|Termoelettrico",
+      "value": 1.411
+    },
+    {
+      "key": "Sicilia|Termoelettrico",
+      "value": 1.39
+    },
+    {
+      "key": "Puglia|Idrico",
+      "value": 1.253
+    },
+    {
+      "key": "Emilia-Romagna|Eolico",
+      "value": 1.08
+    },
+    {
+      "key": "Campania|Accumulo stand alone",
+      "value": 1
+    },
+    {
+      "key": "Veneto|Idrico",
+      "value": 0.956
+    },
+    {
+      "key": "Calabria|Eolico",
+      "value": 0.952
+    },
+    {
+      "key": "Liguria|Termoelettrico",
+      "value": 0.945
+    },
+    {
+      "key": "Puglia|Idrico",
+      "value": 0.898
+    },
+    {
+      "key": "Lazio|Idrico",
+      "value": 0.891
+    },
+    {
+      "key": "Sicilia|Idrico",
+      "value": 0.788
+    },
+    {
+      "key": "Puglia|Idrico",
+      "value": 0.44
+    },
+    {
+      "key": "Emilia-Romagna|Eolico",
+      "value": 0.382
+    },
+    {
+      "key": "Emilia-Romagna|Eolico",
+      "value": 0.325
+    },
+    {
+      "key": "Trentino-Alto Adige|Eolico",
+      "value": 0.293
+    },
+    {
+      "key": "Emilia-Romagna|Idrico",
+      "value": 0.238
+    },
+    {
+      "key": "Toscana|Eolico",
+      "value": 0.235
+    },
+    {
+      "key": "Piemonte|Eolico",
+      "value": 0.204
+    },
+    {
+      "key": "Emilia-Romagna|Eolico",
+      "value": 0.158
+    },
+    {
+      "key": "Toscana|Idrico",
+      "value": 0.099
+    },
+    {
+      "key": "Marche|Eolico",
+      "value": 0.089
+    },
+    {
+      "key": "Emilia-Romagna|Eolico",
+      "value": 0.078
+    },
+    {
+      "key": "Emilia-Romagna|Eolico",
+      "value": 0.07
+    },
+    {
+      "key": "Sicilia|Idrico",
+      "value": 0.068
+    },
+    {
+      "key": "Umbria|Eolico",
+      "value": 0.056
+    },
+    {
+      "key": "Lazio|Eolico",
+      "value": 0.054
+    },
+    {
+      "key": "Lazio|Eolico",
+      "value": 0.046
+    },
+    {
+      "key": "Toscana|Eolico",
+      "value": 0.046
+    },
+    {
+      "key": "Trentino-Alto Adige|Eolico",
+      "value": 0.044
+    },
+    {
+      "key": "Piemonte|Eolico",
+      "value": 0.03
+    },
+    {
+      "key": "Marche|Eolico",
+      "value": 0.029
+    },
+    {
+      "key": "Toscana|Eolico",
+      "value": 0.02
+    },
+    {
+      "key": "Veneto|Eolico",
+      "value": 0.02
+    },
+    {
+      "key": "Lombardia|Eolico",
+      "value": 0.017
+    },
+    {
+      "key": "Trentino-Alto Adige|Accumulo stand alone",
+      "value": 0.016
+    },
+    {
+      "key": "Toscana|Eolico",
+      "value": 0.015
+    },
+    {
+      "key": "Lombardia|Eolico",
+      "value": 0.011
+    },
+    {
+      "key": "Lombardia|Eolico",
+      "value": 0.01
+    },
+    {
+      "key": "Marche|Eolico",
+      "value": 0.01
+    },
+    {
+      "key": "Lombardia|Eolico",
+      "value": 0.008
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Eolico",
+      "value": 0.007
+    },
+    {
+      "key": "Lombardia|Eolico",
+      "value": 0.006
+    },
+    {
+      "key": "Piemonte|Eolico",
+      "value": 0.006
+    },
+    {
+      "key": "Veneto|Eolico",
+      "value": 0.005
+    },
+    {
+      "key": "Veneto|Eolico",
+      "value": 0.004
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Eolico",
+      "value": 0.0035
+    },
+    {
+      "key": "Lombardia|Eolico",
+      "value": 0.003
+    },
+    {
+      "key": "Piemonte|Eolico",
+      "value": 0.003
+    },
+    {
+      "key": "Campania|Eolico",
+      "value": 0.002
+    },
+    {
+      "key": "Friuli-Venezia Giulia|Eolico",
+      "value": 0.002
+    },
+    {
+      "key": "Lombardia|Eolico",
+      "value": 0.002
+    },
+    {
+      "key": "Lombardia|Eolico",
+      "value": 0.002
+    }
+  ]
+}

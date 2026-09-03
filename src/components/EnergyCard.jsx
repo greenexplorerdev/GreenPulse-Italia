@@ -1,18 +1,20 @@
+import { useAppStore } from "../store/useAppStore";
+
 export default function EnergyCard({ title, icon, unit, children }) {
+  const dk = useAppStore((s) => s.theme) === "dark";
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-3 md:p-5 w-full h-full  dark:shadow-gray-700 hover:shadow-lg transition-shadow duration-300 dark:border-gray-600 ">
-      <div className="flex  items-center justify-between mb-4 text-center">
-        <div className="flex items-center space-x-3">
-          <span className="text-2xl">{icon}</span>
-          <div>
-            <h3 className="font-semibold text-gray-800 dark:text-gray-100">
-              {title}
-            </h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400">{unit}</p>
-          </div>
+    <div className={`rounded-2xl p-4 border w-full h-full
+      ${dk ? "bg-gray-900 border-gray-800" : "bg-white border-gray-100 shadow-sm"}`}>
+      <div className="flex items-center gap-2 mb-3">
+        <span className="text-xl">{icon}</span>
+        <div>
+          <p className={`text-sm font-semibold ${dk ? "text-gray-200" : "text-gray-800"}`}>
+            {title}
+          </p>
+          <p className={`text-xs ${dk ? "text-gray-500" : "text-gray-400"}`}>{unit}</p>
         </div>
       </div>
-      <div className="text-center text-gray-700 dark:text-gray-300 min-h-15 flex items-center justify-center">
+      <div className="text-center">
         {children}
       </div>
     </div>

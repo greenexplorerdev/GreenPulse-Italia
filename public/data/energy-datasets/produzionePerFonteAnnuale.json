@@ -1,0 +1,1279 @@
+{
+  "source": "CSV: Produzione per fonte [GWh].csv",
+  "generated": "2026-09-03T11:12:41.982Z",
+  "totalRecords": 127,
+  "indexed": {
+    "2007|Termoelettrico": [
+      {
+        "key": "2007|Termoelettrico",
+        "value": 265764.207739
+      }
+    ],
+    "2006|Termoelettrico": [
+      {
+        "key": "2006|Termoelettrico",
+        "value": 262164.900336
+      }
+    ],
+    "2008|Termoelettrico": [
+      {
+        "key": "2008|Termoelettrico",
+        "value": 261328.430002
+      }
+    ],
+    "2005|Termoelettrico": [
+      {
+        "key": "2005|Termoelettrico",
+        "value": 253073.122835
+      }
+    ],
+    "2004|Termoelettrico": [
+      {
+        "key": "2004|Termoelettrico",
+        "value": 246125.309723
+      }
+    ],
+    "2003|Termoelettrico": [
+      {
+        "key": "2003|Termoelettrico",
+        "value": 242784.35953
+      }
+    ],
+    "2010|Termoelettrico": [
+      {
+        "key": "2010|Termoelettrico",
+        "value": 231248.044894
+      }
+    ],
+    "2002|Termoelettrico": [
+      {
+        "key": "2002|Termoelettrico",
+        "value": 231068.661591
+      }
+    ],
+    "2011|Termoelettrico": [
+      {
+        "key": "2011|Termoelettrico",
+        "value": 228506.619306
+      }
+    ],
+    "2009|Termoelettrico": [
+      {
+        "key": "2009|Termoelettrico",
+        "value": 226637.893734
+      }
+    ],
+    "2000|Termoelettrico": [
+      {
+        "key": "2000|Termoelettrico",
+        "value": 220454.894588
+      }
+    ],
+    "2001|Termoelettrico": [
+      {
+        "key": "2001|Termoelettrico",
+        "value": 219378.871936
+      }
+    ],
+    "2012|Termoelettrico": [
+      {
+        "key": "2012|Termoelettrico",
+        "value": 217561.405071
+      }
+    ],
+    "2017|Termoelettrico": [
+      {
+        "key": "2017|Termoelettrico",
+        "value": 209484.560548
+      }
+    ],
+    "2016|Termoelettrico": [
+      {
+        "key": "2016|Termoelettrico",
+        "value": 199429.7324553
+      }
+    ],
+    "2022|Termoelettrico": [
+      {
+        "key": "2022|Termoelettrico",
+        "value": 199209.7317928
+      }
+    ],
+    "2019|Termoelettrico": [
+      {
+        "key": "2019|Termoelettrico",
+        "value": 195733.8875205
+      }
+    ],
+    "2013|Termoelettrico": [
+      {
+        "key": "2013|Termoelettrico",
+        "value": 192986.752767
+      }
+    ],
+    "2018|Termoelettrico": [
+      {
+        "key": "2018|Termoelettrico",
+        "value": 192730.019948
+      }
+    ],
+    "2015|Termoelettrico": [
+      {
+        "key": "2015|Termoelettrico",
+        "value": 192053.507174
+      }
+    ],
+    "2021|Termoelettrico": [
+      {
+        "key": "2021|Termoelettrico",
+        "value": 189711.085432
+      }
+    ],
+    "2020|Termoelettrico": [
+      {
+        "key": "2020|Termoelettrico",
+        "value": 181306.5868985
+      }
+    ],
+    "2014|Termoelettrico": [
+      {
+        "key": "2014|Termoelettrico",
+        "value": 176171.198784
+      }
+    ],
+    "2023|Termoelettrico": [
+      {
+        "key": "2023|Termoelettrico",
+        "value": 162587.72499309
+      }
+    ],
+    "2024|Termoelettrico": [
+      {
+        "key": "2024|Termoelettrico",
+        "value": 152080.22477263
+      }
+    ],
+    "2014|Idrico": [
+      {
+        "key": "2014|Idrico",
+        "value": 60256.343573
+      }
+    ],
+    "2024|Idrico": [
+      {
+        "key": "2024|Idrico",
+        "value": 54756.95944736
+      }
+    ],
+    "2013|Idrico": [
+      {
+        "key": "2013|Idrico",
+        "value": 54671.59392749
+      }
+    ],
+    "2010|Idrico": [
+      {
+        "key": "2010|Idrico",
+        "value": 54406.662891
+      }
+    ],
+    "2001|Idrico": [
+      {
+        "key": "2001|Idrico",
+        "value": 53925.656052
+      }
+    ],
+    "2009|Idrico": [
+      {
+        "key": "2009|Idrico",
+        "value": 53442.678064
+      }
+    ],
+    "2000|Idrico": [
+      {
+        "key": "2000|Idrico",
+        "value": 50899.6346976
+      }
+    ],
+    "2018|Idrico": [
+      {
+        "key": "2018|Idrico",
+        "value": 50502.7514221
+      }
+    ],
+    "2004|Idrico": [
+      {
+        "key": "2004|Idrico",
+        "value": 49908.0054898
+      }
+    ],
+    "2020|Idrico": [
+      {
+        "key": "2020|Idrico",
+        "value": 49495.2547913
+      }
+    ],
+    "2019|Idrico": [
+      {
+        "key": "2019|Idrico",
+        "value": 48153.515727
+      }
+    ],
+    "2011|Idrico": [
+      {
+        "key": "2011|Idrico",
+        "value": 47756.917968
+      }
+    ],
+    "2021|Idrico": [
+      {
+        "key": "2021|Idrico",
+        "value": 47478.36015355
+      }
+    ],
+    "2002|Idrico": [
+      {
+        "key": "2002|Idrico",
+        "value": 47262.011354
+      }
+    ],
+    "2008|Idrico": [
+      {
+        "key": "2008|Idrico",
+        "value": 47226.537568
+      }
+    ],
+    "2015|Idrico": [
+      {
+        "key": "2015|Idrico",
+        "value": 46969.4679932
+      }
+    ],
+    "2003|Idrico": [
+      {
+        "key": "2003|Idrico",
+        "value": 44276.765847
+      }
+    ],
+    "2016|Idrico": [
+      {
+        "key": "2016|Idrico",
+        "value": 44256.96018
+      }
+    ],
+    "2012|Idrico": [
+      {
+        "key": "2012|Idrico",
+        "value": 43854.000715
+      }
+    ],
+    "2006|Idrico": [
+      {
+        "key": "2006|Idrico",
+        "value": 43424.963691
+      }
+    ],
+    "2005|Idrico": [
+      {
+        "key": "2005|Idrico",
+        "value": 42926.900784
+      }
+    ],
+    "2023|Idrico": [
+      {
+        "key": "2023|Idrico",
+        "value": 42068.25964395
+      }
+    ],
+    "2007|Idrico": [
+      {
+        "key": "2007|Idrico",
+        "value": 38481.3489141
+      }
+    ],
+    "2017|Idrico": [
+      {
+        "key": "2017|Idrico",
+        "value": 38024.671209
+      }
+    ],
+    "2024|Fotovoltaico": [
+      {
+        "key": "2024|Fotovoltaico",
+        "value": 35993.103112
+      }
+    ],
+    "2023|Fotovoltaico": [
+      {
+        "key": "2023|Fotovoltaico",
+        "value": 30711.082118
+      }
+    ],
+    "2022|Idrico": [
+      {
+        "key": "2022|Idrico",
+        "value": 30290.7428966
+      }
+    ],
+    "2022|Fotovoltaico": [
+      {
+        "key": "2022|Fotovoltaico",
+        "value": 28121.457534
+      }
+    ],
+    "2021|Fotovoltaico": [
+      {
+        "key": "2021|Fotovoltaico",
+        "value": 25038.989734
+      }
+    ],
+    "2020|Fotovoltaico": [
+      {
+        "key": "2020|Fotovoltaico",
+        "value": 24941.50373
+      }
+    ],
+    "2017|Fotovoltaico": [
+      {
+        "key": "2017|Fotovoltaico",
+        "value": 24377.711329
+      }
+    ],
+    "2019|Fotovoltaico": [
+      {
+        "key": "2019|Fotovoltaico",
+        "value": 23688.900488
+      }
+    ],
+    "2023|Eolico": [
+      {
+        "key": "2023|Eolico",
+        "value": 23640.47162144
+      }
+    ],
+    "2015|Fotovoltaico": [
+      {
+        "key": "2015|Fotovoltaico",
+        "value": 22942.192097
+      }
+    ],
+    "2018|Fotovoltaico": [
+      {
+        "key": "2018|Fotovoltaico",
+        "value": 22653.838019
+      }
+    ],
+    "2024|Eolico": [
+      {
+        "key": "2024|Eolico",
+        "value": 22321.89454732
+      }
+    ],
+    "2014|Fotovoltaico": [
+      {
+        "key": "2014|Fotovoltaico",
+        "value": 22306.364693
+      }
+    ],
+    "2016|Fotovoltaico": [
+      {
+        "key": "2016|Fotovoltaico",
+        "value": 22104.258953
+      }
+    ],
+    "2013|Fotovoltaico": [
+      {
+        "key": "2013|Fotovoltaico",
+        "value": 21588.62212
+      }
+    ],
+    "2021|Eolico": [
+      {
+        "key": "2021|Eolico",
+        "value": 20927.30287472
+      }
+    ],
+    "2022|Eolico": [
+      {
+        "key": "2022|Eolico",
+        "value": 20494.17807691
+      }
+    ],
+    "2019|Eolico": [
+      {
+        "key": "2019|Eolico",
+        "value": 20202.041423
+      }
+    ],
+    "2012|Fotovoltaico": [
+      {
+        "key": "2012|Fotovoltaico",
+        "value": 18861.731562
+      }
+    ],
+    "2020|Eolico": [
+      {
+        "key": "2020|Eolico",
+        "value": 18761.55628667
+      }
+    ],
+    "2017|Eolico": [
+      {
+        "key": "2017|Eolico",
+        "value": 17741.90871
+      }
+    ],
+    "2018|Eolico": [
+      {
+        "key": "2018|Eolico",
+        "value": 17716.4337258
+      }
+    ],
+    "2016|Eolico": [
+      {
+        "key": "2016|Eolico",
+        "value": 17688.669481
+      }
+    ],
+    "2014|Eolico": [
+      {
+        "key": "2014|Eolico",
+        "value": 15178.310262
+      }
+    ],
+    "2013|Eolico": [
+      {
+        "key": "2013|Eolico",
+        "value": 14896.962326
+      }
+    ],
+    "2015|Eolico": [
+      {
+        "key": "2015|Eolico",
+        "value": 14843.88246625
+      }
+    ],
+    "2012|Eolico": [
+      {
+        "key": "2012|Eolico",
+        "value": 13407.126958
+      }
+    ],
+    "2011|Fotovoltaico": [
+      {
+        "key": "2011|Fotovoltaico",
+        "value": 10795.723458
+      }
+    ],
+    "2011|Eolico": [
+      {
+        "key": "2011|Eolico",
+        "value": 9856.375161
+      }
+    ],
+    "2010|Eolico": [
+      {
+        "key": "2010|Eolico",
+        "value": 9125.91850642
+      }
+    ],
+    "2009|Eolico": [
+      {
+        "key": "2009|Eolico",
+        "value": 6542.8587168
+      }
+    ],
+    "2016|Geotermoelettrico": [
+      {
+        "key": "2016|Geotermoelettrico",
+        "value": 6288.57344
+      }
+    ],
+    "2017|Geotermoelettrico": [
+      {
+        "key": "2017|Geotermoelettrico",
+        "value": 6201.15891
+      }
+    ],
+    "2015|Geotermoelettrico": [
+      {
+        "key": "2015|Geotermoelettrico",
+        "value": 6184.97062
+      }
+    ],
+    "2018|Geotermoelettrico": [
+      {
+        "key": "2018|Geotermoelettrico",
+        "value": 6105.39009
+      }
+    ],
+    "2019|Geotermoelettrico": [
+      {
+        "key": "2019|Geotermoelettrico",
+        "value": 6074.86042
+      }
+    ],
+    "2020|Geotermoelettrico": [
+      {
+        "key": "2020|Geotermoelettrico",
+        "value": 6026.11251
+      }
+    ],
+    "2014|Geotermoelettrico": [
+      {
+        "key": "2014|Geotermoelettrico",
+        "value": 5916.33255
+      }
+    ],
+    "2021|Geotermoelettrico": [
+      {
+        "key": "2021|Geotermoelettrico",
+        "value": 5913.78727
+      }
+    ],
+    "2022|Geotermoelettrico": [
+      {
+        "key": "2022|Geotermoelettrico",
+        "value": 5836.92032
+      }
+    ],
+    "2023|Geotermoelettrico": [
+      {
+        "key": "2023|Geotermoelettrico",
+        "value": 5692.19431
+      }
+    ],
+    "2024|Geotermoelettrico": [
+      {
+        "key": "2024|Geotermoelettrico",
+        "value": 5674.96615
+      }
+    ],
+    "2013|Geotermoelettrico": [
+      {
+        "key": "2013|Geotermoelettrico",
+        "value": 5659.2279
+      }
+    ],
+    "2011|Geotermoelettrico": [
+      {
+        "key": "2011|Geotermoelettrico",
+        "value": 5654.26305
+      }
+    ],
+    "2012|Geotermoelettrico": [
+      {
+        "key": "2012|Geotermoelettrico",
+        "value": 5591.68511
+      }
+    ],
+    "2007|Geotermoelettrico": [
+      {
+        "key": "2007|Geotermoelettrico",
+        "value": 5569.12819
+      }
+    ],
+    "2006|Geotermoelettrico": [
+      {
+        "key": "2006|Geotermoelettrico",
+        "value": 5527.36588
+      }
+    ],
+    "2008|Geotermoelettrico": [
+      {
+        "key": "2008|Geotermoelettrico",
+        "value": 5520.31462
+      }
+    ],
+    "2004|Geotermoelettrico": [
+      {
+        "key": "2004|Geotermoelettrico",
+        "value": 5437.26656
+      }
+    ],
+    "2010|Geotermoelettrico": [
+      {
+        "key": "2010|Geotermoelettrico",
+        "value": 5375.91565
+      }
+    ],
+    "2009|Geotermoelettrico": [
+      {
+        "key": "2009|Geotermoelettrico",
+        "value": 5341.82207
+      }
+    ],
+    "2003|Geotermoelettrico": [
+      {
+        "key": "2003|Geotermoelettrico",
+        "value": 5340.46247
+      }
+    ],
+    "2005|Geotermoelettrico": [
+      {
+        "key": "2005|Geotermoelettrico",
+        "value": 5324.46041
+      }
+    ],
+    "2008|Eolico": [
+      {
+        "key": "2008|Eolico",
+        "value": 4861.317233
+      }
+    ],
+    "2000|Geotermoelettrico": [
+      {
+        "key": "2000|Geotermoelettrico",
+        "value": 4705.19142
+      }
+    ],
+    "2002|Geotermoelettrico": [
+      {
+        "key": "2002|Geotermoelettrico",
+        "value": 4662.2729
+      }
+    ],
+    "2001|Geotermoelettrico": [
+      {
+        "key": "2001|Geotermoelettrico",
+        "value": 4506.56922
+      }
+    ],
+    "2007|Eolico": [
+      {
+        "key": "2007|Eolico",
+        "value": 4034.3591215
+      }
+    ],
+    "2006|Eolico": [
+      {
+        "key": "2006|Eolico",
+        "value": 2970.735834
+      }
+    ],
+    "2005|Eolico": [
+      {
+        "key": "2005|Eolico",
+        "value": 2343.399702
+      }
+    ],
+    "2010|Fotovoltaico": [
+      {
+        "key": "2010|Fotovoltaico",
+        "value": 1905.660774
+      }
+    ],
+    "2004|Eolico": [
+      {
+        "key": "2004|Eolico",
+        "value": 1846.544201
+      }
+    ],
+    "2003|Eolico": [
+      {
+        "key": "2003|Eolico",
+        "value": 1458.447703
+      }
+    ],
+    "2002|Eolico": [
+      {
+        "key": "2002|Eolico",
+        "value": 1404.233384
+      }
+    ],
+    "2001|Eolico": [
+      {
+        "key": "2001|Eolico",
+        "value": 1178.591242
+      }
+    ],
+    "2009|Fotovoltaico": [
+      {
+        "key": "2009|Fotovoltaico",
+        "value": 676.48053728
+      }
+    ],
+    "2000|Eolico": [
+      {
+        "key": "2000|Eolico",
+        "value": 563.072892
+      }
+    ],
+    "2008|Fotovoltaico": [
+      {
+        "key": "2008|Fotovoltaico",
+        "value": 192.96499317
+      }
+    ],
+    "2024|Accumulo Stand Alone": [
+      {
+        "key": "2024|Accumulo Stand Alone",
+        "value": 135.939754
+      }
+    ],
+    "2007|Fotovoltaico": [
+      {
+        "key": "2007|Fotovoltaico",
+        "value": 38.95327408
+      }
+    ],
+    "2023|Accumulo Stand Alone": [
+      {
+        "key": "2023|Accumulo Stand Alone",
+        "value": 8.359334
+      }
+    ],
+    "2000|Fotovoltaico": [
+      {
+        "key": "2000|Fotovoltaico",
+        "value": 6.293099
+      }
+    ],
+    "2003|Fotovoltaico": [
+      {
+        "key": "2003|Fotovoltaico",
+        "value": 5.011693
+      }
+    ],
+    "2001|Fotovoltaico": [
+      {
+        "key": "2001|Fotovoltaico",
+        "value": 4.847992
+      }
+    ],
+    "2002|Fotovoltaico": [
+      {
+        "key": "2002|Fotovoltaico",
+        "value": 4.079782
+      }
+    ],
+    "2004|Fotovoltaico": [
+      {
+        "key": "2004|Fotovoltaico",
+        "value": 4.041728
+      }
+    ],
+    "2005|Fotovoltaico": [
+      {
+        "key": "2005|Fotovoltaico",
+        "value": 3.988234
+      }
+    ],
+    "2006|Fotovoltaico": [
+      {
+        "key": "2006|Fotovoltaico",
+        "value": 2.294292
+      }
+    ]
+  },
+  "flat": [
+    {
+      "key": "2007|Termoelettrico",
+      "value": 265764.207739
+    },
+    {
+      "key": "2006|Termoelettrico",
+      "value": 262164.900336
+    },
+    {
+      "key": "2008|Termoelettrico",
+      "value": 261328.430002
+    },
+    {
+      "key": "2005|Termoelettrico",
+      "value": 253073.122835
+    },
+    {
+      "key": "2004|Termoelettrico",
+      "value": 246125.309723
+    },
+    {
+      "key": "2003|Termoelettrico",
+      "value": 242784.35953
+    },
+    {
+      "key": "2010|Termoelettrico",
+      "value": 231248.044894
+    },
+    {
+      "key": "2002|Termoelettrico",
+      "value": 231068.661591
+    },
+    {
+      "key": "2011|Termoelettrico",
+      "value": 228506.619306
+    },
+    {
+      "key": "2009|Termoelettrico",
+      "value": 226637.893734
+    },
+    {
+      "key": "2000|Termoelettrico",
+      "value": 220454.894588
+    },
+    {
+      "key": "2001|Termoelettrico",
+      "value": 219378.871936
+    },
+    {
+      "key": "2012|Termoelettrico",
+      "value": 217561.405071
+    },
+    {
+      "key": "2017|Termoelettrico",
+      "value": 209484.560548
+    },
+    {
+      "key": "2016|Termoelettrico",
+      "value": 199429.7324553
+    },
+    {
+      "key": "2022|Termoelettrico",
+      "value": 199209.7317928
+    },
+    {
+      "key": "2019|Termoelettrico",
+      "value": 195733.8875205
+    },
+    {
+      "key": "2013|Termoelettrico",
+      "value": 192986.752767
+    },
+    {
+      "key": "2018|Termoelettrico",
+      "value": 192730.019948
+    },
+    {
+      "key": "2015|Termoelettrico",
+      "value": 192053.507174
+    },
+    {
+      "key": "2021|Termoelettrico",
+      "value": 189711.085432
+    },
+    {
+      "key": "2020|Termoelettrico",
+      "value": 181306.5868985
+    },
+    {
+      "key": "2014|Termoelettrico",
+      "value": 176171.198784
+    },
+    {
+      "key": "2023|Termoelettrico",
+      "value": 162587.72499309
+    },
+    {
+      "key": "2024|Termoelettrico",
+      "value": 152080.22477263
+    },
+    {
+      "key": "2014|Idrico",
+      "value": 60256.343573
+    },
+    {
+      "key": "2024|Idrico",
+      "value": 54756.95944736
+    },
+    {
+      "key": "2013|Idrico",
+      "value": 54671.59392749
+    },
+    {
+      "key": "2010|Idrico",
+      "value": 54406.662891
+    },
+    {
+      "key": "2001|Idrico",
+      "value": 53925.656052
+    },
+    {
+      "key": "2009|Idrico",
+      "value": 53442.678064
+    },
+    {
+      "key": "2000|Idrico",
+      "value": 50899.6346976
+    },
+    {
+      "key": "2018|Idrico",
+      "value": 50502.7514221
+    },
+    {
+      "key": "2004|Idrico",
+      "value": 49908.0054898
+    },
+    {
+      "key": "2020|Idrico",
+      "value": 49495.2547913
+    },
+    {
+      "key": "2019|Idrico",
+      "value": 48153.515727
+    },
+    {
+      "key": "2011|Idrico",
+      "value": 47756.917968
+    },
+    {
+      "key": "2021|Idrico",
+      "value": 47478.36015355
+    },
+    {
+      "key": "2002|Idrico",
+      "value": 47262.011354
+    },
+    {
+      "key": "2008|Idrico",
+      "value": 47226.537568
+    },
+    {
+      "key": "2015|Idrico",
+      "value": 46969.4679932
+    },
+    {
+      "key": "2003|Idrico",
+      "value": 44276.765847
+    },
+    {
+      "key": "2016|Idrico",
+      "value": 44256.96018
+    },
+    {
+      "key": "2012|Idrico",
+      "value": 43854.000715
+    },
+    {
+      "key": "2006|Idrico",
+      "value": 43424.963691
+    },
+    {
+      "key": "2005|Idrico",
+      "value": 42926.900784
+    },
+    {
+      "key": "2023|Idrico",
+      "value": 42068.25964395
+    },
+    {
+      "key": "2007|Idrico",
+      "value": 38481.3489141
+    },
+    {
+      "key": "2017|Idrico",
+      "value": 38024.671209
+    },
+    {
+      "key": "2024|Fotovoltaico",
+      "value": 35993.103112
+    },
+    {
+      "key": "2023|Fotovoltaico",
+      "value": 30711.082118
+    },
+    {
+      "key": "2022|Idrico",
+      "value": 30290.7428966
+    },
+    {
+      "key": "2022|Fotovoltaico",
+      "value": 28121.457534
+    },
+    {
+      "key": "2021|Fotovoltaico",
+      "value": 25038.989734
+    },
+    {
+      "key": "2020|Fotovoltaico",
+      "value": 24941.50373
+    },
+    {
+      "key": "2017|Fotovoltaico",
+      "value": 24377.711329
+    },
+    {
+      "key": "2019|Fotovoltaico",
+      "value": 23688.900488
+    },
+    {
+      "key": "2023|Eolico",
+      "value": 23640.47162144
+    },
+    {
+      "key": "2015|Fotovoltaico",
+      "value": 22942.192097
+    },
+    {
+      "key": "2018|Fotovoltaico",
+      "value": 22653.838019
+    },
+    {
+      "key": "2024|Eolico",
+      "value": 22321.89454732
+    },
+    {
+      "key": "2014|Fotovoltaico",
+      "value": 22306.364693
+    },
+    {
+      "key": "2016|Fotovoltaico",
+      "value": 22104.258953
+    },
+    {
+      "key": "2013|Fotovoltaico",
+      "value": 21588.62212
+    },
+    {
+      "key": "2021|Eolico",
+      "value": 20927.30287472
+    },
+    {
+      "key": "2022|Eolico",
+      "value": 20494.17807691
+    },
+    {
+      "key": "2019|Eolico",
+      "value": 20202.041423
+    },
+    {
+      "key": "2012|Fotovoltaico",
+      "value": 18861.731562
+    },
+    {
+      "key": "2020|Eolico",
+      "value": 18761.55628667
+    },
+    {
+      "key": "2017|Eolico",
+      "value": 17741.90871
+    },
+    {
+      "key": "2018|Eolico",
+      "value": 17716.4337258
+    },
+    {
+      "key": "2016|Eolico",
+      "value": 17688.669481
+    },
+    {
+      "key": "2014|Eolico",
+      "value": 15178.310262
+    },
+    {
+      "key": "2013|Eolico",
+      "value": 14896.962326
+    },
+    {
+      "key": "2015|Eolico",
+      "value": 14843.88246625
+    },
+    {
+      "key": "2012|Eolico",
+      "value": 13407.126958
+    },
+    {
+      "key": "2011|Fotovoltaico",
+      "value": 10795.723458
+    },
+    {
+      "key": "2011|Eolico",
+      "value": 9856.375161
+    },
+    {
+      "key": "2010|Eolico",
+      "value": 9125.91850642
+    },
+    {
+      "key": "2009|Eolico",
+      "value": 6542.8587168
+    },
+    {
+      "key": "2016|Geotermoelettrico",
+      "value": 6288.57344
+    },
+    {
+      "key": "2017|Geotermoelettrico",
+      "value": 6201.15891
+    },
+    {
+      "key": "2015|Geotermoelettrico",
+      "value": 6184.97062
+    },
+    {
+      "key": "2018|Geotermoelettrico",
+      "value": 6105.39009
+    },
+    {
+      "key": "2019|Geotermoelettrico",
+      "value": 6074.86042
+    },
+    {
+      "key": "2020|Geotermoelettrico",
+      "value": 6026.11251
+    },
+    {
+      "key": "2014|Geotermoelettrico",
+      "value": 5916.33255
+    },
+    {
+      "key": "2021|Geotermoelettrico",
+      "value": 5913.78727
+    },
+    {
+      "key": "2022|Geotermoelettrico",
+      "value": 5836.92032
+    },
+    {
+      "key": "2023|Geotermoelettrico",
+      "value": 5692.19431
+    },
+    {
+      "key": "2024|Geotermoelettrico",
+      "value": 5674.96615
+    },
+    {
+      "key": "2013|Geotermoelettrico",
+      "value": 5659.2279
+    },
+    {
+      "key": "2011|Geotermoelettrico",
+      "value": 5654.26305
+    },
+    {
+      "key": "2012|Geotermoelettrico",
+      "value": 5591.68511
+    },
+    {
+      "key": "2007|Geotermoelettrico",
+      "value": 5569.12819
+    },
+    {
+      "key": "2006|Geotermoelettrico",
+      "value": 5527.36588
+    },
+    {
+      "key": "2008|Geotermoelettrico",
+      "value": 5520.31462
+    },
+    {
+      "key": "2004|Geotermoelettrico",
+      "value": 5437.26656
+    },
+    {
+      "key": "2010|Geotermoelettrico",
+      "value": 5375.91565
+    },
+    {
+      "key": "2009|Geotermoelettrico",
+      "value": 5341.82207
+    },
+    {
+      "key": "2003|Geotermoelettrico",
+      "value": 5340.46247
+    },
+    {
+      "key": "2005|Geotermoelettrico",
+      "value": 5324.46041
+    },
+    {
+      "key": "2008|Eolico",
+      "value": 4861.317233
+    },
+    {
+      "key": "2000|Geotermoelettrico",
+      "value": 4705.19142
+    },
+    {
+      "key": "2002|Geotermoelettrico",
+      "value": 4662.2729
+    },
+    {
+      "key": "2001|Geotermoelettrico",
+      "value": 4506.56922
+    },
+    {
+      "key": "2007|Eolico",
+      "value": 4034.3591215
+    },
+    {
+      "key": "2006|Eolico",
+      "value": 2970.735834
+    },
+    {
+      "key": "2005|Eolico",
+      "value": 2343.399702
+    },
+    {
+      "key": "2010|Fotovoltaico",
+      "value": 1905.660774
+    },
+    {
+      "key": "2004|Eolico",
+      "value": 1846.544201
+    },
+    {
+      "key": "2003|Eolico",
+      "value": 1458.447703
+    },
+    {
+      "key": "2002|Eolico",
+      "value": 1404.233384
+    },
+    {
+      "key": "2001|Eolico",
+      "value": 1178.591242
+    },
+    {
+      "key": "2009|Fotovoltaico",
+      "value": 676.48053728
+    },
+    {
+      "key": "2000|Eolico",
+      "value": 563.072892
+    },
+    {
+      "key": "2008|Fotovoltaico",
+      "value": 192.96499317
+    },
+    {
+      "key": "2024|Accumulo Stand Alone",
+      "value": 135.939754
+    },
+    {
+      "key": "2007|Fotovoltaico",
+      "value": 38.95327408
+    },
+    {
+      "key": "2023|Accumulo Stand Alone",
+      "value": 8.359334
+    },
+    {
+      "key": "2000|Fotovoltaico",
+      "value": 6.293099
+    },
+    {
+      "key": "2003|Fotovoltaico",
+      "value": 5.011693
+    },
+    {
+      "key": "2001|Fotovoltaico",
+      "value": 4.847992
+    },
+    {
+      "key": "2002|Fotovoltaico",
+      "value": 4.079782
+    },
+    {
+      "key": "2004|Fotovoltaico",
+      "value": 4.041728
+    },
+    {
+      "key": "2005|Fotovoltaico",
+      "value": 3.988234
+    },
+    {
+      "key": "2006|Fotovoltaico",
+      "value": 2.294292
+    }
+  ]
+}
