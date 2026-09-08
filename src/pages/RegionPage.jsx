@@ -1,17 +1,4 @@
-// src/pages/RegionPage.jsx — Tailwind CSS 4
-//
-// ROUTE: /regioni/:regionId  (protetta da autenticazione)
-//
-// FLUSSO DATI:
-//   useParams()      → legge regionId dall'URL (es. "Toscana")
-//   useAppStore      → sync region + filter (condivisi con Dashboard)
-//   useTERNA(region) → dati reali TERNA/GSE (produzione GWh, capacità MW per fonte)
-//   REGIONS          → coordinate dei capoluoghi per Open-Meteo
-//   getRegionStats() → calcola totalMW, renewablePct, co2SavedTonnes da MW reali
-//   useEnergyData()  → fetch irraggiamento solare per refCity della regione
-//   SolarBarChart    → grafico 24h con dati reali Open-Meteo
-
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useAppStore }  from "../store/useAppStore";
 import { REGIONS, getRegionStats } from "../data/regions";
@@ -24,8 +11,6 @@ import {
   IconArrowLeft, IconSun, IconWind, IconDroplets, IconFlame, IconLeaf,
   IconZap, IconFactory, IconTreePine, IconCloudLightning, IconLoader2,
 } from "../components/icons";
-
-// ─── Mappa subtype → icona ─────────────────────────────────────────────────────
 
 function SubtypeIcon({ subtype, size = 16 }) {
   const map = {
@@ -41,8 +26,6 @@ function SubtypeIcon({ subtype, size = 16 }) {
   return map[subtype] ?? <IconZap size={size} className="text-gray-400" />;
 }
 
-// ─── Pagina regione ───────────────────────────────────────────────────────────
-
 export default function RegionPage() {
   const { regionId } = useParams();
   const navigate     = useNavigate();
@@ -52,7 +35,6 @@ export default function RegionPage() {
   const setRegion    = useAppStore((s) => s.setRegion);
   const dk           = theme === "dark";
 
-  // Dati reali TERNA per la regione + coordinate capoluogo
   const terna = useTERNA(regionId);
   const {
     production: regionProduction = [],
@@ -65,18 +47,28 @@ export default function RegionPage() {
   const stats = getRegionStats({ renewableMW, fossilMW });
   const refCity = REGIONS[regionId];
 
-  // Sincronizza lo store con la regione dell'URL quando cambia
+  const plantsByType = useMemo(() =>
+    regionPlants.reduce((acc, p) => {
+      const existing = acc.find(x => x.subtype === p.subtype);
+      if (existing) {
+        existing.capacity += p.capacity;
+        existing.count += 1;
+      } else {
+        acc.push({ ...p, count: 1 });
+      }
+      return acc;
+    }, []).filter(p => p.capacity > 0).sort((a, b) => b.capacity - a.capacity),
+    [regionPlants]
+  );
+
+  const filteredPlants = filter === "all"
+    ? plantsByType
+    : plantsByType.filter(p => p.type === filter);
+
   useEffect(() => {
     if (refCity) setRegion(regionId);
   }, [regionId, refCity, setRegion]);
 
-  // Coordinate del capoluogo per la chiamata API solare
-  const { data: energyData, loading, error } = useEnergyData(
-    refCity.lat,
-    refCity.lng
-  );
-
-  // 404: regione non presente nel dataset
   if (!refCity) {
     return (
       <div className={`flex flex-col items-center justify-center min-h-[60vh] gap-4
@@ -91,31 +83,17 @@ export default function RegionPage() {
     );
   }
 
-  // Impianti raggruppati per tipo, solo quelli con MW > 0
-  const plantsByType = regionPlants.reduce((acc, p) => {
-    const existing = acc.find(x => x.subtype === p.subtype);
-    if (existing) {
-      existing.capacity += p.capacity;
-      existing.count += 1;
-    } else {
-      acc.push({ ...p, count: 1 });
-    }
-    return acc;
-  }, []).filter(p => p.capacity > 0).sort((a, b) => b.capacity - a.capacity);
-
-  // Filtrati per fonte (Tutti / Rinnovabili / Fossili)
-  const filteredPlants = filter === "all"
-    ? plantsByType
-    : plantsByType.filter(p => p.type === filter);
+  const { data: energyData, loading, error } = useEnergyData(
+    refCity.lat,
+    refCity.lng
+  );
 
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 py-6 space-y-6 animate-fade-in">
 
-      {/* ── Header regione ── */}
       <div className={`rounded-2xl p-5 border
         ${dk ? "bg-gray-900 border-gray-800" : "bg-white border-gray-100 shadow-sm"}`}>
 
-        {/* Link torna alla dashboard */}
         <button onClick={() => navigate("/dashboard")}
           className={`flex items-center gap-1.5 text-xs mb-4 transition-colors
             ${dk
@@ -126,7 +104,6 @@ export default function RegionPage() {
 
         <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
           <div>
-            {/* Nome regione + capoluogo */}
             <h1 className={`text-2xl font-extrabold ${dk ? "text-gray-100" : "text-gray-800"}`}>
               {regionId}
             </h1>
@@ -135,7 +112,6 @@ export default function RegionPage() {
               Capoluogo: <strong>{refCity.capital}</strong> · dati reali TERNA/GSE 2024
             </p>
           </div>
-          {/* Badge quota rinnovabile (verde se ≥70%, arancione altrimenti) */}
           <div className={`shrink-0 flex flex-col items-center justify-center
             rounded-xl px-5 py-3 border
             ${stats.renewablePct >= 70
@@ -156,16 +132,11 @@ export default function RegionPage() {
         </div>
       </div>
 
-      {/* ── Statistiche aggregate (4 card) ── */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         {[
-          // Capacità totale (MW)
           { label:"Capacità totale",        value:`${stats.totalMW.toLocaleString()} MW`,    icon:<IconZap     size={16} className="text-emerald-500" /> },
-          // Capacità rinnovabile (MW)
           { label:"Capacità rinnovabile",   value:`${stats.renewableMW.toLocaleString()} MW`, icon:<IconLeaf    size={16} className="text-green-500" /> },
-          // Capacità fossile (MW)
           { label:"Capacità fossile",       value:`${stats.fossilMW.toLocaleString()} MW`,   icon:<IconFlame   size={16} className="text-orange-500" /> },
-          // CO2 evitata (migliaia di tonnellate)
           { label:"CO₂ evitata/anno",       value:`${(stats.co2SavedTonnes/1_000_000).toFixed(1)} Mt`, icon:<IconTreePine size={16} className="text-emerald-600" /> },
         ].map(({ label, value, icon }) => (
           <div key={label} className={`rounded-xl p-4 border
@@ -178,7 +149,6 @@ export default function RegionPage() {
         ))}
       </div>
 
-      {/* ── Filtro impianti (Tutti / Rinnovabili / Fossili) ── */}
       <div className="flex flex-wrap gap-2">
         {[
           { v:"all",       label:"Tutti",            activeClass:"bg-cyan-500" },
@@ -197,11 +167,9 @@ export default function RegionPage() {
         ))}
       </div>
 
-      {/* ── Lista impianti con tabella ── */}
       <div className={`rounded-2xl border overflow-hidden
         ${dk ? "border-gray-800" : "border-gray-100 shadow-sm"}`}>
 
-        {/* Header tabella */}
         <div className={`grid grid-cols-[auto_1fr_auto_auto] gap-4 px-5 py-3 text-xs font-semibold
           uppercase tracking-wide border-b
           ${dk
@@ -229,10 +197,8 @@ export default function RegionPage() {
                 }
                 ${dk ? "bg-gray-900 hover:bg-gray-800" : "bg-white hover:bg-gray-50"}`}>
 
-                {/* Icona tipo impianto */}
                 <SubtypeIcon subtype={plant.subtype} size={18} />
 
-                {/* Nome tipo + badge */}
                 <div className="flex items-center gap-2">
                   <span className={`text-sm font-medium ${dk ? "text-gray-200" : "text-gray-800"}`}>
                     {plant.subtype}
@@ -245,7 +211,6 @@ export default function RegionPage() {
                   </span>
                 </div>
 
-                {/* Capacità (verde rinnovabile, arancione fossile) */}
                 <span className={`text-sm font-bold text-right tabular-nums
                   ${plant.type === "renewable"
                     ? "text-emerald-500"
@@ -253,7 +218,6 @@ export default function RegionPage() {
                   {plant.capacity.toLocaleString(undefined, { maximumFractionDigits: 0 })} MW
                 </span>
 
-                {/* Conteggio impianti aggregati */}
                 <span className={`text-xs text-right tabular-nums ${dk ? "text-gray-400" : "text-gray-500"}`}>
                   {plant.count}
                 </span>
@@ -262,7 +226,6 @@ export default function RegionPage() {
         )}
       </div>
 
-      {/* ── Produzione reale TERNA per fonte (GWh) ── */}
       {regionProduction.length > 0 && (
         <div className={`rounded-2xl p-5 border
           ${dk ? "bg-gray-900 border-gray-800" : "bg-white border-gray-100 shadow-sm"}`}>
@@ -280,12 +243,11 @@ export default function RegionPage() {
           <ProductionBars data={regionProduction} dk={dk} />
 
           <p className={`mt-3 text-[10px] ${dk ? "text-emerald-400" : "text-emerald-600"}`}>
-            ✓ Statistiche calcolate da dati reali TERNA/GSE 2024
+            Statistiche calcolate da dati reali TERNA/GSE 2024
           </p>
         </div>
       )}
 
-      {/* ── Combustibili ed emissioni (dati reali) ── */}
       {(terna.fuels.length > 0 || terna.emissions.length > 0) && (
         <div className={`rounded-2xl p-5 border
           ${dk ? "bg-gray-900 border-gray-800" : "bg-white border-gray-100 shadow-sm"}`}>
@@ -340,10 +302,8 @@ export default function RegionPage() {
         </div>
       )}
 
-      {/* ── Sezione irraggiamento solare ── */}
       <div className={`rounded-2xl border p-5
         ${dk ? "bg-gray-900 border-gray-800" : "bg-white border-gray-100 shadow-sm"}`}>
-        {/* Titolo con loader */}
         <div className="flex items-center gap-2 mb-4">
           <IconSun size={18} className="text-amber-500" />
           <h2 className={`text-sm font-bold ${dk ? "text-gray-200" : "text-gray-700"}`}>
@@ -360,14 +320,12 @@ export default function RegionPage() {
           </p>
         )}
 
-        {/* Widget con dati correnti */}
         <SolarWidget
           currentData={energyData?.current ?? null}
           cityName={refCity.capital}
           loading={loading}
         />
 
-        {/* Grafico 24h */}
         <div className="mt-5">
           <p className={`text-xs font-medium mb-3 ${dk ? "text-gray-400" : "text-gray-500"}`}>
             Curva di irraggiamento — oggi
@@ -376,7 +334,6 @@ export default function RegionPage() {
         </div>
       </div>
 
-      {/* ── Domanda elettrica (bilancio regionale) ── */}
       {regionDemand.length > 0 && (
         <div className={`rounded-2xl p-5 border
           ${dk ? "bg-gray-900 border-gray-800" : "bg-white border-gray-100 shadow-sm"}`}>
@@ -407,7 +364,6 @@ export default function RegionPage() {
         </div>
       )}
 
-      {/* ── Province della regione ── */}
       {provincialPlants.length > 0 && (
         <div className={`rounded-2xl p-5 border
           ${dk ? "bg-gray-900 border-gray-800" : "bg-white border-gray-100 shadow-sm"}`}>
@@ -444,7 +400,6 @@ export default function RegionPage() {
         </div>
       )}
 
-      {/* ── Nota CO2 evitata (box verde) ── */}
       <div className={`rounded-xl px-5 py-4 border flex items-start gap-3
         ${dk ? "bg-emerald-950 border-emerald-900" : "bg-emerald-50 border-emerald-200"}`}>
         <IconTreePine size={16} className="text-emerald-500 mt-0.5 shrink-0" />

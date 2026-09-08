@@ -1,8 +1,3 @@
-// src/services/ternaData.js
-// Data access layer for processed TERNA CSV datasets.
-// Expected JSON structure in src/data/energy-datasets/*.json
-// Run scripts/process-csv.py first to generate them.
-
 const DATASETS = [
   'produzioneYoYRegionali',
   'produzioneRegionalePerFonte',
@@ -33,9 +28,6 @@ async function loadDataset(name) {
   }
 }
 
-// ─── Query helpers ──────────────────────────────────────────────────────────
-
-/** All regions present in any dataset */
 export async function getAllRegions() {
   const sets = ['produzioneRegionalePerFonte', 'produzioneYoYRegionali', 'domandaTotaleRegionale'];
   const regions = new Set();
@@ -49,7 +41,6 @@ export async function getAllRegions() {
   return Array.from(regions).sort();
 }
 
-/** All provinces */
 export async function getAllProvinces() {
   const { indexed } = await loadDataset('produzioneProvincialePerFonte');
   const provinces = new Set();
@@ -60,7 +51,6 @@ export async function getAllProvinces() {
   return Array.from(provinces).sort();
 }
 
-/** All energy sources (fonti) */
 export async function getAllSources() {
   const sets = ['produzioneRegionalePerFonte', 'produzioneProvincialePerFonte',
                 'potenzaEfficienteRegionaleFonteRinnovabile', 'potenzaEfficienteProvincialeFonteRinnovabile'];
@@ -75,7 +65,6 @@ export async function getAllSources() {
   return Array.from(sources).sort();
 }
 
-/** All combustibili (fuels) */
 export async function getAllFuels() {
   const sets = ['produzioneLordaRegionalePerCombustibile', 'emissioneRegionalePerCombustibile'];
   const fuels = new Set();
@@ -89,12 +78,6 @@ export async function getAllFuels() {
   return Array.from(fuels).sort();
 }
 
-// ─── Specific queries ───────────────────────────────────────────────────────
-
-/**
- * Production by region + source (GWh) for 2024 (latest year in data)
- * Returns array of { region, source, value, yoYValue, yoYPercentage }
- */
 export async function getProduzioneByRegionSource() {
   const { indexed } = await loadDataset('produzioneRegionalePerFonte');
   const out = [];
@@ -107,7 +90,6 @@ export async function getProduzioneByRegionSource() {
   return out;
 }
 
-/** Yearly production by source (national total) — timeseries */
 export async function getProduzioneAnnualePerFonte() {
   const { indexed } = await loadDataset('produzionePerFonteAnnuale');
   const out = [];
@@ -118,7 +100,6 @@ export async function getProduzioneAnnualePerFonte() {
   return out.sort((a,b) => a.year - b.year);
 }
 
-/** Regional YoY % (2024 vs 2023) */
 export async function getProduzioneYoYRegionale() {
   const { indexed } = await loadDataset('produzioneYoYRegionali');
   const out = [];
@@ -128,7 +109,6 @@ export async function getProduzioneYoYRegionale() {
   return out;
 }
 
-/** Capacity (MW) by region + renewable source */
 export async function getPotenzaRinnovabileByRegion() {
   const { indexed } = await loadDataset('potenzaEfficienteRegionaleFonteRinnovabile');
   const out = [];
@@ -139,7 +119,6 @@ export async function getPotenzaRinnovabileByRegion() {
   return out;
 }
 
-/** Capacity (MW) by province + renewable source */
 export async function getPotenzaRinnovabileByProvince() {
   const { indexed } = await loadDataset('potenzaEfficienteProvincialeFonteRinnovabile');
   const out = [];
@@ -150,7 +129,6 @@ export async function getPotenzaRinnovabileByProvince() {
   return out;
 }
 
-/** Total capacity (MW) by region + plant type (all types) */
 export async function getPotenzaRegionaleAll() {
   const { indexed } = await loadDataset('potenzaEfficienteRegionalePerFonte');
   const out = [];
@@ -161,7 +139,6 @@ export async function getPotenzaRegionaleAll() {
   return out;
 }
 
-/** Total capacity (MW) by province + plant type */
 export async function getPotenzaProvincialeAll() {
   const { indexed } = await loadDataset('potenzaEfficienteProvincialePerFonte');
   const out = [];
@@ -172,7 +149,6 @@ export async function getPotenzaProvincialeAll() {
   return out;
 }
 
-/** Emissions (mln tonnes) by region + fuel */
 export async function getEmissioneByRegionFuel() {
   const { indexed } = await loadDataset('emissioneRegionalePerCombustibile');
   const out = [];
@@ -183,7 +159,6 @@ export async function getEmissioneByRegionFuel() {
   return out;
 }
 
-/** Demand (GWh) by region + typology (tradizionali/rinnovabili/import) */
 export async function getDomandaByRegion() {
   const { indexed } = await loadDataset('domandaTotaleRegionale');
   const out = [];
@@ -194,7 +169,6 @@ export async function getDomandaByRegion() {
   return out;
 }
 
-/** Gross production by region + fuel (GWh) */
 export async function getProduzioneLordaByRegionFuel() {
   const { indexed } = await loadDataset('produzioneLordaRegionalePerCombustibile');
   const out = [];
@@ -205,9 +179,6 @@ export async function getProduzioneLordaByRegionFuel() {
   return out;
 }
 
-// ─── Aggregation helpers ────────────────────────────────────────────────────
-
-/** Total production per region (sum of all sources) */
 export async function getTotalProduzioneByRegion() {
   const data = await getProduzioneByRegionSource();
   const agg = {};
@@ -217,7 +188,6 @@ export async function getTotalProduzioneByRegion() {
   return Object.entries(agg).map(([region, value]) => ({ region, value }));
 }
 
-/** Renewable share per region */
 export async function getRenewableShareByRegion() {
   const [prod, cap] = await Promise.all([
     getProduzioneByRegionSource(),
@@ -245,7 +215,6 @@ export async function getRenewableShareByRegion() {
   }));
 }
 
-/** Emission intensity per region (tonnes CO2 / GWh) */
 export async function getEmissionIntensityByRegion() {
   const [emissions, production] = await Promise.all([
     getEmissioneByRegionFuel(),
@@ -260,14 +229,10 @@ export async function getEmissionIntensityByRegion() {
     region,
     emissions: tonnes,
     production: prodMap[region] || 0,
-    intensity: prodMap[region] ? (tonnes * 1e6) / prodMap[region] : 0, // tonnes -> kg
+    intensity: prodMap[region] ? (tonnes * 1e6) / prodMap[region] : 0,
   }));
 }
 
-/** Capacità MW fossili stimati per regione.
- *  Non esiste un dataset TERNA per capacità fossile regionale.
- *  Stimiamo dai GWh di produzione lorda fossile / 5500h (capacity factor medio fossili).
- */
 export async function getFossilCapacityByRegion() {
   const prod = await getProduzioneLordaByRegionFuel();
   const fossilFuels = new Set(['Gas naturale', 'Carbone', 'Prodotti petroliferi', 'Altro']);
@@ -277,15 +242,12 @@ export async function getFossilCapacityByRegion() {
       byRegion[d.region] = (byRegion[d.region] || 0) + d.value;
     }
   }
-  // GWh → MW: divide per 5500h/anno (capacity factor medio ~60-65%)
   const CF = 5500;
   return Object.entries(byRegion).map(([region, gwh]) => ({
     region,
     value: Math.round(gwh / CF),
   }));
 }
-
-// ─── Batch preload (call once on app init) ─────────────────────────────────
 
 export async function preloadAll() {
   await Promise.all(DATASETS.map(loadDataset));

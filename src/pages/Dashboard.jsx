@@ -1,6 +1,3 @@
-// src/pages/Dashboard.jsx — Tailwind CSS 4
-// Stato da useAppStore (Zustand). Meteo live da useEnergyData. Dati energetici da useTERNA (TERNA/GSE reali).
-
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAppStore } from "../store/useAppStore";

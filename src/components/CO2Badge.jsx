@@ -1,6 +1,3 @@
-// src/components/CO2Badge.jsx
-// Badge CO2 con triplo livello (basso/moderato/alto). dk = dark mode.
-
 const LEVELS = [
   { limit: 250, label: "🟢 Emissioni basse",      text: "text-emerald-500" },
   { limit: 350, label: "🟡 Emissioni moderate",   text: "text-amber-500"   },

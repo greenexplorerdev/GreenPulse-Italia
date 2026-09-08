@@ -1,6 +1,3 @@
-// src/components/ProductionBars.jsx
-// Barre produzione GWh con quota visiva e YoY%. Usato da Dashboard e RegionPage.
-
 export default function ProductionBars({ data, dk }) {
   if (!data?.length) return null;
   const max = Math.max(...data.map(p => p.value));

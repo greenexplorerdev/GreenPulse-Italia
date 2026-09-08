@@ -1,22 +1,3 @@
-// src/hooks/useTERNA.js
-//
-// Carica i dati reali TERNA/GSE per la regione selezionata e per l'Italia.
-// Tutto proviene dai dataset JSON in src/data/energy-datasets/ (cachati).
-//
-// Ritorna:
-//   production       → GWh per fonte (rinnovabili + termoelettrico)
-//   capacity         → MW rinnovabili aggregati per fonte
-//   plants           → MW dei singoli impianti (potenzaEfficienteRegionalePerFonte)
-//   fuels            → produzione lorda per combustibile (GWh)
-//   emissions        → emissioni per combustibile (mln ton CO₂)
-//   demand           → domanda regionale per tipologia (GWh)
-//   provincialPlants → impianti MW per provincia
-//   renewableMW      → capacità rinnovabile totale (MW)
-//   fossilMW         → capacità fossile da dataset reale impianti
-//   national         → aggregato Italia: totalGWh, renewableGWh, renewablePct, bySource, byYear
-//   regions          → tutte le regioni nei dataset
-//   loading, error
-
 import { useEffect, useState } from "react";
 import * as terna from "../services/ternaData.js";
 import { PROVINCE_TO_REGION } from "../data/regions.js";
@@ -113,7 +94,6 @@ export default function useTERNA(region) {
         const renewableMW = capacity.reduce((s, c) => s + c.value, 0);
         const fossilMW    = plants.filter(p => p.type === "fossil").reduce((s, p) => s + p.capacity, 0);
 
-        // Nazionale aggregato per fonte
         const bySource = {};
         let totalGWh = 0, renewableGWh = 0;
         for (const d of productionAll) {
@@ -122,7 +102,6 @@ export default function useTERNA(region) {
           if (RENEWABLE_SOURCES.has(d.source)) renewableGWh += d.value ?? 0;
         }
 
-        // Serie storica nazionale per anno (aggrega tutte le regioni per anno)
         const byYearMap = {};
         for (const d of yearlyAll) {
           if (!byYearMap[d.year]) byYearMap[d.year] = { year: d.year, renewable: 0, fossil: 0 };
@@ -132,7 +111,6 @@ export default function useTERNA(region) {
         }
         const byYear = Object.values(byYearMap).sort((a, b) => a.year - b.year);
 
-        // YoY della regione corrente
         const regionYoY = regionalYoY.find(d => d.region === region);
 
         const national = { totalGWh, renewableGWh, renewablePct: totalGWh > 0 ? (renewableGWh / totalGWh) * 100 : 0, bySource, byYear };

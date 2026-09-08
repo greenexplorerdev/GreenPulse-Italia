@@ -1,8 +1,5 @@
-// src/components/charts/HistoryChart.jsx
-// Grafico serie storica nazionale produzione GWh per anno (rinnovabili vs fossili).
-// Fonte: TERNA produzionePerFonteAnnuale
-
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from "recharts";
+import { useAppStore } from "../../store/useAppStore";
 
 function CT({ active, payload, label, dk }) {
   if (!active || !payload?.length) return null;
@@ -20,7 +17,7 @@ function CT({ active, payload, label, dk }) {
 }
 
 export default function HistoryChart({ data, loading }) {
-  const dk = document.documentElement.classList.contains("dark");
+  const dk = useAppStore((s) => s.theme) === "dark";
   if (loading || !data?.length) {
     return <div className="h-44 animate-pulse rounded-xl bg-gray-200 dark:bg-gray-700" />;
   }

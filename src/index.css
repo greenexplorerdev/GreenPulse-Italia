@@ -1,24 +1,7 @@
-/*
- * src/index.css — Tailwind CSS 4
- *
- * SETUP TAILWIND 4:
- *   1. npm install tailwindcss @tailwindcss/vite
- *   2. In vite.config.js aggiungi il plugin:
- *        import tailwindcss from "@tailwindcss/vite"
- *        plugins: [react(), tailwindcss()]
- *   3. Questo file sostituisce tailwind.config.js
- *
- * DARK MODE:
- *   @variant dark configura la strategia "class" di Tailwind 4.
- *   App.jsx togola la classe "dark" su document.documentElement.
- *   Ogni componente usa dark:bg-* dark:text-* ecc.
- */
 @import "tailwindcss";
 
-/* Strategia dark mode basata su classe — compatibile con il toggle manuale in App.jsx */
 @variant dark (&:is(.dark *));
 
-/* Font e base */
 @layer base {
   html {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -29,7 +12,6 @@
   }
 }
 
-/* Animazioni custom usate con lucide-react Loader2 */
 @keyframes spin {
   to { transform: rotate(360deg); }
 }

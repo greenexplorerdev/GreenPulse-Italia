@@ -18,12 +18,10 @@ export default function App() {
   const theme       = useAppStore((s) => s.theme);
   const toggleTheme = useAppStore((s) => s.toggleTheme);
 
-  // Applica/rimuove la classe "dark" su <html> — necessario per Tailwind dark:*
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
   }, [theme]);
 
-  // Precarica tutti i dataset TERNA/GSE all'avvio
   useEffect(() => {
     ternaData.preloadAll().catch(() => {});
   }, []);
@@ -32,15 +30,12 @@ export default function App() {
     <div className="min-h-screen bg-linear-to-br from-emerald-50 to-green-100
       dark:from-gray-950 dark:to-gray-900 transition-colors duration-300">
 
-      {/* Tutorial al primo accesso */}
       <WelcomeModal />
 
       <Routes>
-        {/* Pubbliche */}
         <Route path="/"      element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
 
-        {/* Con Navbar (Layout) — protette */}
         <Route element={<Layout />}>
           <Route path="/dashboard" element={
             <ProtectedRoute><Dashboard /></ProtectedRoute>
@@ -51,11 +46,9 @@ export default function App() {
           <Route path="/about" element={<AboutPage />} />
         </Route>
 
-        {/* 404 */}
         <Route path="*" element={<NotFound />} />
       </Routes>
 
-      {/* Pulsante dark mode fisso */}
       <button
         onClick={toggleTheme}
         aria-label={theme === "dark" ? "Attiva tema chiaro" : "Attiva tema scuro"}

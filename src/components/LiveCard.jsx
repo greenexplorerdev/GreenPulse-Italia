@@ -1,6 +1,3 @@
-// src/components/LiveCard.jsx
-// Card live (Solare/Vento/Quota Verde). Stesso markup × 3 card, prop value/icon/title.
-
 const Skel = ({ className = "h-6" }) => (
   <div className={`rounded-lg bg-gray-200 dark:bg-gray-700 animate-pulse ${className}`} />
 );
@@ -14,7 +11,7 @@ const PBar = ({ pct, color = "bg-emerald-500" }) => (
 
 export default function LiveCard({ icon, title, loading, value, unit, pct, pctText, pctColor, barColor, footer }) {
   return (
-    <div className={`rounded-2xl p-4 border ${loading ? "border-gray-100 dark:border-gray-800" : ""}`}>
+    <div className={`rounded-2xl p-4 ${loading ? "border-gray-100 dark:border-gray-800" : ""}`}>
       <div className="flex items-center gap-2 mb-3">
         {icon}
         <span className={`text-xs font-semibold text-gray-300`}>{title}</span>
